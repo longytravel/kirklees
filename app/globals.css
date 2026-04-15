@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-kirklees-navy: #00264a;
+  --color-kirklees-navy-dark: #001a33;
+  --color-kirklees-navy-light: #022749;
+  --color-kirklees-teal: #00abc1;
+  --color-kirklees-teal-light: #1BABBF;
+  --color-kirklees-teal-pale: #e0f7fa;
+  --color-kirklees-green: #63ac5f;
+  --color-kirklees-green-light: #65ab62;
+  --color-kirklees-red: #ca1d1d;
+  --color-kirklees-logo-teal: #096080;
+  --color-kirklees-logo-grey: #5f6062;
+  --color-kirklees-slate: #334054;
+  --color-kirklees-grey-50: #f8fafb;
+  --color-kirklees-grey-100: #F5F5F5;
+  --color-kirklees-grey-200: #eeeeee;
+  --color-kirklees-grey-300: #e5e5e5;
+  --color-kirklees-grey-400: #cdcdcd;
+  --color-kirklees-grey-500: #515555;
+  --color-kirklees-grey-600: #444444;
+  --color-kirklees-grey-700: #3a3a3a;
+
+  --font-sans: "Nunito Sans", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}

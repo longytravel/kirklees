@@ -1,0 +1,27 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+
+# Large data files (keep structure, exclude bulk)
+data/jobs-skills/reed-all-huddersfield-combined.json
+data/jobs-skills/apprenticeships-2025-26-data.zip
+data/jobs-skills/reed-huddersfield-*.json
+data/jobs-skills/reed-dewsbury.json
+data/jobs-skills/reed-engineering.json
+data/jobs-skills/reed-healthcare.json
+data/jobs-skills/reed-construction.json
+data/jobs-skills/reed-digital-it.json
+data/jobs-skills/reed-apprenticeships.json
+data/apprenticeships/ifate_standards.json
+data/public-stats/census2021_age_by_la.csv
+data/public-stats/imd2019_all_scores.csv
+
+# BMAD internals
+_bmad/
+.claude/skills/
+.agents/skills/
+.gemini/skills/
