@@ -1,5 +1,37 @@
 @import "tailwindcss";
 
+/* Avenir — Kirklees College's actual brand font, self-hosted for the demo */
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/Avenir-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/Avenir-Roman.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/Avenir-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/Avenir-Heavy.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/Avenir-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-display: swap;
+}
+
 @theme {
   --color-kirklees-navy: #00264a;
   --color-kirklees-navy-dark: #001a33;
@@ -10,10 +42,12 @@
   --color-kirklees-green: #63ac5f;
   --color-kirklees-green-light: #65ab62;
   --color-kirklees-red: #ca1d1d;
+  --color-kirklees-purple: #8B2F8F;
+  --color-kirklees-purple-light: #A855C7;
   --color-kirklees-logo-teal: #096080;
   --color-kirklees-logo-grey: #5f6062;
   --color-kirklees-slate: #334054;
-  --color-kirklees-grey-50: #f8fafb;
+  --color-kirklees-grey-50: #f9f9f9;
   --color-kirklees-grey-100: #F5F5F5;
   --color-kirklees-grey-200: #eeeeee;
   --color-kirklees-grey-300: #e5e5e5;
@@ -24,62 +58,25 @@
   --color-kirklees-blue-light: #95bedd;
   --color-kirklees-blue-pale: #cbddeb;
 
-  --font-sans: "Nunito Sans", system-ui, -apple-system, sans-serif;
+  --font-sans: "Avenir", "Nunito Sans", system-ui, -apple-system, sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-}
-
-@keyframes pulse-glow {
-  0%, 100% { opacity: 0.4; }
-  50% { opacity: 0.8; }
-}
-
-@keyframes slide-in-left {
-  from { opacity: 0; transform: translateX(-30px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-
-@keyframes slide-in-right {
-  from { opacity: 0; transform: translateX(30px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-
-@keyframes fade-in-up {
-  from { opacity: 0; transform: translateY(20px); }
+/* Subtle institutional animations — not tech-startup flashy */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(12px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-.animate-float { animation: float 6s ease-in-out infinite; }
-.animate-pulse-glow { animation: pulse-glow 3s ease-in-out infinite; }
-.animate-slide-left { animation: slide-in-left 0.6s ease-out forwards; }
-.animate-slide-right { animation: slide-in-right 0.6s ease-out forwards; }
-.animate-fade-up { animation: fade-in-up 0.5s ease-out forwards; }
-
-.stagger-1 { animation-delay: 0.1s; opacity: 0; }
-.stagger-2 { animation-delay: 0.2s; opacity: 0; }
-.stagger-3 { animation-delay: 0.3s; opacity: 0; }
-.stagger-4 { animation-delay: 0.4s; opacity: 0; }
-.stagger-5 { animation-delay: 0.5s; opacity: 0; }
-.stagger-6 { animation-delay: 0.6s; opacity: 0; }
-
-.gradient-border {
-  position: relative;
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
 }
-.gradient-border::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  padding: 2px;
-  background: linear-gradient(135deg, #00abc1, #63ac5f, #00abc1);
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: exclude;
-  pointer-events: none;
-}
+
+.delay-1 { animation-delay: 0.1s; opacity: 0; }
+.delay-2 { animation-delay: 0.2s; opacity: 0; }
+.delay-3 { animation-delay: 0.3s; opacity: 0; }
+.delay-4 { animation-delay: 0.4s; opacity: 0; }
+.delay-5 { animation-delay: 0.5s; opacity: 0; }
