@@ -1,0 +1,9 @@
+data/
+docs/
+idea-deep-dives/
+_bmad/
+_bmad-output/
+.claude/
+.agents/
+.gemini/
+logo.svg
