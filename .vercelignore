@@ -1,4 +1,12 @@
-data/
+# Bulk research data not needed at build/runtime
+data/jobs-skills/
+data/apprenticeships/
+data/public-stats/
+data/reviews-sentiment/
+data/branding/
+data/college-courses/
+# Keep data/competitor-courses/ — imported by /competitor-tracker page
+
 docs/
 idea-deep-dives/
 _bmad/
