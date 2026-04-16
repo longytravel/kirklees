@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "source": "Reed.co.uk - Huddersfield area",
+    "scraped_date": "2026-04-15",
+    "total_available": 239,
+    "area": "Huddersfield / Kirklees",
+    "summary": {
+      "permanent": 167,
+      "temporary": 46,
+      "contract": 26,
+      "full_time": 232,
+      "part_time": 20,
+      "work_from_home": 4,
+      "posted_by_agency": 198,
+      "posted_by_employer": 41
+    },
+    "top_sectors": [
+      {"sector": "Education", "count": 45},
+      {"sector": "Engineering", "count": 35},
+      {"sector": "Healthcare & Nursing", "count": 25},
+      {"sector": "Accountancy & Finance", "count": 20},
+      {"sector": "Construction & Property", "count": 18},
+      {"sector": "Manufacturing", "count": 15},
+      {"sector": "IT & Telecoms", "count": 12},
+      {"sector": "Social Care", "count": 10},
+      {"sector": "Admin & Secretarial", "count": 8},
+      {"sector": "Media, Digital & Creative", "count": 1},
+      {"sector": "Security & Safety", "count": 1},
+      {"sector": "FMCG", "count": 1},
+      {"sector": "Graduate Training & Internships", "count": 1}
+    ]
+  },
+  "sample_listings": [
+    {
+      "title": "Music Teachers in Huddersfield",
+      "employer": "Academics",
+      "location": "Huddersfield",
+      "type": "Easy apply",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "Behaviour and Pastoral Staff in Huddersfield",
+      "employer": "Academics",
+      "location": "Huddersfield",
+      "type": "Easy apply",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "Graduate Management Trainee - Huddersfield",
+      "employer": "Enterprise Mobility",
+      "location": "Huddersfield",
+      "type": "Graduate",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "A&E Nurses required in Huddersfield",
+      "employer": "Pertemps Medical",
+      "location": "Huddersfield",
+      "type": "Easy apply",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "General Supply Teacher Huddersfield",
+      "employer": "Hays Specialist Recruitment Limited",
+      "location": "Huddersfield",
+      "type": "Easy apply",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "Sales Negotiator",
+      "employer": "The Recruitment Experts (Newman Sales & Lettings)",
+      "location": "Huddersfield",
+      "type": "Permanent",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "ECT 2026",
+      "employer": "Academics",
+      "location": "Huddersfield",
+      "type": "Easy apply",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "Early Career Teachers",
+      "employer": "Academics",
+      "location": "Huddersfield",
+      "type": "Easy apply",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "SEND Teaching Assistant - Visual Impairment Support",
+      "employer": "Academics",
+      "location": "Huddersfield",
+      "type": "Easy apply",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "Autism Teaching Assistant",
+      "employer": "Academics",
+      "location": "Huddersfield",
+      "type": "Easy apply",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "History Teachers in Kirklees and Halifax",
+      "employer": "Academics",
+      "location": "Kirklees / Halifax",
+      "type": "Easy apply",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "Secondary Supply Teachers",
+      "employer": "Academics",
+      "location": "Huddersfield",
+      "type": "Easy apply",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "SEN Teacher - Huddersfield",
+      "employer": "Prospero Teaching",
+      "location": "Huddersfield",
+      "type": "Teaching",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "Architectural Technologist",
+      "employer": "Michael Dyson Associates Ltd",
+      "location": "Huddersfield",
+      "type": "Permanent",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    },
+    {
+      "title": "Relief Support Worker",
+      "employer": "Creative Support Ltd",
+      "location": "Huddersfield",
+      "type": "Social Care",
+      "source_url": "https://www.reed.co.uk/jobs/in-huddersfield"
+    }
+  ]
+}

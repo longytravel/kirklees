@@ -1,0 +1,171 @@
+{
+  "institution": "Kirklees College",
+  "data_collected": "2026-04-15",
+  "overview": {
+    "type": "Further Education College",
+    "founded": 2008,
+    "formed_from": "Merger of Dewsbury College and Huddersfield Technical College",
+    "students": "13,000+",
+    "apprentices": "1,000+",
+    "employer_partners": "1,000+",
+    "campuses": ["Huddersfield Centre", "Dewsbury Centre", "Springfield Sixth Form Centre", "Brunel House"],
+    "huddersfield_centre_investment": "£70 million modern centre"
+  },
+  "ofsted": {
+    "latest_inspection_date": "March 2023",
+    "overall_effectiveness": "Good",
+    "note": "First full inspection since 2012",
+    "judgments": {
+      "overall_effectiveness": "Good",
+      "quality_of_education": "Good",
+      "behaviour_and_attitudes": "Good",
+      "personal_development": "Good",
+      "leadership_and_management": "Good",
+      "apprenticeships": "Good",
+      "adult_learning_programmes": "Good",
+      "safeguarding": "Effective"
+    },
+    "strengths": [
+      "Works effectively with stakeholders to ensure students develop skills and behaviours for employment",
+      "Curriculum adapted in response to industry demands from local to national level",
+      "Champions diversity within the college and wider community",
+      "Staff promote a culture where individual difference is celebrated",
+      "Effective safeguarding arrangements"
+    ],
+    "areas_for_improvement": [
+      "Boosting attendance and punctuality"
+    ]
+  },
+  "review_platforms": {
+    "trustpilot": {
+      "url": "https://www.trustpilot.com/review/kirkleescollege.ac.uk",
+      "overall_rating": 3.7,
+      "max_rating": 5,
+      "total_reviews": 1,
+      "rating_distribution": {
+        "5_star": "100%",
+        "4_star": "0%",
+        "3_star": "0%",
+        "2_star": "0%",
+        "1_star": "0%"
+      },
+      "sample_reviews": [
+        {
+          "text": "Did a multiskill course at Brunel house where I was taught very well, passed the course, and got a lot of support from staff.",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "ratemyapprenticeship": {
+      "url": "https://www.ratemyapprenticeship.co.uk/company-profile/961/kirklees-college/reviews",
+      "overall_rating": 8.9,
+      "max_rating": 10,
+      "total_reviews": 83,
+      "rating_range": "5/10 to 10/10",
+      "levels_covered": ["Level 2", "Level 3", "Higher Level Apprenticeships", "T Levels"],
+      "recognition": "Top 5 apprenticeship providers as voted for by apprentices"
+    },
+    "uni_compare": {
+      "url": "https://universitycompare.com/universities/kirklees-college/reviews",
+      "sample_reviews": [
+        {
+          "text": "Friendly staff, great tutors, and nice other students. The college is very clean and tidy.",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "whatuni": {
+      "url": "https://www.whatuni.com/university-course-reviews/kirklees-college/6050/",
+      "sample_reviews": [
+        {
+          "text": "The college is great with staff that are always on hand for both academic and personal reasons, are supportive and knowledgeable but friendly and advisory, and has all the facilities needed to accommodate courses.",
+          "sentiment": "positive"
+        },
+        {
+          "text": "Love this college the staff make your day everythime I have a favourite teacher there I like going to Kirklees College Springfield centre it's a nice the college is amazing.",
+          "sentiment": "positive"
+        },
+        {
+          "text": "Teachers explained everything nicely and the college was well set up with a very big library containing books, computers, and helpful staff.",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "glassdoor_employer": {
+      "url": "https://www.glassdoor.com/Reviews/Kirklees-College-Reviews-E804619.htm",
+      "overall_rating": 3.0,
+      "max_rating": 5,
+      "total_reviews": 43,
+      "note": "Employer reviews, not student reviews"
+    },
+    "indeed_employer": {
+      "url": "https://uk.indeed.com/cmp/Kirklees-College/reviews",
+      "total_reviews": 64,
+      "note": "Employer reviews, not student reviews"
+    },
+    "google_maps": {
+      "note": "Google Maps reviews could not be scraped directly. Recommend checking Google Maps for 'Kirklees College Huddersfield Centre' and 'Kirklees College Dewsbury Centre' for current ratings.",
+      "huddersfield_centre_address": "Manchester Road, Huddersfield HD1 3LD",
+      "dewsbury_centre_address": "Halifax Road, Dewsbury WF13 1HQ"
+    },
+    "studentcrowd": {
+      "note": "No specific Kirklees College profile found on StudentCrowd"
+    }
+  },
+  "sentiment_summary": {
+    "overall_sentiment": "predominantly positive",
+    "positive_themes": [
+      "Supportive and friendly staff",
+      "Good teaching quality",
+      "Excellent facilities (library, labs, specialist equipment)",
+      "Diversity and inclusion",
+      "Strong apprenticeship provision (8.9/10 rating)",
+      "Good Ofsted rating across all areas"
+    ],
+    "negative_themes": [
+      "Attendance and punctuality issues (Ofsted noted)",
+      "Some course organisation concerns",
+      "Accessibility issues at Springfield centre (gates, communication)",
+      "Limited online review presence compared to competitors"
+    ],
+    "sentiment_score_estimate": 7.5
+  },
+  "social_media": {
+    "facebook": {
+      "url": "https://www.facebook.com/kirkleescollege/",
+      "followers": "14,000+",
+      "recent_themes": ["Ofsted Good rating celebration", "Student achievements", "Open events"]
+    },
+    "instagram": {
+      "main_account": {
+        "handle": "@kirkleescollege",
+        "followers": 8315
+      },
+      "he_account": {
+        "handle": "@kirkleescollegehe",
+        "followers": 384
+      },
+      "lrc_account": {
+        "handle": "@kirkleescollegelrc",
+        "followers": null
+      },
+      "su_account": {
+        "handle": "@kirkleescollege_su",
+        "followers": null
+      },
+      "science_account": {
+        "handle": "@science_at_kirkleescollege",
+        "followers": 141
+      },
+      "travel_tourism_account": {
+        "handle": "@kctravelandtourism",
+        "followers": 121
+      }
+    },
+    "twitter_x": {
+      "handle": "@kirkleescollege",
+      "url": "https://twitter.com/kirkleescollege",
+      "followers": "not confirmed"
+    }
+  }
+}

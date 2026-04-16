@@ -1,0 +1,26 @@
+{
+  "data_collected": "2026-04-15",
+  "fe_choices_learner_satisfaction": {
+    "status": "DISCONTINUED",
+    "note": "The Department for Education does not intend to run the FE Choices learner satisfaction survey again in its current form. The most recent survey data available is from 2018-2019. The 2019-2020 and 2020-2021 surveys were cancelled due to COVID-19.",
+    "last_available_data": "2018-2019",
+    "data_source_url": "https://www.gov.uk/government/collections/fe-choices",
+    "performance_indicators_url": "https://www.gov.uk/government/statistical-data-sets/fe-choices-performance-indicators"
+  },
+  "national_achievement_rate_tables": {
+    "latest_data": "2024-25 academic year (based on fourteenth ILR data return)",
+    "published": "March 2025",
+    "data_source_url": "https://explore-education-statistics.service.gov.uk/find-statistics/further-education-and-skills/2024-25",
+    "note": "Institution-specific achievement rate data requires direct access to the DfE Explore Education Statistics portal. The ILR is an administrative data collection system used to fund training providers."
+  },
+  "kirklees_college_results": {
+    "source": "https://www.kirkleescollege.ac.uk/results-2025/",
+    "note": "Kirklees College publishes annual results on their website. For 2025 results, check the source URL directly."
+  },
+  "recommendations_for_demo": [
+    "Use Ofsted judgments as primary quality indicator (available for all institutions)",
+    "RateMyApprenticeship scores provide good quantitative comparison for apprenticeship provision",
+    "FE Choices data is discontinued - suggest using Ofsted + RateMyApprenticeship + review platforms instead",
+    "National achievement rate tables from DfE can be downloaded as CSV for institution-level comparison"
+  ]
+}

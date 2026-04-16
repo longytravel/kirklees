@@ -1,0 +1,239 @@
+{
+  "generated": "2026-04-15",
+  "region": "Kirklees / West Yorkshire",
+  "target_institution": "Kirklees College",
+  "competitors": [
+    {
+      "name": "Kirklees College",
+      "type": "Further Education College",
+      "location": "Huddersfield & Dewsbury",
+      "website": "https://www.kirkleescollege.ac.uk",
+      "ofsted_rating": "Good (March 2023)",
+      "student_numbers": "10,000+",
+      "campuses": [
+        "Huddersfield Centre (Manchester Road)",
+        "Dewsbury - Springfield Sixth Form Centre",
+        "Dewsbury - Pioneer Higher Skills Centre",
+        "Engineering & Process Manufacturing Centre",
+        "Brunel Construction Centre",
+        "Taylor Hill Centre (Animal Care)",
+        "7 centres total"
+      ],
+      "course_types": ["Full-time 16-18", "Adult/Part-time", "Apprenticeships", "T Levels", "Higher Education", "ESOL"],
+      "subject_areas": [
+        "Engineering", "Fabrication & Welding", "Plant Machinery Operations",
+        "Motor Vehicle", "Business", "Construction", "Creative Industries",
+        "ESOL", "Hair & Beauty", "Sport", "Hospitality & Catering",
+        "Teaching", "Animal Care", "Land-based Studies", "Conservation",
+        "Countryside Management", "Plumbing", "Bricklaying", "Plastering",
+        "Electrical Installation", "Joinery"
+      ],
+      "t_levels": [
+        "Business & Digital",
+        "Onsite Construction (Electrotechnical Engineering)",
+        "Engineering & Manufacturing (Manufacturing, Processing & Control)",
+        "Animal Care & Management",
+        "Health (multiple pathways)",
+        "8 T Level programmes total"
+      ],
+      "apprenticeships": {
+        "levels": ["Level 2 (GCSE equiv)", "Level 3 (A-Level equiv)", "Level 4-5 (Foundation degree)"],
+        "annual_apprentices": "1,000+",
+        "occupational_areas": "30+"
+      },
+      "fees": {
+        "note": "Many courses under £100; Award in Education & Training L3 = £627",
+        "financial_support": "Advanced Learner Loans available for 19+ at L3/L4"
+      },
+      "open_days_2026": [
+        "30 June 2026 - Brunel Construction Centre (5-7pm)",
+        "30 June 2026 - Engineering Centre (5-7pm)",
+        "1 July 2026 - Pioneer Higher Skills Centre (5-7pm)"
+      ],
+      "key_marketing": [
+        "Changing Lives, Creating Opportunities",
+        "Only T Level provider in Kirklees",
+        "Over 300 full-time courses in 30 subject areas",
+        "Invest in yourself with Kirklees College"
+      ],
+      "unique_strengths": [
+        "Only T Level provider in Kirklees area",
+        "Specialist construction, engineering, and animal care centres",
+        "Strong employer partnerships (Lloyds, Jet2)",
+        "Two-town presence (Huddersfield + Dewsbury)"
+      ]
+    },
+    {
+      "name": "Huddersfield New College",
+      "type": "Sixth Form College",
+      "location": "Huddersfield (HD3 4GL)",
+      "website": "https://www.huddnewcoll.ac.uk",
+      "ofsted_rating": "Good",
+      "student_numbers": "~2,000 (estimated)",
+      "course_types": ["A Levels", "BTECs/Extended Diplomas", "GCSEs (English & Maths)"],
+      "faculties": [
+        "Science and Mathematics",
+        "Health and Sport",
+        "Arts and Media",
+        "Business and Information Technology",
+        "Humanities",
+        "Social Sciences"
+      ],
+      "subject_areas": [
+        "Biology", "Chemistry", "Physics", "Mathematics", "Further Mathematics",
+        "Geography", "History", "English Literature", "Classical Languages",
+        "Modern Languages", "Various BTECs"
+      ],
+      "key_marketing": [
+        "Educate, Enrich, Enlighten",
+        "Only college in Kirklees offering mixed A Level and BTEC programme at advanced level"
+      ],
+      "competitive_threat": "HIGH - direct Kirklees competitor for 16-18 academic/mixed pathway students"
+    },
+    {
+      "name": "Greenhead College",
+      "type": "Sixth Form College",
+      "location": "Huddersfield",
+      "website": "https://www.greenhead.ac.uk",
+      "ofsted_rating": "Outstanding",
+      "student_numbers": "~2,800",
+      "course_types": ["A Levels", "Limited vocational courses"],
+      "results_2025": {
+        "pass_rate": "99% (A*-E)",
+        "a_star_to_c": "82%",
+        "a_star_to_b": "60.1%",
+        "a_star_to_a": "30.1%"
+      },
+      "entry_requirements": "Min Grade 4 in English & Maths GCSE, min Grade 5 in 3 GCSEs",
+      "application_deadline": "1 December 2025 (for 2026 entry)",
+      "key_marketing": ["Be Exceptional"],
+      "competitive_threat": "HIGH - Outstanding-rated, premium academic competitor in same town"
+    },
+    {
+      "name": "Calderdale College",
+      "type": "Further Education College",
+      "location": "Halifax",
+      "website": "https://www.calderdale.ac.uk",
+      "ofsted_rating": "Good",
+      "ofsted_apprenticeships": "Outstanding",
+      "course_types": ["BTECs", "Apprenticeships", "T Levels", "NVQs", "VRQs", "Degree Level"],
+      "subject_areas": [
+        "Motor Vehicle & Engineering (Motivate Centre)",
+        "Construction & Brickwork",
+        "Catering & Hospitality",
+        "Creative Arts (Art & Design)",
+        "Public Health & Social Care",
+        "Counselling & Applied Psychology"
+      ],
+      "key_marketing": ["Largest FE provider in Calderdale borough", "Outstanding apprenticeship provider"],
+      "competitive_threat": "MEDIUM - adjacent borough, overlapping catchment in west Kirklees"
+    },
+    {
+      "name": "Bradford College",
+      "type": "Further Education College",
+      "location": "Bradford",
+      "website": "https://www.bradfordcollege.ac.uk",
+      "ofsted_rating": "Good (October 2024, Behaviour & Attitudes: Outstanding)",
+      "course_types": ["T Levels", "Apprenticeships", "Degrees", "HNCs", "Adult courses"],
+      "subject_areas": [
+        "Engineering", "Dental Nursing", "Joinery", "Pharmacy Dispensing",
+        "Business & Administration", "Computing/Software Engineering",
+        "Textiles Practice"
+      ],
+      "apprenticeships": {
+        "note": "Named Apprenticeship Provider of the Year (National Awards 2026)"
+      },
+      "key_marketing": ["Start Here, Go Anywhere", "Best Performing FE College in West Yorkshire"],
+      "competitive_threat": "MEDIUM - overlapping catchment in north Kirklees, strong apprenticeship brand"
+    },
+    {
+      "name": "Wakefield College",
+      "type": "Further Education College (Heart of Yorkshire Education Group)",
+      "location": "Wakefield",
+      "website": "https://www.heartofyorkshire.ac.uk/wakefield-college",
+      "ofsted_rating": "Good",
+      "course_types": ["A Levels", "T Levels", "Vocational", "Apprenticeships", "Foundation Learning"],
+      "subject_areas": [
+        "Health", "Business", "Engineering", "Creative Arts",
+        "ICT & Computing", "Office Skills", "Hospitality & Catering",
+        "Travel & Tourism", "Health Studies", "Childcare", "Animal Care",
+        "Languages", "Construction Crafts", "Motor Vehicle",
+        "Hairdressing & Beauty", "Sport", "Public Services", "Performing Arts"
+      ],
+      "higher_education": "~40 university-level courses (with Huddersfield, Leeds Beckett, Bradford universities)",
+      "competitive_threat": "LOW-MEDIUM - east of Kirklees, some overlap in Dewsbury catchment"
+    },
+    {
+      "name": "Leeds City College",
+      "type": "Further Education College (Luminate Education Group)",
+      "location": "Leeds",
+      "website": "https://leedscitycollege.ac.uk",
+      "ofsted_rating": "Good (February 2025; Adult Learning: Outstanding, Personal Development: Outstanding)",
+      "course_types": ["Pre-16", "Post-16 vocational & academic", "Adult (19+)", "Higher Education"],
+      "subject_areas": [
+        "Creative, Performing & Production Arts", "Business", "Law", "Science",
+        "Sports", "Health & Social Care", "Engineering", "Digital", "Teaching",
+        "Music Production", "Free Courses for Jobs", "Access courses",
+        "Essential Skills", "Leisure", "Professional & Vocational"
+      ],
+      "competitive_threat": "LOW - geographically distant but attracts some Kirklees students"
+    },
+    {
+      "name": "Barnsley College",
+      "type": "Further Education College",
+      "location": "Barnsley",
+      "website": "https://www.barnsley.ac.uk",
+      "ofsted_rating": "Outstanding (March 2022 - first FE college in Yorkshire under new EIF)",
+      "course_types": ["Vocational", "Apprenticeships", "A Levels", "T Levels", "University-level"],
+      "subject_areas": [
+        "Digital", "Health & Social Care", "Business & Management",
+        "Green Skills in Construction", "English", "Maths", "ESOL", "IT Skills",
+        "Animal Care", "Sport"
+      ],
+      "higher_education": "Foundation/Honours degrees, Higher/Degree Apprenticeships, HNCs, HNDs, HTQs",
+      "delivery_modes": ["In-person", "Online courses available"],
+      "competitive_threat": "LOW - south of Kirklees, limited overlap"
+    }
+  ],
+  "additional_local_competitors": [
+    {
+      "name": "Batley Girls Sixth Form College",
+      "type": "School Sixth Form",
+      "location": "Batley, Kirklees",
+      "competitive_threat": "MEDIUM - direct Kirklees competitor for girls"
+    },
+    {
+      "name": "Heckmondwike Grammar School (Sixth Form)",
+      "type": "Grammar School Sixth Form",
+      "location": "Heckmondwike, Kirklees",
+      "competitive_threat": "MEDIUM - academic pathway competitor"
+    },
+    {
+      "name": "Mirfield College",
+      "type": "School Sixth Form",
+      "location": "Mirfield, Kirklees",
+      "competitive_threat": "MEDIUM - local Kirklees competitor"
+    },
+    {
+      "name": "Shelley College",
+      "type": "School Sixth Form",
+      "location": "Shelley, Kirklees",
+      "competitive_threat": "MEDIUM - south Kirklees catchment"
+    },
+    {
+      "name": "The Creative & Media Studio School",
+      "type": "Studio School",
+      "location": "Kirklees",
+      "competitive_threat": "LOW - niche competitor in creative subjects"
+    }
+  ],
+  "training_providers": [
+    {"name": "Aspire IGEN", "location": "Dewsbury & Bradford"},
+    {"name": "Huddersfield Giants Community Trust Education Academy", "location": "Huddersfield"},
+    {"name": "White Rose Beauty Colleges", "location": "Kirklees area"},
+    {"name": "YH Training Services", "location": "Kirklees area"},
+    {"name": "Realise Training", "location": "Regional"},
+    {"name": "Generation Training", "location": "Regional"},
+    {"name": "Project Challenge", "location": "Kirklees area"}
+  ]
+}

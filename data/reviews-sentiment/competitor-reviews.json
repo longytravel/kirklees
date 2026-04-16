@@ -1,0 +1,157 @@
+{
+  "data_collected": "2026-04-15",
+  "competitors": [
+    {
+      "institution": "Greenhead College",
+      "type": "Sixth Form College",
+      "location": "Huddersfield",
+      "students": "2,700+",
+      "ofsted": {
+        "latest_inspection_date": "4 February 2025",
+        "overall_effectiveness": "Outstanding",
+        "note": "Outstanding status held since first report in 2004. Four consecutive Outstanding ratings.",
+        "judgments": {
+          "quality_of_education": "Outstanding",
+          "behaviour_and_attitudes": "Outstanding",
+          "personal_development": "Outstanding",
+          "leadership_and_management": "Outstanding",
+          "education_programmes_for_young_people": "Outstanding",
+          "provision_for_learners_with_high_needs": "Outstanding"
+        },
+        "strengths": [
+          "Exemplary student attendance, behaviour and attitudes to learning",
+          "A-level results significantly exceed England average (64% A*-B vs 47% national)",
+          "18 Oxbridge places in 2024",
+          "Expertly designed tutorial programme",
+          "Rich and comprehensive enrichment programme with 100+ activities",
+          "Number 1 Sixth Form College in the North of England, top 10 nationally",
+          "Students feel safe due to care and expertise of staff"
+        ]
+      },
+      "review_platforms": {
+        "uni_compare": {
+          "url": "https://universitycompare.com/universities/greenhead-college"
+        },
+        "student_room": {
+          "note": "Active discussions on The Student Room comparing Greenhead favorably for A-level study"
+        }
+      },
+      "sentiment_summary": {
+        "overall_sentiment": "very positive",
+        "sentiment_score_estimate": 9.2,
+        "key_strengths": ["Academic excellence", "Outstanding Ofsted", "Strong A-level results", "Student support"],
+        "competitive_position": "Premium sixth form provider - direct competitor for academic A-level students"
+      }
+    },
+    {
+      "institution": "Huddersfield New College",
+      "type": "Sixth Form College",
+      "location": "Huddersfield",
+      "ofsted": {
+        "latest_inspection_date": "January 2024",
+        "overall_effectiveness": "Good",
+        "previous_rating": "Outstanding (2016)",
+        "note": "Downgraded from Outstanding to Good in 2024",
+        "strengths": [
+          "Students prepared very well for future careers",
+          "Effective safeguarding arrangements",
+          "Students understand healthy relationships and safety strategies",
+          "Wide range of enrichment activities (sports, astronomy, meditation)"
+        ]
+      },
+      "review_platforms": {
+        "student_room": {
+          "note": "Recommended for students wanting vocational/BTEC subjects alongside A-levels. Only college in West Yorkshire offering mixed A Level and BTEC qualifications."
+        }
+      },
+      "sentiment_summary": {
+        "overall_sentiment": "positive",
+        "sentiment_score_estimate": 7.5,
+        "key_strengths": ["Mixed qualification offering", "Career preparation", "Student support"],
+        "competitive_position": "Competitor for 16-18 students wanting mixed academic/vocational pathways"
+      }
+    },
+    {
+      "institution": "Calderdale College",
+      "type": "Further Education College",
+      "location": "Halifax",
+      "students": "4,500+",
+      "ofsted": {
+        "latest_inspection_date": "8 November 2022",
+        "overall_effectiveness": "Good",
+        "leadership_and_management": "Outstanding (noted in 2023 review)",
+        "strengths": [
+          "Achievement rates for 16-19 study programmes have risen over three years",
+          "Very large proportion of learners achieve their qualifications",
+          "Successful progression to positive destinations linked to qualifications and career aspirations",
+          "Outstanding leadership and management"
+        ]
+      },
+      "review_platforms": {
+        "uni_compare": {
+          "url": "https://universitycompare.com/universities/calderdale-college"
+        }
+      },
+      "sentiment_summary": {
+        "overall_sentiment": "positive",
+        "sentiment_score_estimate": 7.8,
+        "key_strengths": ["Outstanding leadership", "Rising achievement rates", "Positive destinations"],
+        "competitive_position": "Direct FE competitor in neighbouring borough, similar profile to Kirklees College"
+      }
+    },
+    {
+      "institution": "Bradford College",
+      "type": "Further Education College",
+      "location": "Bradford",
+      "ofsted": {
+        "latest_inspection_date": "November 2024",
+        "overall_effectiveness": "Good",
+        "note": "Good across all aspects of provision",
+        "strengths": [
+          "Leaders and managers are highly ambitious for learners",
+          "Strong support for learners with SEND and from disadvantaged backgrounds",
+          "Leaders create opportunities for learners to broaden experiences",
+          "Calm and purposeful learning environment",
+          "Best large training provider in West Yorkshire for second year",
+          "Bucking national trend with exceptional GCSE results"
+        ],
+        "areas_for_improvement": [
+          "Small minority affected by low-level disruption and poor punctuality"
+        ]
+      },
+      "review_platforms": {
+        "whatuni": {
+          "url": "https://www.whatuni.com/university-course-reviews/bradford-college/5664/"
+        }
+      },
+      "sentiment_summary": {
+        "overall_sentiment": "positive",
+        "sentiment_score_estimate": 7.8,
+        "key_strengths": ["Ambitious leadership", "SEND support", "Strong GCSE results", "Best large FE in West Yorkshire"],
+        "competitive_position": "Large FE competitor in neighbouring city, similar offering but larger scale"
+      }
+    }
+  ],
+  "competitive_landscape": {
+    "kirklees_college_position": "Mid-tier among local competitors",
+    "ranking_by_ofsted": [
+      {"institution": "Greenhead College", "rating": "Outstanding", "year": 2025},
+      {"institution": "Bradford College", "rating": "Good", "year": 2024},
+      {"institution": "Huddersfield New College", "rating": "Good", "year": 2024},
+      {"institution": "Kirklees College", "rating": "Good", "year": 2023},
+      {"institution": "Calderdale College", "rating": "Good", "year": 2022}
+    ],
+    "kirklees_differentiators": [
+      "Strong apprenticeship provision (8.9/10 on RateMyApprenticeship, top 5 nationally)",
+      "£70 million Huddersfield Centre investment",
+      "Specialist training facilities (mock hospital ward, air cabin, kitchens, salons)",
+      "Diversity champion"
+    ],
+    "areas_where_competitors_lead": [
+      "Greenhead College: Academic excellence, Outstanding Ofsted, Oxbridge pipeline",
+      "Bradford College: Best large FE in West Yorkshire, GCSE trend-bucking results",
+      "Calderdale College: Outstanding leadership and management",
+      "Huddersfield New College: Mixed A Level/BTEC offering"
+    ]
+  }
+}

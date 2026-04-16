@@ -1,0 +1,3750 @@
+{
+  "fastTrack": {
+    "id": "b73c915e-21d1-4c2e-5487-08de072d13df",
+    "configuration": {
+      "tableHeaders": {
+        "columnGroups": [],
+        "columns": [
+          {
+            "value": "2019_AY",
+            "type": "TimePeriod"
+          },
+          {
+            "value": "2020_AY",
+            "type": "TimePeriod"
+          },
+          {
+            "value": "2021_AY",
+            "type": "TimePeriod"
+          },
+          {
+            "value": "2022_AY",
+            "type": "TimePeriod"
+          },
+          {
+            "value": "2023_AY",
+            "type": "TimePeriod"
+          },
+          {
+            "value": "2024_AY",
+            "type": "TimePeriod"
+          }
+        ],
+        "rowGroups": [
+          [
+            {
+              "value": "c95ba3cc-ded0-4b77-b1ea-c39cd4896780",
+              "type": "Filter"
+            },
+            {
+              "value": "9388d7f9-2721-492f-8427-77c32de2e3bc",
+              "type": "Filter"
+            },
+            {
+              "value": "db7dd6b7-d633-4043-8fe3-dd9b8907be8a",
+              "type": "Filter"
+            },
+            {
+              "value": "3d0d132b-1e67-417f-ac31-c15905767dcf",
+              "type": "Filter"
+            },
+            {
+              "value": "a58dfe5c-6517-442e-b364-c2fe55800e26",
+              "type": "Filter"
+            }
+          ]
+        ],
+        "rows": [
+          {
+            "value": "75dec911-65e4-47bf-7cb2-08de8031e1d7",
+            "type": "Indicator"
+          },
+          {
+            "value": "640374ef-a87a-4b77-7cb5-08de8031e1d7",
+            "type": "Indicator"
+          }
+        ]
+      }
+    },
+    "fullTable": {
+      "subjectMeta": {
+        "filters": {
+          "AgeGroup": {
+            "id": "520aa39c-53fa-44e5-7caf-08de8031e1d7",
+            "legend": "Age group",
+            "options": {
+              "Total": {
+                "id": "4d30689b-e296-47f2-a022-0d8a1178d31e",
+                "label": "Total",
+                "options": [
+                  {
+                    "label": "Total",
+                    "value": "c95ba3cc-ded0-4b77-b1ea-c39cd4896780"
+                  }
+                ],
+                "order": 0
+              },
+              "Under19": {
+                "id": "d93c2ca7-3c7e-4756-b73d-a2f7b34f20b1",
+                "label": "Under 19",
+                "options": [
+                  {
+                    "label": "Under 19",
+                    "value": "9388d7f9-2721-492f-8427-77c32de2e3bc"
+                  }
+                ],
+                "order": 1
+              },
+              "19Plus": {
+                "id": "c3e839e4-3cd4-4073-b26d-07aaf66902a9",
+                "label": "19 plus",
+                "options": [
+                  {
+                    "label": "Total",
+                    "value": "db7dd6b7-d633-4043-8fe3-dd9b8907be8a"
+                  },
+                  {
+                    "label": "19 to 24",
+                    "value": "3d0d132b-1e67-417f-ac31-c15905767dcf"
+                  },
+                  {
+                    "label": "25 plus",
+                    "value": "a58dfe5c-6517-442e-b364-c2fe55800e26"
+                  }
+                ],
+                "order": 2
+              }
+            },
+            "name": "age_group",
+            "groupCsvColumn": "age_youth_adult",
+            "autoSelectFilterItemId": "c95ba3cc-ded0-4b77-b1ea-c39cd4896780",
+            "order": 0
+          },
+          "ApprenticeshipLevel": {
+            "id": "d641b49a-f224-4084-7cb0-08de8031e1d7",
+            "legend": "Apprenticeship level",
+            "options": {
+              "Default": {
+                "id": "6ff7f583-ab6f-4ac6-9e02-aac5adec7869",
+                "label": "Default",
+                "options": [
+                  {
+                    "label": "Total",
+                    "value": "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+                  }
+                ],
+                "order": 0
+              }
+            },
+            "name": "apprenticeship_level",
+            "autoSelectFilterItemId": "b94cfc44-246f-41a0-a977-e1d68abaa18f",
+            "order": 1
+          },
+          "FundingType": {
+            "id": "63bd676e-b089-4241-7cb1-08de8031e1d7",
+            "legend": "Funding type",
+            "options": {
+              "Default": {
+                "id": "69728342-07b8-4576-89e5-a2543d67a119",
+                "label": "Default",
+                "options": [
+                  {
+                    "label": "Total",
+                    "value": "d6f08b11-5c65-4f33-bb63-8f4d81c2e739"
+                  }
+                ],
+                "order": 0
+              }
+            },
+            "name": "funding_type",
+            "autoSelectFilterItemId": "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "order": 2
+          },
+          "ProviderType": {
+            "id": "d38d9b43-7fab-404b-7cae-08de8031e1d7",
+            "legend": "Provider type",
+            "options": {
+              "Default": {
+                "id": "7b287cda-ed93-4451-b7ea-83e33303e612",
+                "label": "Default",
+                "options": [
+                  {
+                    "label": "Total",
+                    "value": "1a92ed59-a8bf-4ad7-8fa6-3b101723c075"
+                  }
+                ],
+                "order": 0
+              }
+            },
+            "name": "provider_type",
+            "autoSelectFilterItemId": "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "order": 3
+          }
+        },
+        "footnotes": [
+          {
+            "id": "ab6fab5f-2087-4989-e7c9-08de8a8a98bb",
+            "label": "Age for starts is based on age at the start of the programme."
+          },
+          {
+            "id": "c34d44e0-d125-4208-e7e0-08de8a8a98bb",
+            "label": "Percentages are rounded to one decimal place and calculated on unrounded volumes. 'low' indicates a percentage below 0.5%. Where data shows 'x' this indicates data is unavailable, 'z' indicates data is not applicable, and 'c' indicates data is suppressed."
+          },
+          {
+            "id": "1ec79bce-d192-450e-e7f1-08de8a8a98bb",
+            "label": "Total starts are the count of apprenticeships started at any point during the stated academic period. Learners starting more than one Apprenticeship will appear more than once."
+          },
+          {
+            "id": "f310485f-9253-40bf-e7f2-08de8a8a98bb",
+            "label": "Where shown, figures for 2025/26 are provisional and cover the first two quarters (Aug to Jan). Figures for other years are final and cover the full year (Aug to July)."
+          }
+        ],
+        "indicators": [
+          {
+            "label": "Starts",
+            "unit": "",
+            "value": "75dec911-65e4-47bf-7cb2-08de8031e1d7",
+            "name": "start_count",
+            "decimalPlaces": 0
+          },
+          {
+            "label": "Starts percentage",
+            "unit": "%",
+            "value": "640374ef-a87a-4b77-7cb5-08de8031e1d7",
+            "name": "starts_percent",
+            "decimalPlaces": 1
+          }
+        ],
+        "locations": {
+          "country": [
+            {
+              "id": "058416da-0cae-4958-aa00-203d745858ae",
+              "label": "England",
+              "value": "E92000001"
+            }
+          ]
+        },
+        "boundaryLevels": [
+          {
+            "id": 14,
+            "label": "Countries UK BUC 2022/12"
+          },
+          {
+            "id": 1,
+            "label": "Countries UK BUC 2017/12"
+          }
+        ],
+        "publicationName": "Apprenticeships",
+        "subjectName": "Headline Full year - Starts, Achievements, Participation by Level, Levy, Age, Region, Provider type (API)",
+        "dataSetFileId": "74af6319-35e4-463c-e480-08de8031e0aa",
+        "timePeriodRange": [
+          {
+            "code": "AY",
+            "label": "2019/20",
+            "year": 2019
+          },
+          {
+            "code": "AY",
+            "label": "2020/21",
+            "year": 2020
+          },
+          {
+            "code": "AY",
+            "label": "2021/22",
+            "year": 2021
+          },
+          {
+            "code": "AY",
+            "label": "2022/23",
+            "year": 2022
+          },
+          {
+            "code": "AY",
+            "label": "2023/24",
+            "year": 2023
+          },
+          {
+            "code": "AY",
+            "label": "2024/25",
+            "year": 2024
+          }
+        ],
+        "geoJsonAvailable": true,
+        "isCroppedTable": false
+      },
+      "results": [
+        {
+          "id": "113d4ed2-6a88-40d8-9e95-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "c95ba3cc-ded0-4b77-b1ea-c39cd4896780",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "353500",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "100.0"
+          },
+          "timePeriod": "2024_AY"
+        },
+        {
+          "id": "4ce20a0e-10d1-452a-9f55-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "9388d7f9-2721-492f-8427-77c32de2e3bc",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "74990",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "21.2"
+          },
+          "timePeriod": "2024_AY"
+        },
+        {
+          "id": "00844951-5d6b-456b-9fb5-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "db7dd6b7-d633-4043-8fe3-dd9b8907be8a",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "278510",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "78.8"
+          },
+          "timePeriod": "2024_AY"
+        },
+        {
+          "id": "14685f93-5738-4360-abcd-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "3d0d132b-1e67-417f-ac31-c15905767dcf",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "97240",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "27.5"
+          },
+          "timePeriod": "2024_AY"
+        },
+        {
+          "id": "2713b365-05ec-4d52-ac2d-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "a58dfe5c-6517-442e-b364-c2fe55800e26",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "181270",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "51.3"
+          },
+          "timePeriod": "2024_AY"
+        },
+        {
+          "id": "ddcbd1de-4bc0-4a84-cc56-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "c95ba3cc-ded0-4b77-b1ea-c39cd4896780",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "339580",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "100.0"
+          },
+          "timePeriod": "2023_AY"
+        },
+        {
+          "id": "c251b7e0-47a5-4fa6-cd15-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "9388d7f9-2721-492f-8427-77c32de2e3bc",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "78930",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "23.2"
+          },
+          "timePeriod": "2023_AY"
+        },
+        {
+          "id": "2e68f604-e05c-41f7-cd74-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "db7dd6b7-d633-4043-8fe3-dd9b8907be8a",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "260650",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "76.8"
+          },
+          "timePeriod": "2023_AY"
+        },
+        {
+          "id": "204a76d7-b911-49c7-cdd4-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "3d0d132b-1e67-417f-ac31-c15905767dcf",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "96130",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "28.3"
+          },
+          "timePeriod": "2023_AY"
+        },
+        {
+          "id": "f462ac2a-95e0-47df-ce34-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "a58dfe5c-6517-442e-b364-c2fe55800e26",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "164520",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "48.4"
+          },
+          "timePeriod": "2023_AY"
+        },
+        {
+          "id": "33f6c4ee-1dc2-4184-f9cc-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "c95ba3cc-ded0-4b77-b1ea-c39cd4896780",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "337140",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "100.0"
+          },
+          "timePeriod": "2022_AY"
+        },
+        {
+          "id": "15537bc3-2c31-459b-fa8c-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "9388d7f9-2721-492f-8427-77c32de2e3bc",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "77720",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "23.1"
+          },
+          "timePeriod": "2022_AY"
+        },
+        {
+          "id": "210c2109-846b-44b0-faec-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "db7dd6b7-d633-4043-8fe3-dd9b8907be8a",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "259410",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "76.9"
+          },
+          "timePeriod": "2022_AY"
+        },
+        {
+          "id": "1b6634d1-fed7-4e8e-fb4c-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "3d0d132b-1e67-417f-ac31-c15905767dcf",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "98800",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "29.3"
+          },
+          "timePeriod": "2022_AY"
+        },
+        {
+          "id": "4c8ef083-69f9-480b-fbac-08de8031e1d7",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "a58dfe5c-6517-442e-b364-c2fe55800e26",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "160620",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "47.6"
+          },
+          "timePeriod": "2022_AY"
+        },
+        {
+          "id": "472ac2e5-4ebd-464e-275e-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "c95ba3cc-ded0-4b77-b1ea-c39cd4896780",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "349190",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "100.0"
+          },
+          "timePeriod": "2021_AY"
+        },
+        {
+          "id": "78eb14de-4e5d-4d92-281e-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "9388d7f9-2721-492f-8427-77c32de2e3bc",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "77520",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "22.2"
+          },
+          "timePeriod": "2021_AY"
+        },
+        {
+          "id": "791c556b-bcfb-4412-287e-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "db7dd6b7-d633-4043-8fe3-dd9b8907be8a",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "271670",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "77.8"
+          },
+          "timePeriod": "2021_AY"
+        },
+        {
+          "id": "5ec3e893-1969-4a89-28dd-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "3d0d132b-1e67-417f-ac31-c15905767dcf",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "106330",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "30.5"
+          },
+          "timePeriod": "2021_AY"
+        },
+        {
+          "id": "97174462-e6ef-481c-293c-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "a58dfe5c-6517-442e-b364-c2fe55800e26",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "165340",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "47.4"
+          },
+          "timePeriod": "2021_AY"
+        },
+        {
+          "id": "974fd688-409d-477c-54dc-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "c95ba3cc-ded0-4b77-b1ea-c39cd4896780",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "321440",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "100.0"
+          },
+          "timePeriod": "2020_AY"
+        },
+        {
+          "id": "bf023e4d-0fce-4508-559a-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "9388d7f9-2721-492f-8427-77c32de2e3bc",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "65150",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "20.3"
+          },
+          "timePeriod": "2020_AY"
+        },
+        {
+          "id": "3eba9681-c813-4243-55f9-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "db7dd6b7-d633-4043-8fe3-dd9b8907be8a",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "256300",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "79.7"
+          },
+          "timePeriod": "2020_AY"
+        },
+        {
+          "id": "31323ed2-08d2-4068-5658-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "3d0d132b-1e67-417f-ac31-c15905767dcf",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "94610",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "29.4"
+          },
+          "timePeriod": "2020_AY"
+        },
+        {
+          "id": "8e59121f-5371-446d-56b7-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "a58dfe5c-6517-442e-b364-c2fe55800e26",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "161690",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "50.3"
+          },
+          "timePeriod": "2020_AY"
+        },
+        {
+          "id": "4ad32b07-9946-409c-822f-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "c95ba3cc-ded0-4b77-b1ea-c39cd4896780",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "322530",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "100.0"
+          },
+          "timePeriod": "2019_AY"
+        },
+        {
+          "id": "25a5cb20-bc6b-466b-82ec-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "9388d7f9-2721-492f-8427-77c32de2e3bc",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "76270",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "23.6"
+          },
+          "timePeriod": "2019_AY"
+        },
+        {
+          "id": "3e3e8999-7dd2-4927-834a-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "db7dd6b7-d633-4043-8fe3-dd9b8907be8a",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "246260",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "76.4"
+          },
+          "timePeriod": "2019_AY"
+        },
+        {
+          "id": "97ebe1fb-6fae-4a4b-83a9-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "3d0d132b-1e67-417f-ac31-c15905767dcf",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "95290",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "29.5"
+          },
+          "timePeriod": "2019_AY"
+        },
+        {
+          "id": "75e3cbef-f5f2-4470-8408-08de8031e1d8",
+          "filters": [
+            "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+            "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+            "a58dfe5c-6517-442e-b364-c2fe55800e26",
+            "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+          ],
+          "geographicLevel": "country",
+          "locationId": "058416da-0cae-4958-aa00-203d745858ae",
+          "measures": {
+            "75dec911-65e4-47bf-7cb2-08de8031e1d7": "150960",
+            "640374ef-a87a-4b77-7cb5-08de8031e1d7": "46.8"
+          },
+          "timePeriod": "2019_AY"
+        }
+      ]
+    },
+    "query": {
+      "publicationId": "412d8090-ab45-455a-c176-08dbf5ab522b",
+      "subjectId": "5fd699e9-c5cd-4566-b783-08de8031e09c",
+      "timePeriod": {
+        "startYear": 2019,
+        "startCode": "AY",
+        "endYear": 2024,
+        "endCode": "AY"
+      },
+      "filters": [
+        "c95ba3cc-ded0-4b77-b1ea-c39cd4896780",
+        "db7dd6b7-d633-4043-8fe3-dd9b8907be8a",
+        "3d0d132b-1e67-417f-ac31-c15905767dcf",
+        "a58dfe5c-6517-442e-b364-c2fe55800e26",
+        "9388d7f9-2721-492f-8427-77c32de2e3bc",
+        "b94cfc44-246f-41a0-a977-e1d68abaa18f",
+        "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+        "1a92ed59-a8bf-4ad7-8fa6-3b101723c075"
+      ],
+      "indicators": [
+        "75dec911-65e4-47bf-7cb2-08de8031e1d7",
+        "640374ef-a87a-4b77-7cb5-08de8031e1d7"
+      ],
+      "locationIds": [
+        "058416da-0cae-4958-aa00-203d745858ae"
+      ]
+    },
+    "releaseId": "462edbbd-6f41-40ca-b054-4e07f76ea292",
+    "releaseSlug": "2025-26",
+    "releaseType": "AccreditedOfficialStatistics",
+    "latestData": true,
+    "latestReleaseTitle": "Academic year 2025/26",
+    "latestReleaseSlug": "2025-26"
+  },
+  "featuredTables": [
+    {
+      "id": "d6744eac-fa8b-4bef-ac84-aa90c3282cde",
+      "name": "Apprenticeship Achievement Rates by provider",
+      "description": "2022/23 to 2024/25 Includes provider, age, level, sector subject area, framework / standard name",
+      "subjectId": "77f68e17-2db7-4bb7-e3b2-08de7dc5787f",
+      "dataBlockId": "a96d026b-eb75-458d-8b81-3eac343f8852",
+      "dataBlockParentId": "06a491c4-bb61-49f6-a7f3-08ddc5d1ceae",
+      "order": 0
+    },
+    {
+      "id": "fadafbd2-a5e5-4a11-b9db-b94ab0999dac",
+      "name": "Apprenticeship Achievement Rates by provider type and level",
+      "description": "2022/23 to 2024/25  Includes Age, Provider Type, Level, Sector Subject Area Tier 1",
+      "subjectId": "721d336b-6261-42ee-e32c-08de7dc5787f",
+      "dataBlockId": "b9e083b0-e487-4ec6-a3d4-0bf02bcfdc82",
+      "dataBlockParentId": "b326ebe5-a825-4900-a7f1-08ddc5d1ceae",
+      "order": 1
+    },
+    {
+      "id": "61522612-24dc-4d6f-9659-9ad7610d4079",
+      "name": "Apprenticeship Achievement Rates by age and level",
+      "description": "2022/23 to 2024/25 Includes Age, Level, Ethnicity, LLDD, Sex",
+      "subjectId": "06083f7d-88be-4a22-e316-08de7dc5787f",
+      "dataBlockId": "ef7628a6-a1ab-4b10-81aa-de7ee8c9a24f",
+      "dataBlockParentId": "15548383-7f4b-4351-a7f4-08ddc5d1ceae",
+      "order": 2
+    },
+    {
+      "id": "634de681-7f16-4358-93c2-08e21df8a5fd",
+      "name": "Apprenticeship Achievement Rates by individual standard / framework",
+      "description": "2024/25 Includes Age, Level, Framework/Standard name, Framework/Standard flag, Funding Type, Sector Subject Area Tier 1 and 2.  Other years available via the Edit Filters button",
+      "subjectId": "69947a8d-1db8-4976-e332-08de7dc5787f",
+      "dataBlockId": "c098782c-4b00-49ac-88ef-173a97ac5b38",
+      "dataBlockParentId": "98e01df2-7239-4a4b-91f4-08ddc43aea03",
+      "order": 3
+    },
+    {
+      "id": "95fad2ef-2249-4737-9131-65148073155f",
+      "name": "Apprenticeship planned length of stay by age and apprenticeship type (reported to date)",
+      "description": "Total apprenticeship starts and those where the planned duration is under 12 months by age group and apprenticeship type",
+      "subjectId": "5a311db5-9467-490c-db4e-08de6ed8e6d1",
+      "dataBlockId": "35824b33-74ea-4dc9-9c0c-f399be4452d1",
+      "dataBlockParentId": "bc3dcd1e-5ea1-45e9-1bd2-08de535edcf5",
+      "order": 4
+    },
+    {
+      "id": "4d43dd63-a887-46aa-a6ad-0dae62d235b0",
+      "name": "Commitments by age, payment status and start month",
+      "description": "2022/23 to 2025/26, as at 11 February 2026.  Other years available via the edit filters button",
+      "subjectId": "4a50339b-ae9b-4898-e356-08de7dc5787f",
+      "dataBlockId": "86804b07-3dba-4209-b522-e74e9019f5ea",
+      "dataBlockParentId": "2551ca44-5d13-4a0f-8b35-08de46e23125",
+      "order": 5
+    },
+    {
+      "id": "d032e77d-d408-4ae5-8a10-44ce4a582a61",
+      "name": "Duration - Starts by Planned Length of Stay and Age",
+      "description": "Table showing total starts  and starts with an expected duration of under 12 months by age.  Includes 2020/21 to 2024/25 final data, and 2025/26 reported to date",
+      "subjectId": "92429e16-359c-4bdc-db4c-08de6ed8e6d1",
+      "dataBlockId": "125ed06b-2869-45e5-b447-481b17cbea35",
+      "dataBlockParentId": "9d730216-b559-4d2b-1bd6-08de535edcf5",
+      "order": 6
+    },
+    {
+      "id": "2a7b63c3-2f5b-45f9-9a52-cf8fe46fe620",
+      "name": "Geographical - starts and achievements by region",
+      "description": "2020/21 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "4e978dc5-4ebd-43d9-e312-08de7dc5787f",
+      "dataBlockId": "d4b684a9-5567-4898-bc51-7ccb11888e87",
+      "dataBlockParentId": "7eaa84d6-6cf2-4347-8b65-08de46e23125",
+      "order": 7
+    },
+    {
+      "id": "da4d4d35-acac-498e-b702-90d2ce850400",
+      "name": "Geographical - Starts by English Devolved Area by level",
+      "description": "2020/21 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "f26bc0c3-fe30-462b-e35a-08de7dc5787f",
+      "dataBlockId": "01ca619e-b769-4a43-a9cf-141f9edffe24",
+      "dataBlockParentId": "c80b4a95-3148-4b58-0ee7-08de529c2eb2",
+      "order": 8
+    },
+    {
+      "id": "b1e1c9f6-4cca-4ae3-8926-0c30d5430806",
+      "name": "Geographical - starts, achievements and participation by level and parliamentary constituencies",
+      "description": "2020/21 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "4e978dc5-4ebd-43d9-e312-08de7dc5787f",
+      "dataBlockId": "f7f4d719-5ea4-4bf0-a1a0-92350d56e5cd",
+      "dataBlockParentId": "4fafe83c-e76c-4f8a-8b66-08de46e23125",
+      "order": 9
+    },
+    {
+      "id": "61e8bbcb-0d62-41c0-ab1b-6cb232d73419",
+      "name": "Headline full year comparisons - starts by age",
+      "description": "2019/20 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "5fd699e9-c5cd-4566-b783-08de8031e09c",
+      "dataBlockId": "666b6415-e1a6-4fd9-8d9e-bc90499284ae",
+      "dataBlockParentId": "b73c915e-21d1-4c2e-5487-08de072d13df",
+      "order": 10
+    },
+    {
+      "id": "7fcd1065-debb-4c86-9b0d-c62365bc7b6e",
+      "name": "Headline full year comparisons - starts by age and level",
+      "description": "2018/19  to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "5fd699e9-c5cd-4566-b783-08de8031e09c",
+      "dataBlockId": "6c8e1ba5-82dd-44cf-b0c4-c850903f497b",
+      "dataBlockParentId": "971253cd-e957-44d0-5488-08de072d13df",
+      "order": 11
+    },
+    {
+      "id": "cc844cbd-718f-4a9a-9001-a49bf907a312",
+      "name": "Headline full year comparisons - starts by level",
+      "description": "2019/20 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "5fd699e9-c5cd-4566-b783-08de8031e09c",
+      "dataBlockId": "8d05adf8-b44a-49c5-9dbe-5c4afe9da68e",
+      "dataBlockParentId": "a4ff9091-0faa-4411-5489-08de072d13df",
+      "order": 12
+    },
+    {
+      "id": "a30ac6ce-2ed3-4d57-9d06-272908b0a285",
+      "name": "Headline in year comparisons - starts by age",
+      "description": "2021/22 to 2025/26 reported to date",
+      "subjectId": "ddb1b964-376d-4e75-b781-08de8031e09c",
+      "dataBlockId": "62bea581-7377-4091-afa1-37e46b46c10c",
+      "dataBlockParentId": "cf4a95d2-20f7-44c6-5277-08de58d1314f",
+      "order": 13
+    },
+    {
+      "id": "dfee2e8a-87bd-4da2-a9af-47079ae04270",
+      "name": "Headline in year comparisons - starts by region and level",
+      "description": "2021/22 to 2025/26 reported to date",
+      "subjectId": "ddb1b964-376d-4e75-b781-08de8031e09c",
+      "dataBlockId": "7de3848b-41c0-4a98-8337-733729758ac1",
+      "dataBlockParentId": "aac1672a-049d-422f-54a1-08de072d13df",
+      "order": 14
+    },
+    {
+      "id": "9759273d-3d12-427a-a11a-3c4fcb5ceb8a",
+      "name": "Headline in year comparisons by funding type",
+      "description": "2021/22 to 2025/26 reported to date",
+      "subjectId": "ddb1b964-376d-4e75-b781-08de8031e09c",
+      "dataBlockId": "49978a22-5040-4099-9690-e00767e9538c",
+      "dataBlockParentId": "3757f63b-c657-4342-549c-08de072d13df",
+      "order": 15
+    },
+    {
+      "id": "abf74ee4-0c27-4f37-9755-af4459945e2c",
+      "name": "Headline in year comparisons by level",
+      "description": "2021/22 to 2025/26 reported to date",
+      "subjectId": "ddb1b964-376d-4e75-b781-08de8031e09c",
+      "dataBlockId": "ac18d690-8234-46de-9e75-763c23fa85a9",
+      "dataBlockParentId": "2c30f06f-aeb8-4096-5276-08de58d1314f",
+      "order": 16
+    },
+    {
+      "id": "ba728377-d13e-48e4-990c-34086dd44b26",
+      "name": "Historical apprenticeship starts and participation by level, 2002/03 to 2024/25",
+      "description": "Apprenticeship starts and participation back to 2002/03 by level. File also contains age group and sector subject area (for starts only)",
+      "subjectId": "86202eef-37e3-4af5-0df7-08de535e4628",
+      "dataBlockId": "a494322f-8284-4076-a697-5ad75eabe9bb",
+      "dataBlockParentId": "94dfbc1a-30e5-4dd8-1bdc-08de535edcf5",
+      "order": 17
+    },
+    {
+      "id": "92feda99-cfc5-46bd-8c23-8c2980328491",
+      "name": "Learner characteristics - Participation by IMD (Index of Multiple Deprivation) quintile and age",
+      "description": "2020/21 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "2f5c1e46-cc7e-4d77-4733-08de79292989",
+      "dataBlockId": "04133389-3de5-4f6e-9384-a70b45903314",
+      "dataBlockParentId": "8d404780-88e0-4c00-c2e5-08de12cffaf3",
+      "order": 18
+    },
+    {
+      "id": "7a6a20b9-c34a-4e99-b132-b65778bd9b7f",
+      "name": "Learner characteristics - Starts by age and IMD (Index of Multiple Deprivation) quintile",
+      "description": "2020/21 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "2f5c1e46-cc7e-4d77-4733-08de79292989",
+      "dataBlockId": "9dbb5263-0c0d-4cc3-9229-b69dc57f78e5",
+      "dataBlockParentId": "b406487c-aa6b-4774-c2e6-08de12cffaf3",
+      "order": 19
+    },
+    {
+      "id": "fa61a0dc-6b62-46f4-9380-e76eca8c359e",
+      "name": "Learner characteristics - starts by age group, LLDD and ethnicity",
+      "description": "2019/20 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "f26d7d42-d94a-4a9a-472d-08de79292989",
+      "dataBlockId": "4b0d9b24-1086-4816-b4be-a677863338b4",
+      "dataBlockParentId": "bb24c7b7-18d7-4523-8b37-08de46e23125",
+      "order": 20
+    },
+    {
+      "id": "e7de042f-b064-42d6-8365-2204826cbbcc",
+      "name": "Learner Characteristics - Starts, Participation, Achievements by detailed learning difficulty/learner disability",
+      "description": "2020/21 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "ae7797c6-85c5-4da5-e3b8-08de7dc5787f",
+      "dataBlockId": "e57eb901-c49e-4c33-9a73-001cc954ed19",
+      "dataBlockParentId": "6ba8a62d-133f-4bba-8b2d-08de46e23125",
+      "order": 21
+    },
+    {
+      "id": "4b021a22-80de-4536-bc08-758bd01db38d",
+      "name": "Monthly starts by age, level and start month",
+      "description": "2022/23 to 2025/26 reported to date",
+      "subjectId": "4153b6f7-d5a8-4b50-e3c2-08de7dc5787f",
+      "dataBlockId": "047f2a15-66df-41a3-abf6-8c8d8672e19a",
+      "dataBlockParentId": "719e4886-ddfb-4b32-0eda-08de529c2eb2",
+      "order": 22
+    },
+    {
+      "id": "a0bc3a67-e572-47d9-90c1-a366de52e20b",
+      "name": "Monthly starts by funding type and start month",
+      "description": "2022/23 to 2025/26 reported to date",
+      "subjectId": "4153b6f7-d5a8-4b50-e3c2-08de7dc5787f",
+      "dataBlockId": "f39ec4d8-beae-4946-aafc-3d65d5f17661",
+      "dataBlockParentId": "9b3b8b4d-88aa-4c89-0edd-08de529c2eb2",
+      "order": 23
+    },
+    {
+      "id": "3dcb232a-99bc-4ddc-9e25-01104642c8bf",
+      "name": "Provider starts and achievements",
+      "description": "2020/21 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "58cbfe1d-bed5-4801-e314-08de7dc5787f",
+      "dataBlockId": "943b9cfe-61bd-4424-8681-f932091cae78",
+      "dataBlockParentId": "375e6b19-92af-4f00-c2f2-08de12cffaf3",
+      "order": 24
+    },
+    {
+      "id": "5f531880-f899-496f-aa1b-213afe2b6e25",
+      "name": "Redundancies by redundancy month and level",
+      "description": "2020/21 to 2025/26",
+      "subjectId": "c9b1b529-4161-497d-e35e-08de7dc5787f",
+      "dataBlockId": "16460f95-4a4b-420c-bb98-07d48f5f1990",
+      "dataBlockParentId": "606229f7-9fb1-4a80-0ee9-08de529c2eb2",
+      "order": 25
+    },
+    {
+      "id": "74581030-7eef-434c-9e7c-cd9a8bc198b0",
+      "name": "Starts by funding type, level and age",
+      "description": "2020/21 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "afbb1375-995e-4023-db44-08de6ed8e6d1",
+      "dataBlockId": "29a4e84a-ca39-4c02-8f36-44eb77cab00d",
+      "dataBlockParentId": "b20a81dd-42b0-4788-868d-08de369c35b5",
+      "order": 26
+    },
+    {
+      "id": "dc04783d-6ae6-4561-8ad7-a6f11060e885",
+      "name": "Starts by sector subject area and individual frameworks/standards",
+      "description": "Sector subject area and individual frameworks/standards",
+      "subjectId": "66f489d2-ace6-4da9-db4a-08de6ed8e6d1",
+      "dataBlockId": "66403b0c-0971-47cd-951e-beaf8cd017c2",
+      "dataBlockParentId": "3f06495a-e567-4d19-eef7-08de6edda578",
+      "order": 27
+    },
+    {
+      "id": "7ff2d716-8d7e-4bcd-87e2-980df380a81e",
+      "name": "Subjects - achievements in year comparisons by sector subject area",
+      "description": "2022/23 to 2025/26 reported to date",
+      "subjectId": "40bb56ee-e978-4970-4737-08de79292989",
+      "dataBlockId": "dfd79675-0621-434e-a3f0-03890b9cd4ee",
+      "dataBlockParentId": "ab30ae86-f38d-46e0-8b2e-08de46e23125",
+      "order": 28
+    },
+    {
+      "id": "104f46f0-7e53-4640-a816-6d1720748776",
+      "name": "Subjects - showing starts split between frameworks and standards by level and SSA",
+      "description": "2020/21 to 2024/25 - Latest year to date data available via the 'time period' filter",
+      "subjectId": "feb162b1-2f70-4ef4-2dbb-08de7b6acfb3",
+      "dataBlockId": "bcb2452e-321e-416d-ba53-9c165b010e43",
+      "dataBlockParentId": "782c30a3-2223-4aee-c2e8-08de12cffaf3",
+      "order": 29
+    },
+    {
+      "id": "da0d2a7e-57a2-44aa-a69d-0e7c70966f6e",
+      "name": "Subjects - Starts by occupational route and individual frameworks/standards",
+      "description": "2019/20 to 2025/26",
+      "subjectId": "9808fd0d-bb97-4520-e3ba-08de7dc5787f",
+      "dataBlockId": "49d71e76-97c5-4af4-8311-8e135100d972",
+      "dataBlockParentId": "f172fa81-d4fd-43f9-8b51-08de46e23125",
+      "order": 30
+    },
+    {
+      "id": "f20eea6f-ad2e-45bf-ba65-64452280c4fc",
+      "name": "Subjects - Starts by  STEM, Sector Subject, and Sex",
+      "description": "2020/21 to 2025/26",
+      "subjectId": "ed0d500c-4a98-40b1-db46-08de6ed8e6d1",
+      "dataBlockId": "b4b355f1-b1e0-46a6-ba2c-b615fc6046de",
+      "dataBlockParentId": "d078fea3-907a-4732-868e-08de369c35b5",
+      "order": 31
+    },
+    {
+      "id": "e65fe2d5-ee87-4161-9fe6-ed243557f7e3",
+      "name": "Vacancies and Adverts posted on the Find An Apprenticeship website by month and level",
+      "description": "2018/19 to 2024/25 (final), and 2025/26 reported to date",
+      "subjectId": "b7cedc07-f62a-4893-b76d-08de8031e09c",
+      "dataBlockId": "3ec6cd96-13ea-4187-8502-9be364d59985",
+      "dataBlockParentId": "e3ac3d1b-91e9-452d-0ee5-08de529c2eb2",
+      "order": 32
+    }
+  ],
+  "selectedPublication": {
+    "id": "412d8090-ab45-455a-c176-08dbf5ab522b",
+    "slug": "apprenticeships",
+    "title": "Apprenticeships",
+    "anyLiveReleaseHasData": true,
+    "isSuperseded": false,
+    "latestReleaseHasData": true,
+    "selectedRelease": {
+      "id": "462edbbd-6f41-40ca-b054-4e07f76ea292",
+      "slug": "2025-26",
+      "latestData": true,
+      "title": "Academic year 2025/26",
+      "type": "AccreditedOfficialStatistics"
+    },
+    "latestRelease": {
+      "title": "Academic year 2025/26",
+      "slug": "2025-26"
+    }
+  },
+  "subjectMeta": {
+    "filters": {
+      "AgeGroup": {
+        "id": "520aa39c-53fa-44e5-7caf-08de8031e1d7",
+        "legend": "Age group",
+        "options": {
+          "Total": {
+            "id": "4d30689b-e296-47f2-a022-0d8a1178d31e",
+            "label": "Total",
+            "options": [
+              {
+                "label": "Total",
+                "value": "c95ba3cc-ded0-4b77-b1ea-c39cd4896780"
+              }
+            ],
+            "order": 0
+          },
+          "Under19": {
+            "id": "d93c2ca7-3c7e-4756-b73d-a2f7b34f20b1",
+            "label": "Under 19",
+            "options": [
+              {
+                "label": "Total",
+                "value": "80093022-c970-4b0c-a2f6-e5ee26fe57bc"
+              },
+              {
+                "label": "Under 19",
+                "value": "9388d7f9-2721-492f-8427-77c32de2e3bc"
+              }
+            ],
+            "order": 1
+          },
+          "19Plus": {
+            "id": "c3e839e4-3cd4-4073-b26d-07aaf66902a9",
+            "label": "19 plus",
+            "options": [
+              {
+                "label": "Total",
+                "value": "db7dd6b7-d633-4043-8fe3-dd9b8907be8a"
+              },
+              {
+                "label": "19 to 24",
+                "value": "3d0d132b-1e67-417f-ac31-c15905767dcf"
+              },
+              {
+                "label": "25 plus",
+                "value": "a58dfe5c-6517-442e-b364-c2fe55800e26"
+              }
+            ],
+            "order": 2
+          }
+        },
+        "name": "age_group",
+        "groupCsvColumn": "age_youth_adult",
+        "autoSelectFilterItemId": "c95ba3cc-ded0-4b77-b1ea-c39cd4896780",
+        "order": 0
+      },
+      "ApprenticeshipLevel": {
+        "id": "d641b49a-f224-4084-7cb0-08de8031e1d7",
+        "legend": "Apprenticeship level",
+        "options": {
+          "Default": {
+            "id": "6ff7f583-ab6f-4ac6-9e02-aac5adec7869",
+            "label": "Default",
+            "options": [
+              {
+                "label": "Total",
+                "value": "b94cfc44-246f-41a0-a977-e1d68abaa18f"
+              },
+              {
+                "label": "Intermediate Apprenticeship",
+                "value": "4dacaa6b-11f6-42c0-9d1c-2c4c15d88f98"
+              },
+              {
+                "label": "Advanced Apprenticeship",
+                "value": "f405ad7b-2905-41d7-aa3d-5f9495936483"
+              },
+              {
+                "label": "Higher Apprenticeship",
+                "value": "e1c3e841-94a3-47fb-8e02-8c91df4822e3"
+              },
+              {
+                "label": "Unknown",
+                "value": "6ec0e802-41f8-4853-9ed9-9103c5e05f59"
+              }
+            ],
+            "order": 0
+          }
+        },
+        "name": "apprenticeship_level",
+        "autoSelectFilterItemId": "b94cfc44-246f-41a0-a977-e1d68abaa18f",
+        "order": 1
+      },
+      "FundingType": {
+        "id": "63bd676e-b089-4241-7cb1-08de8031e1d7",
+        "legend": "Funding type",
+        "options": {
+          "Default": {
+            "id": "69728342-07b8-4576-89e5-a2543d67a119",
+            "label": "Default",
+            "options": [
+              {
+                "label": "Total",
+                "value": "d6f08b11-5c65-4f33-bb63-8f4d81c2e739"
+              },
+              {
+                "label": "Supported by ASA levy funds",
+                "value": "1d047c95-d20d-4a37-b87c-a693198a6700"
+              },
+              {
+                "label": "Other",
+                "value": "7519855a-7292-4c5f-ba99-022826442319"
+              }
+            ],
+            "order": 0
+          }
+        },
+        "name": "funding_type",
+        "autoSelectFilterItemId": "d6f08b11-5c65-4f33-bb63-8f4d81c2e739",
+        "order": 2
+      },
+      "ProviderType": {
+        "id": "d38d9b43-7fab-404b-7cae-08de8031e1d7",
+        "legend": "Provider type",
+        "options": {
+          "Default": {
+            "id": "7b287cda-ed93-4451-b7ea-83e33303e612",
+            "label": "Default",
+            "options": [
+              {
+                "label": "Total",
+                "value": "1a92ed59-a8bf-4ad7-8fa6-3b101723c075"
+              },
+              {
+                "label": "General FE College incl Tertiary",
+                "value": "c6f68d57-757a-4219-a8fc-25f7be502489"
+              },
+              {
+                "label": "Local Authority",
+                "value": "9cd6ea81-ba5f-4570-bc4e-c20e71fc8998"
+              },
+              {
+                "label": "Other",
+                "value": "9ff839c5-d854-4795-b3d1-d8df49ef6602"
+              },
+              {
+                "label": "Private Sector Public Funded",
+                "value": "e92c60c7-afc3-4da6-b9a6-a371a467142f"
+              },
+              {
+                "label": "Schools",
+                "value": "f3479781-93c2-4a7d-bf5d-ef09cc20e2d2"
+              },
+              {
+                "label": "Sixth Form College",
+                "value": "c853b6ae-8fc8-48d3-9d0a-a271d046e100"
+              },
+              {
+                "label": "Special College",
+                "value": "e670d4ed-da9a-4afe-8754-a31e0ceea7be"
+              }
+            ],
+            "order": 0
+          }
+        },
+        "name": "provider_type",
+        "autoSelectFilterItemId": "1a92ed59-a8bf-4ad7-8fa6-3b101723c075",
+        "order": 3
+      }
+    },
+    "indicators": {
+      "Default": {
+        "id": "46597996-66fe-4aa5-9c91-356fd9bed94b",
+        "label": "Default",
+        "options": [
+          {
+            "label": "Achievements",
+            "unit": "",
+            "value": "45f4e359-1762-407e-7cb3-08de8031e1d7",
+            "name": "achievement_count",
+            "decimalPlaces": 0
+          },
+          {
+            "label": "Achievements percentage",
+            "unit": "%",
+            "value": "ecd4f94b-79c9-4316-7cb6-08de8031e1d7",
+            "name": "achievements_percent",
+            "decimalPlaces": 1
+          },
+          {
+            "label": "Participation",
+            "unit": "",
+            "value": "3800b0ab-2d91-4108-7cb4-08de8031e1d7",
+            "name": "participation_count",
+            "decimalPlaces": 0
+          },
+          {
+            "label": "Starts",
+            "unit": "",
+            "value": "75dec911-65e4-47bf-7cb2-08de8031e1d7",
+            "name": "start_count",
+            "decimalPlaces": 0
+          },
+          {
+            "label": "Starts percentage",
+            "unit": "%",
+            "value": "640374ef-a87a-4b77-7cb5-08de8031e1d7",
+            "name": "starts_percent",
+            "decimalPlaces": 1
+          }
+        ],
+        "order": 0
+      }
+    },
+    "locations": {
+      "region": {
+        "legend": "Regional",
+        "options": [
+          {
+            "id": "6b0c3349-34c4-48d4-aa6e-745ab358acc1",
+            "label": "North East",
+            "value": "E12000001"
+          },
+          {
+            "id": "520fa9b3-ea9f-4cf4-b5a7-de9539900771",
+            "label": "North West",
+            "value": "E12000002"
+          },
+          {
+            "id": "9ea0d131-13fe-4ceb-308b-08d93cac8230",
+            "label": "Yorkshire and The Humber",
+            "value": "E12000003"
+          },
+          {
+            "id": "c37c1656-546a-43fc-8df5-cc8adb7e9d3f",
+            "label": "East Midlands",
+            "value": "E12000004"
+          },
+          {
+            "id": "41a0ef0f-c361-471d-a156-5ff8a8e3f77d",
+            "label": "West Midlands",
+            "value": "E12000005"
+          },
+          {
+            "id": "b06cd079-d19b-402c-ad03-e3c4c1e0c86c",
+            "label": "East of England",
+            "value": "E12000006"
+          },
+          {
+            "id": "4c33ca58-a84e-472a-ab9d-56e67d992c94",
+            "label": "London",
+            "value": "E12000007"
+          },
+          {
+            "id": "b6d884e1-7b55-43cd-a549-99e48bb3e93c",
+            "label": "South East",
+            "value": "E12000008"
+          },
+          {
+            "id": "652bbef0-71ff-4171-a64a-79e3f6368bbc",
+            "label": "South West",
+            "value": "E12000009"
+          },
+          {
+            "id": "92f2f2ba-8d41-46a3-f754-08d992474b73",
+            "label": "Outside of England and unknown",
+            "value": "z"
+          }
+        ]
+      },
+      "country": {
+        "legend": "National",
+        "options": [
+          {
+            "id": "058416da-0cae-4958-aa00-203d745858ae",
+            "label": "England",
+            "value": "E92000001"
+          }
+        ]
+      }
+    },
+    "timePeriod": {
+      "hint": "Filter statistics by a given start and end date",
+      "legend": "",
+      "options": [
+        {
+          "code": "AY",
+          "label": "2017/18",
+          "year": 2017
+        },
+        {
+          "code": "AY",
+          "label": "2018/19",
+          "year": 2018
+        },
+        {
+          "code": "AY",
+          "label": "2019/20",
+          "year": 2019
+        },
+        {
+          "code": "AY",
+          "label": "2020/21",
+          "year": 2020
+        },
+        {
+          "code": "AY",
+          "label": "2021/22",
+          "year": 2021
+        },
+        {
+          "code": "AY",
+          "label": "2022/23",
+          "year": 2022
+        },
+        {
+          "code": "AY",
+          "label": "2023/24",
+          "year": 2023
+        },
+        {
+          "code": "AY",
+          "label": "2024/25",
+          "year": 2024
+        },
+        {
+          "code": "AY",
+          "label": "2025/26",
+          "year": 2025
+        }
+      ]
+    }
+  },
+  "subjects": [
+    {
+      "id": "77f68e17-2db7-4bb7-e3b2-08de7dc5787f",
+      "name": "Achievement Rates Providers - Volumes and Rates by Provider, SSA T1, Level, Standard-framework name",
+      "order": 0,
+      "content": "Apprenticeship national achievement rate tables.",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2024/25"
+      },
+      "geographicLevels": [
+        "Provider"
+      ],
+      "filters": [
+        "Age (under 19/19+)",
+        "Age group",
+        "Apprenticeship level",
+        "Framework / standard name (with st code)",
+        "Sector subject area (tier 1)"
+      ],
+      "indicators": [
+        "Achievement rate",
+        "Achievers",
+        "Completers",
+        "Leavers",
+        "Pass rate",
+        "Retention rate"
+      ],
+      "file": {
+        "id": "72642c83-0220-4eb8-c638-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "na05_app_narts_provider_level_fwk_std_202526_14.csv",
+        "name": "Achievement Rates Providers - Volumes and Rates by Provider, SSA T1, Level, Standard-framework name",
+        "summary": "Apprenticeship national achievement rate tables.",
+        "size": "106 Mb",
+        "type": "Data",
+        "created": "2026-03-11T11:33:04.32674Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "06083f7d-88be-4a22-e316-08de7dc5787f",
+      "name": "Achievement Rates Learner Characteristics - Volumes and Rates by Level, Age, Sex, LLDD, Ethnicity",
+      "order": 1,
+      "content": "Apprenticeship national achievement rate tables.",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2024/25"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age (under 19/19+)",
+        "Age group",
+        "Apprenticeship level",
+        "Ethnicity major",
+        "Learning difficulty / disability",
+        "Minority ethnic",
+        "Sex"
+      ],
+      "indicators": [
+        "Achievement rate",
+        "Achievers",
+        "Completers",
+        "Leavers",
+        "Pass rate",
+        "Retention rate"
+      ],
+      "file": {
+        "id": "4f11a062-b69a-42ba-c59c-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "na02_app_narts_learner_detailed_202526_14.csv",
+        "name": "Achievement Rates Learner Characteristics - Volumes and Rates by Level, Age, Sex, LLDD, Ethnicity",
+        "summary": "Apprenticeship national achievement rate tables.",
+        "size": "1 Mb",
+        "type": "Data",
+        "created": "2026-03-09T13:43:15.1465716Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "dcb206e5-ac9a-4440-89a8-08de840ad184",
+      "name": "Achievement Rates Learner Characteristics - Volumes and Rates by Std-fwk flag, STEM, SSA T1, Detailed Level, Age, IMD",
+      "order": 2,
+      "content": "Apprenticeship national achievement rate tables.",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2024/25"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age (under 19/19+)",
+        "Age group",
+        "Apprenticeship level",
+        "Detailed apprenticeship level",
+        "Learner deprivation",
+        "Sector subject area (tier 1)",
+        "Standard/framework",
+        "Stem"
+      ],
+      "indicators": [
+        "Achievement rate",
+        "Achievers",
+        "Completers",
+        "Leavers",
+        "Pass rate",
+        "Retention rate"
+      ],
+      "file": {
+        "id": "a059284a-fd50-42ae-ea57-08de840ad195",
+        "extension": "csv",
+        "fileName": "na03_app_narts_deprivation_202526_14.csv",
+        "name": "Achievement Rates Learner Characteristics - Volumes and Rates by Std-fwk flag, STEM, SSA T1, Detailed Level, Age, IMD",
+        "summary": "Apprenticeship national achievement rate tables.",
+        "size": "5 Mb",
+        "type": "Data",
+        "created": "2026-03-17T13:36:15.5080867Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "721d336b-6261-42ee-e32c-08de7dc5787f",
+      "name": "Achievement Rates Provider Type - Volumes and Rates by Provider type, SSA T1, Level, Age",
+      "order": 3,
+      "content": "Apprenticeship national achievement rate tables.",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2024/25"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age (under 19/19+)",
+        "Age group",
+        "Apprenticeship level",
+        "Provider type",
+        "Sector subject area (tier 1)"
+      ],
+      "indicators": [
+        "Achievement rate",
+        "Achievers",
+        "Completers",
+        "Leavers",
+        "Pass rate",
+        "Retention rate"
+      ],
+      "file": {
+        "id": "2b1a05c0-3def-4fb3-c5b2-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "na04_app_narts_provider_type_202526_14.csv",
+        "name": "Achievement Rates Provider Type - Volumes and Rates by Provider type, SSA T1, Level, Age",
+        "summary": "Apprenticeship national achievement rate tables.",
+        "size": "617 Kb",
+        "type": "Data",
+        "created": "2026-03-09T15:23:40.7825745Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "1bedb943-7db9-4a8f-e32e-08de7dc5787f",
+      "name": "Achievement Rates Subjects - by Std-fwk flag, Route, Standard-framework name, Detailed Level, Age, Funding Type",
+      "order": 4,
+      "content": "Apprenticeship national achievement rate tables.",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2024/25"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age (under 19/19+)",
+        "Age group",
+        "Apprenticeship level",
+        "Detailed apprenticeship level",
+        "Framework / standard name (with st code)",
+        "Funding type",
+        "Route",
+        "Standard/framework"
+      ],
+      "indicators": [
+        "Achievement rate",
+        "Achievers",
+        "Completers",
+        "Leavers",
+        "Pass rate",
+        "Retention rate"
+      ],
+      "file": {
+        "id": "a3da0adb-eaed-440b-c5b4-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "na06_app_narts_subject_level_route_detailed_202526_14.csv",
+        "name": "Achievement Rates Subjects - by Std-fwk flag, Route, Standard-framework name, Detailed Level, Age, Funding Type",
+        "summary": "Apprenticeship national achievement rate tables.",
+        "size": "30 Mb",
+        "type": "Data",
+        "created": "2026-03-09T15:28:06.3126863Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "69947a8d-1db8-4976-e332-08de7dc5787f",
+      "name": "Achievement Rates Subjects - by Std-fwk flag, SSA T1 and 2, Standard-framework name, Detailed Level, Age, Funding Type",
+      "order": 5,
+      "content": "Apprenticeship national achievement rate tables.",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2024/25"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age (under 19/19+)",
+        "Age group",
+        "Apprenticeship level",
+        "Detailed apprenticeship level",
+        "Framework / standard name (with st code)",
+        "Funding type",
+        "Sector subject area (tier 1)",
+        "Sector subject area (tier 2)",
+        "Standard/framework"
+      ],
+      "indicators": [
+        "Achievement rate",
+        "Achievers",
+        "Completers",
+        "Leavers",
+        "Pass rate",
+        "Retention rate"
+      ],
+      "file": {
+        "id": "98c93ff8-fefe-4573-c5b8-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "na07_app_narts_subject_and_level_detailed_202526_14.csv",
+        "name": "Achievement Rates Subjects - by Std-fwk flag, SSA T1 and 2, Standard-framework name, Detailed Level, Age, Funding Type",
+        "summary": "Apprenticeship national achievement rate tables.",
+        "size": "41 Mb",
+        "type": "Data",
+        "created": "2026-03-09T15:32:34.032893Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "bf9e8967-365c-468a-89a6-08de840ad184",
+      "name": "Achievement Rates Subjects - Volumes and Rates by STEM, SSA T1, Level, Age, Ethnicity, Sex, LLDD",
+      "order": 6,
+      "content": "Apprenticeship national achievement rate tables.",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2024/25"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Apprenticeship level",
+        "Breakdown",
+        "Detailed apprenticeship level",
+        "Sector subject area (tier 1)",
+        "Stem"
+      ],
+      "indicators": [
+        "Achievement rate",
+        "Achievers",
+        "Completers",
+        "Leavers",
+        "Pass rate",
+        "Retention rate"
+      ],
+      "file": {
+        "id": "5b764268-ebeb-4297-ea55-08de840ad195",
+        "extension": "csv",
+        "fileName": "na01_app_narts_subject_demographics_202526_14.csv",
+        "name": "Achievement Rates Subjects - Volumes and Rates by STEM, SSA T1, Level, Age, Ethnicity, Sex, LLDD",
+        "summary": "Apprenticeship national achievement rate tables.",
+        "size": "1 Mb",
+        "type": "Data",
+        "created": "2026-03-17T13:24:39.5719986Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "b7cedc07-f62a-4893-b76d-08de8031e09c",
+      "name": "Adverts and vacancies by Level, month",
+      "order": 7,
+      "content": "Adverts and vacancies as reported on the Find an apprenticeship website.",
+      "timePeriods": {
+        "from": "2018/19",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Month",
+        "Apprenticeship level"
+      ],
+      "indicators": [
+        "Adverts",
+        "Vacancies"
+      ],
+      "file": {
+        "id": "fd6fe4de-bb95-47ac-e46a-08de8031e0aa",
+        "extension": "csv",
+        "fileName": "apps_36_vacancies-adverts-202526_6.csv",
+        "name": "Adverts and vacancies by Level, month",
+        "summary": "Adverts and vacancies as reported on the Find an apprenticeship website.",
+        "size": "42 Kb",
+        "type": "Data",
+        "created": "2026-03-12T12:21:24.4246656Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "4a50339b-ae9b-4898-e356-08de7dc5787f",
+      "name": "Commitments by Start year, Start month, Payment Status, Level, Age, Levy status",
+      "order": 8,
+      "content": "Commitments recorded on the apprenticeship service as at 11 February 2026.",
+      "timePeriods": {
+        "from": "2025/26",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age group",
+        "Apprenticeship level",
+        "Latest levy status",
+        "Payment status",
+        "Start academic year",
+        "Start month",
+        "Transfer flag"
+      ],
+      "indicators": [
+        "Commitments"
+      ],
+      "file": {
+        "id": "927503fa-da79-45a6-c5dc-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "apps_25_app_service_commitments_202526_6.csv",
+        "name": "Commitments by Start year, Start month, Payment Status, Level, Age, Levy status",
+        "summary": "Commitments recorded on the apprenticeship service as at 11 February 2026.",
+        "size": "3 Mb",
+        "type": "Data",
+        "created": "2026-03-10T10:01:19.6547882Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "92429e16-359c-4bdc-db4c-08de6ed8e6d1",
+      "name": "Duration, Starts by Level, Age, Length of employment",
+      "order": 9,
+      "content": "Apprenticeship expected duration, length of employment, age, detailed level",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age",
+        "Detailed level",
+        "Foundation / shorter apprenticeship flag",
+        "Length of employment"
+      ],
+      "indicators": [
+        "Average expected duration (days)",
+        "Starts",
+        "Starts having expected duration under 12 months"
+      ],
+      "file": {
+        "id": "5840a777-1346-4417-e51f-08de6ed8e6f3",
+        "extension": "csv",
+        "fileName": "apps_05_duration_length_employment_202526_6.csv",
+        "name": "Duration, Starts by Level, Age, Length of employment",
+        "summary": "Apprenticeship expected duration, length of employment, age, detailed level",
+        "size": "124 Kb",
+        "type": "Data",
+        "created": "2026-02-19T09:21:56.6185482Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "5a311db5-9467-490c-db4e-08de6ed8e6d1",
+      "name": "Duration, Starts by Level, Age, Length of employment in-year, App Type (Foundation)",
+      "order": 10,
+      "content": "Apprenticeship expected duration, length of employment, age, detailed level in-year",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age",
+        "Detailed level",
+        "Foundation / shorter apprenticeship flag",
+        "Length of employment"
+      ],
+      "indicators": [
+        "Average expected duration (days)",
+        "Starts",
+        "Starts having expected duration under 12 months"
+      ],
+      "file": {
+        "id": "a48debf1-82bc-4cd4-e521-08de6ed8e6f3",
+        "extension": "csv",
+        "fileName": "apps_05a_duration_length_employment_inyear_202526_6.csv",
+        "name": "Duration, Starts by Level, Age, Length of employment in-year, App Type (Foundation)",
+        "summary": "Apprenticeship expected duration, length of employment, age, detailed level in-year",
+        "size": "92 Kb",
+        "type": "Data",
+        "created": "2026-02-19T09:22:01.5024802Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "f26bc0c3-fe30-462b-e35a-08de7dc5787f",
+      "name": "Geography EDA - Starts, Achievements by Age, Sex, Level, SSA, Ethnicity",
+      "order": 11,
+      "content": "Geographical breakdowns (English devolved area) of apprenticeship starts and achievements.",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "English devolved area"
+      ],
+      "filters": [
+        "Age group",
+        "Apprenticeship level",
+        "Ethnicity major",
+        "Sector subject area (tier 1)",
+        "Sex"
+      ],
+      "indicators": [
+        "Achievements",
+        "Starts"
+      ],
+      "file": {
+        "id": "b3df4682-54e6-4ec9-c5e0-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "apps_38_geography_eda_202526_6.csv",
+        "name": "Geography EDA - Starts, Achievements by Age, Sex, Level, SSA, Ethnicity",
+        "summary": "Geographical breakdowns (English devolved area) of apprenticeship starts and achievements.",
+        "size": "58 Mb",
+        "type": "Data",
+        "created": "2026-03-10T10:16:48.0684798Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "4e978dc5-4ebd-43d9-e312-08de7dc5787f",
+      "name": "Geography LAD and PCON - Starts, Participation, Achievements by Age, Sex, Level",
+      "order": 12,
+      "content": "Geographical breakdowns (Region; Local Authority District; National; Parliamentary Constituency) of apprenticeship starts, participation, and achievements.",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "Local authority district",
+        "National",
+        "Parliamentary constituency",
+        "Regional"
+      ],
+      "filters": [
+        "Age group",
+        "Apprenticeship level",
+        "Sex"
+      ],
+      "indicators": [
+        "Achievements",
+        "Participation",
+        "Starts"
+      ],
+      "file": {
+        "id": "c108e042-3729-4eef-c598-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "apps_21_geography_pcon_lad_202526_6.csv",
+        "name": "Geography LAD and PCON - Starts, Participation, Achievements by Age, Sex, Level",
+        "summary": "Geographical breakdowns (Region; Local Authority District; National; Parliamentary Constituency) of apprenticeship starts, participation, and achievements.",
+        "size": "35 Mb",
+        "type": "Data",
+        "created": "2026-03-09T11:37:51.0402366Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "513b8aa7-fa9c-44b3-e3ec-08de7dc5787f",
+      "name": "Geography Region - starts, achievements, participation, population by age, level",
+      "order": 13,
+      "content": "Geographical breakdowns of apprenticeship starts, participation, and achievements.",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "English devolved area",
+        "Local authority",
+        "Local authority district",
+        "Local skills improvement plan area",
+        "National",
+        "Parliamentary constituency",
+        "Regional"
+      ],
+      "filters": [
+        "Age group",
+        "Apprenticeship level"
+      ],
+      "indicators": [
+        "Achievements",
+        "Indicative achievements rate per 100,000 population",
+        "Indicative participation rate per 100,000 population",
+        "Indicative starts rate per 100,000 population",
+        "Participation",
+        "Population estimate",
+        "Starts"
+      ],
+      "file": {
+        "id": "42560a09-f3bd-4685-c672-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "app-geography-population-202526-q2.csv",
+        "name": "Geography Region - starts, achievements, participation, population by age, level",
+        "summary": "Geographical breakdowns of apprenticeship starts, participation, and achievements.",
+        "size": "19 Mb",
+        "type": "Data",
+        "created": "2026-03-12T09:40:39.3870697Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "851562e2-04d5-4663-e348-08de7dc5787f",
+      "name": "Geography Region and LAD - Starts, Achievements by Sex, Level, Ethnicity, SSA",
+      "order": 14,
+      "content": "Geographical breakdowns (Region; Local Authority District) of apprenticeship starts and achievements.",
+      "timePeriods": {
+        "from": "2025/26",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "Local authority district",
+        "National",
+        "Regional"
+      ],
+      "filters": [
+        "Apprenticeship level",
+        "Ethnicity major",
+        "Sector subject area (tier 1)",
+        "Sex"
+      ],
+      "indicators": [
+        "Achievements",
+        "Starts"
+      ],
+      "file": {
+        "id": "1ecff94e-95c7-42a6-c5ce-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "apps_19_geography_detailed_202526_6.csv",
+        "name": "Geography Region and LAD - Starts, Achievements by Sex, Level, Ethnicity, SSA",
+        "summary": "Geographical breakdowns (Region; Local Authority District) of apprenticeship starts and achievements.",
+        "size": "66 Mb",
+        "type": "Data",
+        "created": "2026-03-09T22:13:04.0306547Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "5fd699e9-c5cd-4566-b783-08de8031e09c",
+      "name": "Headline Full year - Starts, Achievements, Participation by Level, Levy, Age, Region, Provider type (API)",
+      "order": 15,
+      "content": "Headline apprenticeship figures showing full year final data from 201718, plus the latest reported to date data for the current academic year.",
+      "timePeriods": {
+        "from": "2017/18",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National",
+        "Regional"
+      ],
+      "filters": [
+        "Age group",
+        "Apprenticeship level",
+        "Funding type",
+        "Provider type"
+      ],
+      "indicators": [
+        "Achievements",
+        "Achievements percentage",
+        "Participation",
+        "Starts",
+        "Starts percentage"
+      ],
+      "file": {
+        "id": "74af6319-35e4-463c-e480-08de8031e0aa",
+        "extension": "csv",
+        "fileName": "apps_55_latest_summary_full_year_202526_6.csv",
+        "name": "Headline Full year - Starts, Achievements, Participation by Level, Levy, Age, Region, Provider type (API)",
+        "summary": "Headline apprenticeship figures showing full year final data from 201718, plus the latest reported to date data for the current academic year.",
+        "size": "7 Mb",
+        "type": "Data",
+        "created": "2026-03-12T15:39:05.215863Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "ddb1b964-376d-4e75-b781-08de8031e09c",
+      "name": "Headline In year - Starts, Achievements, Participation by Level, Levy, Age, Region, Provider type (API)",
+      "order": 16,
+      "content": "Headline apprenticeship figures showing the latest reported to date data for the current year and the equivalent time period for previous years.",
+      "timePeriods": {
+        "from": "2021/22",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National",
+        "Regional"
+      ],
+      "filters": [
+        "Age group",
+        "Apprenticeship level",
+        "Funding type",
+        "Provider type"
+      ],
+      "indicators": [
+        "Achievements",
+        "Achievements percentage",
+        "Participation",
+        "Starts",
+        "Starts percentage"
+      ],
+      "file": {
+        "id": "e06c9283-9db9-43c8-e47e-08de8031e0aa",
+        "extension": "csv",
+        "fileName": "apps_02_latest_summary_API_202526_6.csv",
+        "name": "Headline In year - Starts, Achievements, Participation by Level, Levy, Age, Region, Provider type (API)",
+        "summary": "Headline apprenticeship figures showing the latest reported to date data for the current year and the equivalent time period for previous years.",
+        "size": "3 Mb",
+        "type": "Data",
+        "created": "2026-03-12T14:21:54.4078577Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "86202eef-37e3-4af5-0df7-08de535e4628",
+      "name": "Historical series - Starts, Participation by Age, Level, SSA",
+      "order": 17,
+      "content": "Historical data back to 2002/03 for apprenticeship starts by age, level and sector subject area.",
+      "timePeriods": {
+        "from": "2002/03",
+        "to": "2024/25"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age group",
+        "Apprenticeship level",
+        "Sector subject area (tier 1)"
+      ],
+      "indicators": [
+        "Participation",
+        "Starts"
+      ],
+      "file": {
+        "id": "a2698709-3729-4419-b1ae-08de535e4630",
+        "extension": "csv",
+        "fileName": "app-historical-summary-to-2425.csv",
+        "name": "Historical series - Starts, Participation by Age, Level, SSA",
+        "summary": "Historical data back to 2002/03 for apprenticeship starts by age, level and sector subject area.",
+        "size": "515 Kb",
+        "type": "Data",
+        "created": "2026-01-15T15:49:58.9005375Z"
+      },
+      "lastUpdated": "2026-01-29T09:30:26.8353512Z"
+    },
+    {
+      "id": "2f5c1e46-cc7e-4d77-4733-08de79292989",
+      "name": "Learner Characteristics Deprivation Participation and Starts by Age, Learner home deprivation",
+      "order": 18,
+      "content": "Apprenticeship starts, participation, and achievements by apprentice home deprivation (Indices of Multiple Deprivation quintile). Deprivation is based on the English indices of deprivation 2019.",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age (under 19/19+)",
+        "Age group",
+        "Apprenticeship level",
+        "Detailed apprenticeship level",
+        "Learner deprivation",
+        "Sector subject area (tier 1)"
+      ],
+      "indicators": [
+        "Achievements",
+        "Participation",
+        "Starts"
+      ],
+      "file": {
+        "id": "25966ba1-574f-4547-4c0b-08de79292990",
+        "extension": "csv",
+        "fileName": "apps_11_learner_deprivation_202526_6.csv",
+        "name": "Learner Characteristics Deprivation Participation and Starts by Age, Learner home deprivation",
+        "summary": "Apprenticeship starts, participation, and achievements by apprentice home deprivation (Indices of Multiple Deprivation quintile). Deprivation is based on the English indices of deprivation 2019.",
+        "size": "3 Mb",
+        "type": "Data",
+        "created": "2026-03-05T13:50:24.2792815Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "f26d7d42-d94a-4a9a-472d-08de79292989",
+      "name": "Learner Characteristics Ethnicity - Starts, Achievements, Participation by Age, Level, Ethnicity, Sex, LLDD",
+      "order": 19,
+      "content": "Time series of apprenticeship starts, achievements, participation, by learner characteristics.",
+      "timePeriods": {
+        "from": "2018/19",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age (under 19/19+)",
+        "Age group",
+        "Apprenticeship level",
+        "Ethnicity major",
+        "Ethnicity minor",
+        "Learning difficulty / disability",
+        "Minority ethnic",
+        "Sex"
+      ],
+      "indicators": [
+        "Achievements",
+        "Participation",
+        "Starts"
+      ],
+      "file": {
+        "id": "29c5c5a1-fd02-486c-4c05-08de79292990",
+        "extension": "csv",
+        "fileName": "apps_09_learner_detailed_202526_6.csv",
+        "name": "Learner Characteristics Ethnicity - Starts, Achievements, Participation by Age, Level, Ethnicity, Sex, LLDD",
+        "summary": "Time series of apprenticeship starts, achievements, participation, by learner characteristics.",
+        "size": "11 Mb",
+        "type": "Data",
+        "created": "2026-03-05T13:30:42.7643295Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "bacfc4bc-d311-4fbe-e3b6-08de7dc5787f",
+      "name": "Learner Characteristics In-year - Starts, Achievements, Participation by Age, Ethnicity, LLDD, Sex",
+      "order": 20,
+      "content": "Time series of apprenticeship starts, participation, and achievements by learner characteristics",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Breakdown"
+      ],
+      "indicators": [
+        "Achievements",
+        "Achievements percentage",
+        "Participation",
+        "Participation percentage",
+        "Starts",
+        "Starts percentage"
+      ],
+      "file": {
+        "id": "d2feb9dc-26a4-4126-c63c-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "apps_08_learner_summary_202526_6.csv",
+        "name": "Learner Characteristics In-year - Starts, Achievements, Participation by Age, Ethnicity, LLDD, Sex",
+        "summary": "Time series of apprenticeship starts, participation, and achievements by learner characteristics",
+        "size": "8 Kb",
+        "type": "Data",
+        "created": "2026-03-11T11:37:30.862166Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "ae7797c6-85c5-4da5-e3b8-08de7dc5787f",
+      "name": "Learner Characteristics LLDD - Starts, Achievements, Participation by Age, Level, Ethnicity, LLDD, Primary LLDD",
+      "order": 21,
+      "content": "Apprenticeship starts, achievements and participation by Age, Level, Ethnicity, LLDD, Primary LLDD.",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age (under 19/19+)",
+        "Age group",
+        "Apprenticeship level",
+        "Learning difficulty / disability",
+        "Minority ethnic",
+        "Primary learning difficulty / disability"
+      ],
+      "indicators": [
+        "Achievements",
+        "Participation",
+        "Starts"
+      ],
+      "file": {
+        "id": "7db268ab-d3b3-4b63-c63e-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "apps_10_learner_lldd_202526_6.csv",
+        "name": "Learner Characteristics LLDD - Starts, Achievements, Participation by Age, Level, Ethnicity, LLDD, Primary LLDD",
+        "summary": "Apprenticeship starts, achievements and participation by Age, Level, Ethnicity, LLDD, Primary LLDD.",
+        "size": "2 Mb",
+        "type": "Data",
+        "created": "2026-03-11T11:56:36.0947442Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "4153b6f7-d5a8-4b50-e3c2-08de7dc5787f",
+      "name": "Monthly Apprenticeship Starts by Start month, Age, Level, Fwk-std flag, Levy, App Type (Foundation)",
+      "order": 22,
+      "content": "Monthly breakdowns of apprenticeship starts.",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age group",
+        "Apprenticeship level",
+        "Apprenticeship type",
+        "Funding type",
+        "Standard/framework",
+        "Start month"
+      ],
+      "indicators": [
+        "Starts"
+      ],
+      "file": {
+        "id": "87405db5-b93d-49ec-c648-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "apps_24_monthly_starts_202526_6.csv",
+        "name": "Monthly Apprenticeship Starts by Start month, Age, Level, Fwk-std flag, Levy, App Type (Foundation)",
+        "summary": "Monthly breakdowns of apprenticeship starts.",
+        "size": "738 Kb",
+        "type": "Data",
+        "created": "2026-03-11T15:50:58.0446518Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "58cbfe1d-bed5-4801-e314-08de7dc5787f",
+      "name": "Providers - Starts, Achievements by Provider Name, UKPRN, Level, SSA, App Type (Foundation)",
+      "order": 23,
+      "content": "Breakdowns of apprenticeship starts and achievements by individual provider.",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "Provider"
+      ],
+      "filters": [
+        "Apprenticeship level",
+        "Apprenticeship type",
+        "Sector subject area (tier 1)"
+      ],
+      "indicators": [
+        "Achievements",
+        "Starts"
+      ],
+      "file": {
+        "id": "4d8cab1c-fe2a-45b2-c59a-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "apps_23_provider_starts_202526_6.csv",
+        "name": "Providers - Starts, Achievements by Provider Name, UKPRN, Level, SSA, App Type (Foundation)",
+        "summary": "Breakdowns of apprenticeship starts and achievements by individual provider.",
+        "size": "28 Mb",
+        "type": "Data",
+        "created": "2026-03-09T11:48:09.6346326Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "c9b1b529-4161-497d-e35e-08de7dc5787f",
+      "name": "Redundancies by Age, Level",
+      "order": 24,
+      "content": "Redundancies recorded on the apprenticeship service as at 11 February 2026.",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Month",
+        "Age group",
+        "Apprenticeship level"
+      ],
+      "indicators": [
+        "Redundancies"
+      ],
+      "file": {
+        "id": "aef981e9-28ed-4f4c-c5e4-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "apps_47b_app_redundancies_202526_6.csv",
+        "name": "Redundancies by Age, Level",
+        "summary": "Redundancies recorded on the apprenticeship service as at 11 February 2026.",
+        "size": "89 Kb",
+        "type": "Data",
+        "created": "2026-03-10T10:23:44.7002228Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "afbb1375-995e-4023-db44-08de6ed8e6d1",
+      "name": "Subjects - Starts, Achievements by Age, Sex, LLDD, Level, Levy, App Type (Foundation)",
+      "order": 25,
+      "content": "Time series of apprenticeship starts and achievements by level and funding type.",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age (under 19/19+)",
+        "Age group",
+        "Apprenticeship level",
+        "Apprenticeship type",
+        "Funding type",
+        "Learning difficulty / disability",
+        "Sex"
+      ],
+      "indicators": [
+        "Achievements",
+        "Starts"
+      ],
+      "file": {
+        "id": "4b1f530b-d82b-4a81-e517-08de6ed8e6f3",
+        "extension": "csv",
+        "fileName": "apps_15_subject_levy_202526_6.csv",
+        "name": "Subjects - Starts, Achievements by Age, Sex, LLDD, Level, Levy, App Type (Foundation)",
+        "summary": "Time series of apprenticeship starts and achievements by level and funding type.",
+        "size": "1 Mb",
+        "type": "Data",
+        "created": "2026-02-18T10:31:39.9952065Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "66f489d2-ace6-4da9-db4a-08de6ed8e6d1",
+      "name": "Subjects - Starts, Achievements, Enrolments by Age, Sex, Ethnicity, LLDD, SSA, Detailed level, Standard-framework",
+      "order": 26,
+      "content": "Time series of apprenticeship starts and enrolments by subject and learner demographics.",
+      "timePeriods": {
+        "from": "2019/20",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Breakdown",
+        "Detailed apprenticeship level",
+        "Framework / standard name (with st code)",
+        "Sector subject area (tier 1)"
+      ],
+      "indicators": [
+        "Achievements",
+        "Enrolments",
+        "Starts"
+      ],
+      "file": {
+        "id": "0aab6958-307b-41c0-e51d-08de6ed8e6f3",
+        "extension": "csv",
+        "fileName": "apps_17_subject_standards_202526_6.csv",
+        "name": "Subjects - Starts, Achievements, Enrolments by Age, Sex, Ethnicity, LLDD, SSA, Detailed level, Standard-framework",
+        "summary": "Time series of apprenticeship starts and enrolments by subject and learner demographics.",
+        "size": "25 Mb",
+        "type": "Data",
+        "created": "2026-02-18T10:56:38.0386401Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "9808fd0d-bb97-4520-e3ba-08de7dc5787f",
+      "name": "Subjects - Starts, Achievements, Enrolments by Age, Sex, Ethnicity, LLDD, Route, Detailed level, Standard-framework",
+      "order": 27,
+      "content": "Time series of apprenticeship starts and enrolments by subject and learner demographics.",
+      "timePeriods": {
+        "from": "2019/20",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Breakdown",
+        "Detailed apprenticeship level",
+        "Framework / standard name (with st code)",
+        "Route"
+      ],
+      "indicators": [
+        "Achievements",
+        "Enrolments",
+        "Starts"
+      ],
+      "file": {
+        "id": "088faaee-15c4-4858-c640-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "apps_17a_routes_standards_202526_6.csv",
+        "name": "Subjects - Starts, Achievements, Enrolments by Age, Sex, Ethnicity, LLDD, Route, Detailed level, Standard-framework",
+        "summary": "Time series of apprenticeship starts and enrolments by subject and learner demographics.",
+        "size": "24 Mb",
+        "type": "Data",
+        "created": "2026-03-11T12:04:00.2167928Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "fc4493b3-6111-45f5-e346-08de7dc5787f",
+      "name": "Subjects - Starts, Achievements, Enrolments by Detailed level, and Standard showing age split by Under 22 and 22+",
+      "order": 28,
+      "content": "Time series of apprenticeship starts and achievements by level and standard - also to include new under 22 and 22+ age split",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age group",
+        "Detailed apprenticeship level",
+        "Framework / standard name (with st code)"
+      ],
+      "indicators": [
+        "Achievements",
+        "Enrolments",
+        "Starts"
+      ],
+      "file": {
+        "id": "a3fb73da-e785-477c-c5cc-08de7dbfba67",
+        "extension": "csv",
+        "fileName": "apps_17b_subject_standards_age22_202526_6.csv",
+        "name": "Subjects - Starts, Achievements, Enrolments by Detailed level, and Standard showing age split by Under 22 and 22+",
+        "summary": "Time series of apprenticeship starts and achievements by level and standard - also to include new under 22 and 22+ age split",
+        "size": "4 Mb",
+        "type": "Data",
+        "created": "2026-03-09T22:05:46.4240244Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "feb162b1-2f70-4ef4-2dbb-08de7b6acfb3",
+      "name": "Subjects - Starts, Achievements, Enrolments by Detailed level, Degree flag, Std-fwk flag, STEM, SSA T1 and 2, Route",
+      "order": 29,
+      "content": "Time series of apprenticeship starts, enrolments, and achievements by subject",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age group",
+        "Apprenticeship level",
+        "Detailed apprenticeship level",
+        "Level 6 plus",
+        "Mandatory degree",
+        "Route",
+        "Sector subject area (tier 1)",
+        "Sector subject area (tier 2)",
+        "Standard/framework",
+        "Stem"
+      ],
+      "indicators": [
+        "Achievements",
+        "Enrolments",
+        "Starts"
+      ],
+      "file": {
+        "id": "e228d29c-3771-45df-9414-08de7b6acfc7",
+        "extension": "csv",
+        "fileName": "apps_14_subject_detailed_202526_6.csv",
+        "name": "Subjects - Starts, Achievements, Enrolments by Detailed level, Degree flag, Std-fwk flag, STEM, SSA T1 and 2, Route",
+        "summary": "Time series of apprenticeship starts, enrolments, and achievements by subject",
+        "size": "115 Mb",
+        "type": "Data",
+        "created": "2026-03-06T10:26:21.5929709Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "ed0d500c-4a98-40b1-db46-08de6ed8e6d1",
+      "name": "Subjects - Starts, Enrolments by Detailed age, Sex, Ethnicity, LLDD, SSA, Detailed level, STEM",
+      "order": 30,
+      "content": "Time series of apprenticeship starts and enrolments by subject and learner demographics.",
+      "timePeriods": {
+        "from": "2020/21",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age group (detailed)",
+        "Detailed apprenticeship level",
+        "Learning difficulty / disability",
+        "Minority ethnic",
+        "Sector subject area (tier 1)",
+        "Sex",
+        "Stem"
+      ],
+      "indicators": [
+        "Enrolments",
+        "Starts"
+      ],
+      "file": {
+        "id": "b3bdd538-7c2c-44c3-e519-08de6ed8e6f3",
+        "extension": "csv",
+        "fileName": "apps_16_subject_demographic_202526_6.csv",
+        "name": "Subjects - Starts, Enrolments by Detailed age, Sex, Ethnicity, LLDD, SSA, Detailed level, STEM",
+        "summary": "Time series of apprenticeship starts and enrolments by subject and learner demographics.",
+        "size": "43 Mb",
+        "type": "Data",
+        "created": "2026-02-18T10:37:30.6430212Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "40bb56ee-e978-4970-4737-08de79292989",
+      "name": "Subjects In-year - Starts, Achievements by SSA T1 and T2, Std-fwk flag, Level, Detailed Level",
+      "order": 31,
+      "content": "Time series of apprenticeship starts and achievements by subject and detailed level",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Apprenticeship level",
+        "Detailed apprenticeship level",
+        "Sector subject area (tier 1)",
+        "Sector subject area (tier 2)",
+        "Standard/framework"
+      ],
+      "indicators": [
+        "Achievements",
+        "Achievements percentage",
+        "Starts",
+        "Starts percentage"
+      ],
+      "file": {
+        "id": "2e19ca49-f425-4851-4c0f-08de79292990",
+        "extension": "csv",
+        "fileName": "apps_13_subject_summary_202526_6.csv",
+        "name": "Subjects In-year - Starts, Achievements by SSA T1 and T2, Std-fwk flag, Level, Detailed Level",
+        "summary": "Time series of apprenticeship starts and achievements by subject and detailed level",
+        "size": "545 Kb",
+        "type": "Data",
+        "created": "2026-03-05T13:56:45.2225099Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    },
+    {
+      "id": "7f0682d5-3ca2-4b8c-bc90-08de4234ce5d",
+      "name": "Underlying charts data by provision type - full year",
+      "order": 32,
+      "content": "Historical time series of headline adult (19+) further education and skills learner participation, containing breakdowns by provision type and in some cases level. Also includes some all age apprenticeship participation figures.",
+      "timePeriods": {
+        "from": "2005/06",
+        "to": "2024/25"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Age group",
+        "Level",
+        "Provision type",
+        "Regulated qualification"
+      ],
+      "indicators": [
+        "Participation"
+      ],
+      "file": {
+        "id": "10472239-decb-4160-797e-08de4234ce7e",
+        "extension": "csv",
+        "fileName": "data-for-graphs-2425-final.csv",
+        "name": "Underlying charts data by provision type - full year",
+        "summary": "Historical time series of headline adult (19+) further education and skills learner participation, containing breakdowns by provision type and in some cases level. Also includes some all age apprenticeship participation figures.",
+        "size": "38 Kb",
+        "type": "Data",
+        "created": "2025-12-29T15:30:08.1372018Z"
+      },
+      "lastUpdated": "2026-01-29T09:30:26.8353512Z"
+    },
+    {
+      "id": "197b53d5-ae63-4b6a-b779-08de8031e09c",
+      "name": "Underlying charts data by provision type - in year",
+      "order": 33,
+      "content": "Reported to date historical time series of headline adult (19+) further education and skills learner participation, containing breakdowns by provision type.",
+      "timePeriods": {
+        "from": "2022/23",
+        "to": "2025/26"
+      },
+      "geographicLevels": [
+        "National"
+      ],
+      "filters": [
+        "Provision type"
+      ],
+      "indicators": [
+        "Participation"
+      ],
+      "file": {
+        "id": "aa65a3a8-ad67-45c5-e476-08de8031e0aa",
+        "extension": "csv",
+        "fileName": "Apps56a_and_FES34a_202526_6.csv",
+        "name": "Underlying charts data by provision type - in year",
+        "summary": "Reported to date historical time series of headline adult (19+) further education and skills learner participation, containing breakdowns by provision type.",
+        "size": "1 Kb",
+        "type": "Data",
+        "created": "2026-03-12T12:48:24.2176748Z"
+      },
+      "lastUpdated": "2026-03-26T09:30:13.7836669Z"
+    }
+  ],
+  "themeMeta": [
+    {
+      "id": "cc8e02fd-5599-41aa-940d-26bca68eab53",
+      "summary": "Including children in need and child protection, children looked after and social work workforce statistics",
+      "title": "Children's social care",
+      "publications": [
+        {
+          "id": "d7bd5d9d-dc65-4b1d-99b1-4d815b7369a3",
+          "slug": "children-accommodated-in-secure-childrens-homes",
+          "title": "Children accommodated in secure children's homes",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "89869bba-0c00-40f7-b7d6-e28cb904ad37",
+          "slug": "children-in-need",
+          "title": "Children in need",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "7f32ebcd-8f36-4b9b-fdab-08ddd41933e2",
+          "slug": "children-in-need-a-focus-on-re-referrals",
+          "title": "Children in need: A focus on re-referrals",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "07f9ca49-e12e-4c06-fdac-08ddd41933e2",
+          "slug": "children-in-need-a-focus-on-sexual-abuse-and-exploitation",
+          "title": "Children in need: A focus on sexual abuse and exploitation",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "3260801d-601a-48c6-93b7-cf51680323d1",
+          "slug": "children-looked-after-in-england-including-adoptions",
+          "title": "Children looked after in England including adoptions",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "25216e7a-729d-4f80-c22c-08ddbe116041",
+          "slug": "children-looked-after-a-focus-on-placement-location",
+          "title": "Children looked after: A focus on placement location",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "d8baee79-3c88-45f4-b12a-07b91e9b5c11",
+          "slug": "children-s-social-work-workforce",
+          "title": "Children's social work workforce",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "18576c79-e938-4154-9f12-08da13d30bd1",
+          "slug": "children-s-social-work-workforce-attrition-caseload-and-agency-workforce",
+          "title": "Children's social work workforce: attrition, caseload, and agency workforce",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "98a7cf7e-30d6-4b76-03f5-08da5b671103",
+          "slug": "looked-after-children-aged-16-to-17-in-independent-or-semi-independent-placements",
+          "title": "Looked after children aged 16 to 17 in independent or semi-independent placements",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "f51895df-c682-45e6-b23e-3138ddbfdaeb",
+          "slug": "outcomes-for-children-in-need-including-children-looked-after-by-local-authorities-in-england",
+          "title": "Outcomes for children in need, including children looked after by local authorities in England",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "ea42de23-80c0-4609-89fe-91df00c4f249",
+          "slug": "outcomes-of-children-in-need-including-looked-after-children",
+          "title": "Outcomes of children in need, including looked after children",
+          "supersededBy": {
+            "id": "f51895df-c682-45e6-b23e-3138ddbfdaeb",
+            "slug": "outcomes-for-children-in-need-including-children-looked-after-by-local-authorities-in-england",
+            "title": "Outcomes for children in need, including children looked after by local authorities in England"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "0c2da30b-0210-49d4-cac0-08d87696e25e",
+          "slug": "serious-incident-notifications",
+          "title": "Serious incident notifications",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "27c27d79-290d-4cef-e5ec-08dd6e04ec1b",
+          "slug": "stability-measures-for-children-looked-after-in-england",
+          "title": "Stability measures for children looked after in England",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    },
+    {
+      "id": "2eee78b2-e4d5-4046-9866-c6c5b717a96c",
+      "summary": "Including Attendance in education and early years settings during the coronavirus (COVID-19) outbreak",
+      "title": "COVID-19",
+      "publications": [
+        {
+          "id": "036e2c36-7c48-4a29-8419-a3939be9e173",
+          "slug": "attendance-in-education-and-early-years-settings-during-covid-19",
+          "title": "Attendance in education and early years settings during COVID-19",
+          "supersededBy": {
+            "id": "9676af6b-d563-41f4-d071-08da8f468680",
+            "slug": "pupil-attendance-in-schools",
+            "title": "Pupil attendance in schools"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "4b2e6dfd-69c8-42d7-8fac-08d999fbf656",
+          "slug": "co2-monitors-cumulative-delivery-statistics",
+          "title": "CO2 monitors: cumulative delivery statistics",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "359958a5-b28a-4ab3-508a-08d88f97dffc",
+          "slug": "coronavirus-covid-19-reporting-in-higher-education-providers",
+          "title": "Coronavirus (COVID-19) Reporting in Higher Education Providers",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "6d2ff07c-7ea9-43c0-6937-08d8cddbb024",
+          "slug": "covid-mass-testing-data-in-education",
+          "title": "COVID mass testing data in education",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "1c45fcd7-e1ca-44d2-b4c8-08d9ec8bbabe",
+          "slug": "delivery-of-air-cleaning-units",
+          "title": "Delivery of air cleaning units",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "4d747ecd-10cc-4660-bcdc-08d8b9339e60",
+          "slug": "laptops-and-tablets-data",
+          "title": "Laptops and tablets data",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "7718a5b8-da1c-466f-d350-08daa14d393a",
+          "slug": "vulnerable-children-and-young-people-survey",
+          "title": "Vulnerable children and young people survey",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    },
+    {
+      "id": "6412a76c-cf15-424f-8ebc-3a530132b1b3",
+      "summary": "Including not in education, employment or training (NEET) statistics",
+      "title": "Destination of pupils and students",
+      "publications": [
+        {
+          "id": "657a20f6-13ef-494f-c9c0-08d82a49a1d0",
+          "slug": "16-18-destination-measures",
+          "title": "16-18 destination measures",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "8b12776b-3d36-4475-8115-00974d7de1d0",
+          "slug": "further-education-outcomes",
+          "title": "Further education outcomes",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "b70e71fa-5767-4fb5-c9bf-08d82a49a1d0",
+          "slug": "key-stage-4-destination-measures",
+          "title": "Key stage 4 destination measures",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "2ee2b32a-3fa0-42bb-c9c2-08d82a49a1d0",
+          "slug": "longer-term-destinations",
+          "title": "Longer term destinations",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "2e510281-ca8c-41bf-bbe0-fd15fcc81aae",
+          "slug": "neet-statistics-annual-brief",
+          "title": "NEET age 16 to 24",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "a0eb117e-44a8-4732-adf1-8fbc890cbb62",
+          "slug": "participation-in-education-and-training-and-employment",
+          "title": "Participation in education, training and employment age 16 to 18",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "9f5d0e21-45d3-41e5-1b71-08da5e798404",
+          "slug": "participation-in-education-training-and-neet-age-16-to-17-by-local-authority",
+          "title": "Participation in education, training and NEET age 16 to 17 by local authority",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "61784b00-d1e7-4dbd-c9c1-08d82a49a1d0",
+          "slug": "progression-to-higher-education-or-training",
+          "title": "Progression to higher education or training",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "cb160073-139b-4069-3478-08dad90fbd2f",
+          "slug": "september-guarantee-offers-of-education-and-training-for-young-people-age-16-and-17",
+          "title": "September Guarantee: offers of education and training for young people age 16 and 17",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    },
+    {
+      "id": "e6e31160-fe79-4556-f3a9-08d86094b9e8",
+      "summary": "Including early years foundation stage profile and early years surveys statistics",
+      "title": "Early years",
+      "publications": [
+        {
+          "id": "79a08466-dace-4ff0-94b6-59c5528c9262",
+          "slug": "childcare-and-early-years-provider-survey",
+          "title": "Childcare and early years provider survey",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "060c5376-35d8-420b-8266-517a9339b7bc",
+          "slug": "childcare-and-early-years-survey-of-parents",
+          "title": "Childcare and early years survey of parents",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "2b4fdd0f-e58f-4368-8d66-08dc0dee4273",
+          "slug": "early-years-education-recovery",
+          "title": "Early years education recovery",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "fcda2962-82a6-4052-afa2-ea398c53c85f",
+          "slug": "early-years-foundation-stage-profile-results",
+          "title": "Early years foundation stage profile results",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "f2e7f229-f7b0-45ab-624f-08dd83281976",
+          "slug": "expansion-to-early-childcare-entitlements-childcare-experiences-survey",
+          "title": "Expansion to early childcare entitlements: Childcare Experiences Survey",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "8042c52d-16d4-4b7b-66f5-08dc1b6b9886",
+          "slug": "expansion-to-early-childcare-entitlements-eligibility-codes-issued-and-validated",
+          "title": "Expansion to early childcare entitlements: eligibility codes issued and validated",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "0ce6a6c6-5451-4967-8dd4-2f4fa8131982",
+          "slug": "funded-early-education-and-childcare",
+          "title": "Funded early education and childcare",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    },
+    {
+      "id": "bc08839f-2970-4f34-af2d-29608a48082f",
+      "summary": "Including local authority (LA) and student loan statistics",
+      "title": "Finance and funding",
+      "publications": [
+        {
+          "id": "dcb8b32b-4e50-4fe2-a539-58f9b6b3a366",
+          "slug": "la-and-school-expenditure",
+          "title": "LA and school expenditure",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "94d16c6e-1e5f-48d5-8195-8ea770f1b0d4",
+          "slug": "planned-la-and-school-expenditure",
+          "title": "Planned LA and school expenditure",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "bdbab446-c985-4b44-d072-08da8f468680",
+          "slug": "school-finances-during-the-covid-19-pandemic",
+          "title": "School finances during the Covid-19 pandemic",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "39dce2e3-4976-41ac-cb95-08d8bdf1a994",
+          "slug": "school-funding-statistics",
+          "title": "School funding statistics",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "fd68e147-b7ee-464f-8b02-dcd917dc362d",
+          "slug": "student-loan-forecasts-for-england",
+          "title": "Student loan forecasts for England",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    },
+    {
+      "id": "92c5df93-c4da-4629-ab25-51bd2920cdca",
+      "summary": "Including advanced learner loan, benefit claimant and apprenticeship and traineeship statistics",
+      "title": "Further education",
+      "publications": [
+        {
+          "id": "412d8090-ab45-455a-c176-08dbf5ab522b",
+          "slug": "apprenticeships",
+          "title": "Apprenticeships",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "b2eed9e7-3845-47ab-e9a9-08d9a8ec2f9e",
+          "slug": "apprenticeships-and-19-plus-further-education-skills-index",
+          "title": "Apprenticeships and 19-plus Further Education Skills Index",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "cf0ec981-3583-42a5-b21b-3f2f32008f1b",
+          "slug": "apprenticeships-and-traineeships",
+          "title": "Apprenticeships and traineeships",
+          "supersededBy": {
+            "id": "412d8090-ab45-455a-c176-08dbf5ab522b",
+            "slug": "apprenticeships",
+            "title": "Apprenticeships"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "c858107c-1b98-4818-2731-08d8a11fd8ef",
+          "slug": "apprenticeships-in-england-by-industry-characteristics",
+          "title": "Apprenticeships in England by industry characteristics ",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "9c2209b2-a702-439b-bece-08da1714e874",
+          "slug": "career-pathways-post-16-qualifications-held-by-employees",
+          "title": "Career pathways: post-16 qualifications held by employees",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "a2778204-c541-404a-85aa-08da115e8407",
+          "slug": "detailed-destinations-of-16-to-18-year-olds-in-further-education",
+          "title": "Detailed destinations of 16 to 18 year olds in Further Education",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "1aa10012-ee64-4ece-f4b1-08d8b7d3c33b",
+          "slug": "fe-learners-going-into-employment-and-learning-destinations-by-local-authority-district",
+          "title": "FE learners going into employment and learning destinations by local authority district",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "13b81bcb-e8cd-4431-9807-ca588fd1d02a",
+          "slug": "further-education-and-skills",
+          "title": "Further education and skills",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "11d3385f-8d48-4e07-1255-08db886b552e",
+          "slug": "further-education-workforce",
+          "title": "Further education workforce",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "ffc387d9-0836-435b-30d6-08dacbc13895",
+          "slug": "skills-bootcamps-starts",
+          "title": "Skills Bootcamps starts",
+          "supersededBy": {
+            "id": "ce8ef30f-1b14-45d4-4854-08d99eeed35d",
+            "slug": "skills-bootcamps-starts-completions-and-outcomes",
+            "title": "Skills bootcamps starts, completions and outcomes"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "ce8ef30f-1b14-45d4-4854-08d99eeed35d",
+          "slug": "skills-bootcamps-starts-completions-and-outcomes",
+          "title": "Skills bootcamps starts, completions and outcomes",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "1d44a317-2128-4359-84c3-08dc5dea63ea",
+          "slug": "supply-of-skills-for-jobs-in-science-and-technology",
+          "title": "Supply of skills for jobs in science and technology",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    },
+    {
+      "id": "2ca22e34-b87a-4281-a0eb-b80f4f8dd374",
+      "summary": "Including university graduate employment, graduate labour market and participation statistics",
+      "title": "Higher education",
+      "publications": [
+        {
+          "id": "8008b2e4-a23f-459b-1ec9-08dad132b8b4",
+          "slug": "foundation-years-statistics",
+          "title": "Foundation year participation, provision and outcomes at HE providers",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "42a888c4-9ee7-40fd-9128-f5de546780b3",
+          "slug": "graduate-labour-markets",
+          "title": "Graduate labour market statistics",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "2d629fad-d66d-46d8-849d-08d8b249ed05",
+          "slug": "graduate-outcomes-leo",
+          "title": "Graduate outcomes (LEO)",
+          "supersededBy": {
+            "id": "b329f8e4-4191-4f0c-66a8-08d9daa3b093",
+            "slug": "leo-graduate-and-postgraduate-outcomes",
+            "title": "LEO Graduate and Postgraduate Outcomes"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "4d29c28c-efd1-4245-a80c-b55c6a50e3f7",
+          "slug": "graduate-outcomes-leo-postgraduate-outcomes",
+          "title": "Graduate outcomes (LEO): postgraduate outcomes",
+          "supersededBy": {
+            "id": "b329f8e4-4191-4f0c-66a8-08d9daa3b093",
+            "slug": "leo-graduate-and-postgraduate-outcomes",
+            "title": "LEO Graduate and Postgraduate Outcomes"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "4fc3a5e3-7f33-49a7-028e-08dc39e23fcc",
+          "slug": "higher-education-entrants-and-qualifiers-by-their-level-2-and-3-attainment",
+          "title": "Higher Education Entrants and Qualifiers by their Level 2 and 3 Attainment",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "e926dcde-e610-4721-ea39-08d968ac9105",
+          "slug": "higher-level-learners-in-england",
+          "title": "Higher Level Learners in England",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "b329f8e4-4191-4f0c-66a8-08d9daa3b093",
+          "slug": "leo-graduate-and-postgraduate-outcomes",
+          "title": "LEO Graduate and Postgraduate Outcomes",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "f27b380e-98a6-4b1a-9d98-f7b7a5392032",
+          "slug": "graduate-outcomes-leo-provider-level-data",
+          "title": "LEO Graduate outcomes provider level data",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": false
+        },
+        {
+          "id": "0c67bbdb-4eb0-41cf-a62e-2589cee58538",
+          "slug": "participation-measures-in-higher-education",
+          "title": "Participation measures in higher education",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "04b59c44-bfb8-4d7d-841d-08d9a365444f",
+          "slug": "uk-revenue-from-education-related-exports-and-transnational-education-activity",
+          "title": "UK revenue from education related exports and transnational education activity",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "c28f7aca-f1e8-4916-8ce3-fc177b140695",
+          "slug": "widening-participation-in-higher-education",
+          "title": "Widening participation in higher education",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    },
+    {
+      "id": "291cb3a2-4a29-4ff6-db25-08dcc348573e",
+      "summary": "Including occupations in demand",
+      "title": "Labour market and skills",
+      "publications": [
+        {
+          "id": "36097731-f107-4e6c-e2e7-08dcc3489646",
+          "slug": "occupations-in-demand",
+          "title": "Occupations in demand",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    },
+    {
+      "id": "ee1855ca-d1e1-4f04-a795-cbd61d326a1f",
+      "summary": "Including absence, application and offers, capacity, exclusion and special educational needs (SEN) statistics",
+      "title": "Pupils and schools",
+      "publications": [
+        {
+          "id": "4e9eb1f5-8440-4e39-2d3e-08d93a1d8d28",
+          "slug": "academy-transfers-and-funding",
+          "title": "Academy transfers and funding",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "123461ab-50be-45d9-8523-c5241a2c9c5b",
+          "slug": "admission-appeals-in-england",
+          "title": "Admission appeals in England",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "34a2c514-d603-4246-f47b-08db2568bd10",
+          "slug": "children-missing-education",
+          "title": "Children missing education",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "8a3aafe8-4191-4a62-f479-08db2568bd10",
+          "slug": "education-children-s-social-care-and-offending-local-authority-level-dashboard",
+          "title": "Education, children’s social care and offending: local authority level dashboard",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "88312cc0-fe1d-4ab5-81df-33fd708185cb",
+          "slug": "education-health-and-care-plans",
+          "title": "Education, health and care plans",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "a5b2d325-d8a2-4cad-f47a-08db2568bd10",
+          "slug": "elective-home-education",
+          "title": "Elective home education",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "23a9962f-37ef-4b1c-8077-08dda2b70e1a",
+          "slug": "estimate-of-additional-children-claiming-free-school-meals-following-expansion-of-eligibility",
+          "title": "Estimate of additional children claiming Free School Meals following expansion of eligibility",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "346a6978-9ee5-4b63-0ce1-08d88fd5ace1",
+          "slug": "free-school-meals-autumn-term",
+          "title": "Free school meals: Autumn term",
+          "supersededBy": {
+            "id": "a91d9e05-be82-474c-85ae-4913158406d0",
+            "slug": "school-pupils-and-their-characteristics",
+            "title": "Schools, pupils and their characteristics"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "5c066362-9e14-4688-4f8a-08d83303033f",
+          "slug": "local-authority-school-places-scorecards",
+          "title": "Local authority school places scorecards",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "aa545525-9ffe-496c-a5b3-974ace56746e",
+          "slug": "national-pupil-projections",
+          "title": "National pupil projections",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "71cfcea3-359c-4089-722e-08da07fcb6c9",
+          "slug": "national-tutoring-programme",
+          "title": "National Tutoring Programme",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "86af24dc-67c4-47f0-a849-e94c7a1cfe9b",
+          "slug": "parental-responsibility-measures",
+          "title": "Parental responsibility measures",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "66c8e9db-8bf2-4b0b-b094-cfab25c20b05",
+          "slug": "primary-and-secondary-school-applications-and-offers",
+          "title": "Primary and secondary school applications and offers",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "cbbd299f-8297-44bc-92ac-558bcf51f8ad",
+          "slug": "pupil-absence-in-schools-in-england",
+          "title": "Pupil absence in schools in England",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "14953fda-02ff-45ed-9573-3a7a0ad8cb10",
+          "slug": "pupil-absence-in-schools-in-england-autumn-and-spring-terms",
+          "title": "Pupil absence in schools in England: autumn and spring terms",
+          "supersededBy": {
+            "id": "cbbd299f-8297-44bc-92ac-558bcf51f8ad",
+            "slug": "pupil-absence-in-schools-in-england",
+            "title": "Pupil absence in schools in England"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "6c388293-d027-4f74-8d74-29a42e02231c",
+          "slug": "pupil-absence-in-schools-in-england-autumn-term",
+          "title": "Pupil absence in schools in England: autumn term",
+          "supersededBy": {
+            "id": "cbbd299f-8297-44bc-92ac-558bcf51f8ad",
+            "slug": "pupil-absence-in-schools-in-england",
+            "title": "Pupil absence in schools in England"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "9676af6b-d563-41f4-d071-08da8f468680",
+          "slug": "pupil-attendance-in-schools",
+          "title": "Pupil attendance in schools",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "f022fa36-ebb9-4e88-acd9-08d870f85341",
+          "slug": "pupil-yield-from-housing-developments",
+          "title": "Pupil yield from housing developments",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "fa591a15-ae37-41b5-98f6-4ce06e5225f4",
+          "slug": "school-capacity",
+          "title": "School capacity",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "26d77b31-e11a-4ef1-866d-08da3d724347",
+          "slug": "school-placements-for-children-from-outside-of-the-uk",
+          "title": "School placements for children from outside of the UK",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "4cd161ca-468f-4023-9b91-08d8d4cdc4e0",
+          "slug": "school-places-sufficiency-survey",
+          "title": "School places sufficiency survey",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "95b66a3e-6b1c-43f0-25a6-08dd868ff134",
+          "slug": "schools-eligible-for-rise-intervention",
+          "title": "Schools eligible for RISE intervention",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "a91d9e05-be82-474c-85ae-4913158406d0",
+          "slug": "school-pupils-and-their-characteristics",
+          "title": "Schools, pupils and their characteristics",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "f657afb4-8f4a-427d-a683-15f11a2aefb5",
+          "slug": "special-educational-needs-in-england",
+          "title": "Special educational needs in England",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "bf2b4284-6b84-46b0-aaaa-a2e0a23be2a9",
+          "slug": "suspensions-and-permanent-exclusions-in-england",
+          "title": "Suspensions and permanent exclusions in England",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "729bac29-9204-4b9f-2426-08d9fdd01d19",
+          "slug": "the-link-between-absence-and-attainment-at-ks2-and-ks4",
+          "title": "The link between absence and attainment at KS2 and KS4",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    },
+    {
+      "id": "74648781-85a9-4233-8be3-fe6f137165f4",
+      "summary": "Including GCSE and key stage statistics",
+      "title": "School and college outcomes and performance",
+      "publications": [
+        {
+          "id": "3f3a66ec-5777-42ee-b427-8102a14ce0c5",
+          "slug": "a-level-and-other-16-to-18-results",
+          "title": "A level and other 16 to 18 results",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "bc4815bf-f3dc-477b-7559-08da5f64dcf1",
+          "slug": "key-stage-1-and-phonics-screening-check-attainment",
+          "title": "Key stage 1 and phonics screening check attainment",
+          "supersededBy": {
+            "id": "5becb18e-852b-4cdf-e2e8-08dcc3489646",
+            "slug": "phonics-screening-check-attainment",
+            "title": "Phonics screening check attainment"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "8b7474f9-5870-4ecc-7557-08da5f64dcf1",
+          "slug": "key-stage-2-attainment",
+          "title": "Key stage 2 attainment",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "10370062-93b0-4dde-9097-5a56bf5b3064",
+          "slug": "key-stage-2-attainment-national-headlines",
+          "title": "Key stage 2 attainment: National headlines",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "c8756008-ed50-4632-9b96-01b5ca002a43",
+          "slug": "key-stage-4-performance",
+          "title": "Key stage 4 performance",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "2e95f880-629c-417b-981f-0901e97776ff",
+          "slug": "level-2-and-3-attainment-by-young-people-aged-19",
+          "title": "Level 2 and 3 attainment age 16 to 25",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "d61988ae-f325-45df-8246-08dac639349a",
+          "slug": "multi-academy-trust-performance-measures-key-stages-2-4-and-5",
+          "title": "Multi-academy trust performance measures (Key stages 2, 4 and 5)",
+          "supersededBy": {
+            "id": "8b7474f9-5870-4ecc-7557-08da5f64dcf1",
+            "slug": "key-stage-2-attainment",
+            "title": "Key stage 2 attainment"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "eab51107-4ef0-4926-8f8b-c8bd7f5a21d5",
+          "slug": "multi-academy-trust-performance-measures-at-key-stage-2",
+          "title": "Multi-academy trust performance measures at key stage 2",
+          "supersededBy": {
+            "id": "d61988ae-f325-45df-8246-08dac639349a",
+            "slug": "multi-academy-trust-performance-measures-key-stages-2-4-and-5",
+            "title": "Multi-academy trust performance measures (Key stages 2, 4 and 5)"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "13484f09-40e7-4b8b-7558-08da5f64dcf1",
+          "slug": "multiplication-tables-check-attainment",
+          "title": "Multiplication tables check attainment",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "5becb18e-852b-4cdf-e2e8-08dcc3489646",
+          "slug": "phonics-screening-check-attainment",
+          "title": "Phonics screening check attainment",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "d6d6ef58-2fad-4ef4-1c62-08da6faca262",
+          "slug": "provisional-t-level-results",
+          "title": "Provisional T Level results",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "b99702f4-a277-4f1b-eba8-08dd9f501d22",
+          "slug": "school-counts-by-average-progress-8-scores-for-disadvantaged-white-british-pupils",
+          "title": "School counts by average Progress 8 scores for disadvantaged White British pupils",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    },
+    {
+      "id": "b601b9ea-b1c7-4970-b354-d1f695c446f1",
+      "summary": "Including initial teacher training (ITT) statistics",
+      "title": "Teachers and school workforce",
+      "publications": [
+        {
+          "id": "4946c7e4-5ab4-48d4-5932-08db04473582",
+          "slug": "ecf-and-npq-starts",
+          "title": "ECF and NPQ starts",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "465d5a87-dba8-49ee-b7e3-08d86b7beb8f",
+          "slug": "initial-teacher-training-census",
+          "title": "Initial Teacher Training Census",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "d34978d5-0317-46bc-9258-13412270ac4d",
+          "slug": "initial-teacher-training-performance-profiles",
+          "title": "Initial teacher training performance profiles",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "5dbac9b4-522f-46fa-20fd-08dc73fd4523",
+          "slug": "median-teacher-pay-using-teacher-pension-scheme-data",
+          "title": "Median teacher pay using teacher pension scheme data",
+          "supersededBy": {
+            "id": "b318967f-2931-472a-93f2-fbed1e181e6a",
+            "slug": "school-workforce-in-england",
+            "title": "School workforce in England"
+          },
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": true,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "02e502cd-6333-4c28-a535-08da004ba44f",
+          "slug": "postgraduate-initial-teacher-training-targets",
+          "title": "Postgraduate initial teacher training targets",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "8132cffb-8ecb-4f7c-d1a0-08ddec782b96",
+          "slug": "school-leadership-retention",
+          "title": "School Leadership retention",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "b318967f-2931-472a-93f2-fbed1e181e6a",
+          "slug": "school-workforce-in-england",
+          "title": "School workforce in England",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "b3134103-1297-4758-4654-08da2e6fc320",
+          "slug": "teacher-and-leader-development-ecf-and-npqs",
+          "title": "Teacher and leader development: ECF and NPQs",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    },
+    {
+      "id": "a95d2ca2-a969-4320-b1e9-e4781112574a",
+      "summary": "Including summarised expenditure, post-compulsory education, qualification and school statistics",
+      "title": "UK education and training statistics",
+      "publications": [
+        {
+          "id": "2ffbc8d3-eb53-4c4b-a6fb-219a5b95ebc8",
+          "slug": "education-and-training-statistics-for-the-uk",
+          "title": "Education and training statistics for the UK",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        },
+        {
+          "id": "3c1ba528-aa57-4b9c-347a-08dad90fbd2f",
+          "slug": "employer-skills-survey",
+          "title": "Employer Skills Survey ",
+          "anyLiveReleaseHasData": true,
+          "isSuperseded": false,
+          "latestReleaseHasData": true
+        }
+      ]
+    }
+  ]
+}

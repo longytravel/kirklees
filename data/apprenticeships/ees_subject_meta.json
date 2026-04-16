@@ -1,0 +1,308 @@
+{
+  "filters": {
+    "AgeGroup": {
+      "id": "aa7b3018-56d0-4cb4-afc8-08de529ad81d",
+      "legend": "Age group",
+      "options": {
+        "Default": {
+          "id": "ceb1af06-669e-4ee0-8c68-a4c5b267bf30",
+          "label": "Default",
+          "options": [
+            {
+              "label": "Total",
+              "value": "d90819b1-6a9a-4644-b51e-5e98ada5136b"
+            },
+            {
+              "label": "Under 19",
+              "value": "740f063e-7abd-42fb-9cd1-5b2364d6d567"
+            },
+            {
+              "label": "19-24",
+              "value": "7b5d638d-02a7-4134-8143-3b2aaff3c6eb"
+            },
+            {
+              "label": "25+",
+              "value": "83a556a8-c4b8-4cb0-8978-f23afe2081fc"
+            }
+          ],
+          "order": 0
+        }
+      },
+      "name": "age_summary",
+      "autoSelectFilterItemId": "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "order": 0
+    },
+    "ApprenticeshipLevel": {
+      "id": "184ab18c-c379-4e80-afc7-08de529ad81d",
+      "legend": "Apprenticeship level",
+      "options": {
+        "Default": {
+          "id": "ade9bd89-e167-4839-b59d-7fc67b07f777",
+          "label": "Default",
+          "options": [
+            {
+              "label": "Total",
+              "value": "7318d555-a386-4777-a750-2295d975c764"
+            },
+            {
+              "label": "Intermediate Apprenticeship",
+              "value": "6356ffdb-1938-4451-bc8b-d2d3aa327d3a"
+            },
+            {
+              "label": "Advanced Apprenticeship",
+              "value": "47176949-19e0-43b2-aa26-35f39a47537e"
+            },
+            {
+              "label": "Higher Apprenticeship",
+              "value": "72a03187-93f4-4d42-85a9-e21cb9967d83"
+            },
+            {
+              "label": "Unknown",
+              "value": "6ca54921-d8c1-4ed8-8eb1-5aa6c6787f3d"
+            }
+          ],
+          "order": 0
+        }
+      },
+      "name": "apps_level",
+      "autoSelectFilterItemId": "7318d555-a386-4777-a750-2295d975c764",
+      "order": 1
+    },
+    "SectorSubjectAreaTier1": {
+      "id": "d439dd59-8466-4b25-afc9-08de529ad81d",
+      "legend": "Sector subject area (tier 1)",
+      "options": {
+        "Default": {
+          "id": "f352942a-425e-40b8-b421-e7002c72f31d",
+          "label": "Default",
+          "options": [
+            {
+              "label": "Total",
+              "value": "d5bda5bf-5098-43b0-a292-ecea436b1554"
+            },
+            {
+              "label": "Agriculture, Horticulture and Animal Care",
+              "value": "5f4893e8-5e85-46b8-bb45-e5ac9c8a74db"
+            },
+            {
+              "label": "Arts, Media and Publishing",
+              "value": "6d895ea2-c5ab-4388-ac6a-443ef0c2d890"
+            },
+            {
+              "label": "Business, Administration and Law",
+              "value": "2c58f05a-adb6-4d8d-85ce-81f5e48471db"
+            },
+            {
+              "label": "Construction, Planning and the Built Environment",
+              "value": "29dba325-cf97-4ff9-b5c1-60ab0282cdcb"
+            },
+            {
+              "label": "Digital Technology",
+              "value": "56f2804f-8f17-4130-999b-61008f48e6db"
+            },
+            {
+              "label": "Education and Training",
+              "value": "bed0d22a-3959-4ec1-bffd-cc48f1cf7c31"
+            },
+            {
+              "label": "Engineering and Manufacturing Technologies",
+              "value": "68f62c76-28fe-42ff-8da3-88a47126e295"
+            },
+            {
+              "label": "Health, Public Services and Care",
+              "value": "a966b3af-e396-4fcc-a335-8688b80a2f80"
+            },
+            {
+              "label": "History, Philosophy and Theology",
+              "value": "b5fefcbf-950b-4332-ab58-369d8b90157d"
+            },
+            {
+              "label": "Leisure, Travel and Tourism",
+              "value": "8b19550f-2bfa-4fde-afa5-65e858f5a6c9"
+            },
+            {
+              "label": "Preparation for Life and Work",
+              "value": "0ab28f8c-0a53-499a-89fd-d6c0aa2a1459"
+            },
+            {
+              "label": "Retail and Commercial Enterprise",
+              "value": "d56eca2e-7d92-4f33-8870-498870de81b1"
+            },
+            {
+              "label": "Science and Mathematics",
+              "value": "0b6e9b1d-cb0b-4efc-8e2c-ede212cfc53e"
+            },
+            {
+              "label": "Social Sciences",
+              "value": "476597c2-e204-4233-b9c7-4af1a724e58f"
+            },
+            {
+              "label": "Unknown",
+              "value": "af65ba41-4f18-4a68-8d70-a973ae805191"
+            }
+          ],
+          "order": 0
+        }
+      },
+      "name": "ssa_tier_1",
+      "autoSelectFilterItemId": "d5bda5bf-5098-43b0-a292-ecea436b1554",
+      "order": 2
+    }
+  },
+  "indicators": {
+    "Default": {
+      "id": "ccbc2097-169a-44e8-b999-48bdf5234a2a",
+      "label": "Default",
+      "options": [
+        {
+          "label": "Participation",
+          "unit": "",
+          "value": "09df5f58-1833-448a-afcb-08de529ad81d",
+          "name": "participation",
+          "decimalPlaces": 0
+        },
+        {
+          "label": "Starts",
+          "unit": "",
+          "value": "7f2628eb-4dc8-4162-afca-08de529ad81d",
+          "name": "starts",
+          "decimalPlaces": 0
+        }
+      ],
+      "order": 0
+    }
+  },
+  "locations": {
+    "country": {
+      "legend": "National",
+      "options": [
+        {
+          "id": "058416da-0cae-4958-aa00-203d745858ae",
+          "label": "England",
+          "value": "E92000001"
+        }
+      ]
+    }
+  },
+  "timePeriod": {
+    "hint": "Filter statistics by a given start and end date",
+    "legend": "",
+    "options": [
+      {
+        "code": "AY",
+        "label": "2002/03",
+        "year": 2002
+      },
+      {
+        "code": "AY",
+        "label": "2003/04",
+        "year": 2003
+      },
+      {
+        "code": "AY",
+        "label": "2004/05",
+        "year": 2004
+      },
+      {
+        "code": "AY",
+        "label": "2005/06",
+        "year": 2005
+      },
+      {
+        "code": "AY",
+        "label": "2006/07",
+        "year": 2006
+      },
+      {
+        "code": "AY",
+        "label": "2007/08",
+        "year": 2007
+      },
+      {
+        "code": "AY",
+        "label": "2008/09",
+        "year": 2008
+      },
+      {
+        "code": "AY",
+        "label": "2009/10",
+        "year": 2009
+      },
+      {
+        "code": "AY",
+        "label": "2010/11",
+        "year": 2010
+      },
+      {
+        "code": "AY",
+        "label": "2011/12",
+        "year": 2011
+      },
+      {
+        "code": "AY",
+        "label": "2012/13",
+        "year": 2012
+      },
+      {
+        "code": "AY",
+        "label": "2013/14",
+        "year": 2013
+      },
+      {
+        "code": "AY",
+        "label": "2014/15",
+        "year": 2014
+      },
+      {
+        "code": "AY",
+        "label": "2015/16",
+        "year": 2015
+      },
+      {
+        "code": "AY",
+        "label": "2016/17",
+        "year": 2016
+      },
+      {
+        "code": "AY",
+        "label": "2017/18",
+        "year": 2017
+      },
+      {
+        "code": "AY",
+        "label": "2018/19",
+        "year": 2018
+      },
+      {
+        "code": "AY",
+        "label": "2019/20",
+        "year": 2019
+      },
+      {
+        "code": "AY",
+        "label": "2020/21",
+        "year": 2020
+      },
+      {
+        "code": "AY",
+        "label": "2021/22",
+        "year": 2021
+      },
+      {
+        "code": "AY",
+        "label": "2022/23",
+        "year": 2022
+      },
+      {
+        "code": "AY",
+        "label": "2023/24",
+        "year": 2023
+      },
+      {
+        "code": "AY",
+        "label": "2024/25",
+        "year": 2024
+      }
+    ]
+  }
+}

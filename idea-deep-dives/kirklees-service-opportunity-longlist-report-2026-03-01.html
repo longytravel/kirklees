@@ -1,0 +1,386 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kirklees College Service Opportunity Report - Detailed Build Blueprints</title>
+  <style>
+    @page { size: A4; margin: 16mm 12mm; }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #1f2937;
+      line-height: 1.4;
+      font-size: 11.5px;
+      margin: 0;
+      background: #fff;
+    }
+    h1, h2, h3 { margin: 0 0 8px; color: #0f172a; }
+    h1 { font-size: 22px; }
+    h2 { font-size: 16px; margin-top: 16px; border-bottom: 1px solid #dbeafe; padding-bottom: 4px; }
+    h3 { font-size: 13px; margin-top: 10px; }
+    p { margin: 6px 0; }
+    ul { margin: 6px 0 8px 18px; padding: 0; }
+    li { margin: 2px 0; }
+    table { width: 100%; border-collapse: collapse; margin: 8px 0 10px; table-layout: fixed; }
+    th, td { border: 1px solid #d1d5db; padding: 6px; text-align: left; vertical-align: top; word-wrap: break-word; }
+    th { background: #f8fafc; font-weight: 700; }
+    .cover {
+      border: 2px solid #0f766e;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 14px;
+      background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 65%);
+    }
+    .small { font-size: 10px; color: #475569; }
+    .note {
+      border-left: 4px solid #0284c7;
+      background: #f0f9ff;
+      padding: 8px 10px;
+      margin: 8px 0;
+    }
+    .idea {
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 8px;
+      margin: 8px 0;
+      page-break-inside: avoid;
+    }
+    .meta { margin: 6px 0; }
+    .badge { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 10px; margin-left: 6px; }
+    .high { background: #dcfce7; color: #14532d; }
+    .med { background: #fef3c7; color: #78350f; }
+    .low { background: #fee2e2; color: #7f1d1d; }
+    .row { display: table; width: 100%; }
+    .col { display: table-cell; width: 50%; vertical-align: top; padding-right: 8px; }
+    .break { page-break-before: always; }
+    .footer {
+      margin-top: 14px;
+      font-size: 9.5px;
+      color: #64748b;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <h1>Kirklees College Service Opportunity Report</h1>
+    <h3>Detailed Build Blueprints Aligned to the Existing SensAI Platform</h3>
+    <p>This version explicitly describes what you would build for each idea using the components already present in <code>nuffield-health</code>.</p>
+    <div class="meta small">
+      <div><strong>Date:</strong> 1 March 2026</div>
+      <div><strong>Audience:</strong> Partner discussion and commercial strategy</div>
+      <div><strong>Scope:</strong> Full idea list, concrete build shape, pros/cons, and data accessibility scoring (public data scores higher)</div>
+    </div>
+  </div>
+
+  <h2>1. Existing Platform Building Blocks (Already Built)</h2>
+  <p>These are the concrete modules this report assumes you will reuse:</p>
+  <ul>
+    <li><strong>Pipeline orchestration:</strong> <code>src/scraper/run.ts</code> (stage pipeline, retries, status tracking).</li>
+    <li><strong>Parse and score engine:</strong> <code>src/scraper/parse.ts</code>, <code>src/scraper/assess.ts</code>, <code>src/scraper/score.ts</code>.</li>
+    <li><strong>Database model:</strong> <code>src/db/schema.ts</code> with run snapshots, flags, review state, rewrites, and evidence tables.</li>
+    <li><strong>Explorer and filters:</strong> consultant explorer patterns in <code>src/app/consultants</code>.</li>
+    <li><strong>Action centre:</strong> prioritized uplift workflow in <code>src/app/actions</code>.</li>
+    <li><strong>Review queue:</strong> low-confidence and fail-flag handling in <code>src/app/consultants/review</code>.</li>
+    <li><strong>Copilot:</strong> natural-language data querying in <code>src/components/ui/ai-copilot.tsx</code> and <code>src/app/api/copilot/route.ts</code>.</li>
+    <li><strong>Reports:</strong> PDF and CSV flows in <code>src/app/reports</code> and export APIs.</li>
+    <li><strong>Configuration controls:</strong> score/tier controls in <code>src/app/configuration</code>.</li>
+  </ul>
+
+  <div class="note">
+    <strong>Interpretation rule used below:</strong> "What you would build" means a domain-adapted variant of the same architecture pattern: data job(s) -> deterministic + AI scoring -> explorer dashboards -> action queue -> review workflow -> board reporting.
+  </div>
+
+  <h2>2. Data Accessibility Scoring Rule</h2>
+  <table>
+    <thead>
+      <tr><th style="width: 14%">Score</th><th>Meaning</th><th>Effect on Go-to-Market</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>5</td><td>Mostly public/open reusable data. Minimal licensing friction.</td><td>Fastest legal/commercial path.</td></tr>
+      <tr><td>4</td><td>Mainly public data with some terms-of-use caveats.</td><td>Good speed, moderate diligence.</td></tr>
+      <tr><td>3</td><td>Mixed model: public data + internal college data.</td><td>Needs data-sharing and governance setup.</td></tr>
+      <tr><td>2</td><td>Mainly internal/proprietary institutional data.</td><td>Higher dependency on client systems/data quality.</td></tr>
+      <tr><td>1</td><td>Heavy external proprietary/licensed dependency.</td><td>Highest cost and legal dependency risk.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>3. Longlist Snapshot with Data Access Quality</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:3%">#</th>
+        <th style="width:24%">Idea</th>
+        <th>Main Outcome</th>
+        <th style="width:13%">Fee Signal</th>
+        <th style="width:11%">Data Access (1-5)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Employer Acquisition and Retention Intelligence</td><td>Grow and protect employer accounts</td><td>Medium-High</td><td>3</td></tr>
+      <tr><td>2</td><td>Apprenticeship Pipeline Intelligence</td><td>Improve recruitment/completion outcomes</td><td>Medium-High</td><td>2</td></tr>
+      <tr><td>3</td><td>Skills Demand and Curriculum Radar</td><td>Align curriculum to labour demand</td><td>Medium</td><td>4</td></tr>
+      <tr><td>4</td><td>Ofsted Improvement Intelligence</td><td>Action and evidence control</td><td>Medium-High</td><td>3</td></tr>
+      <tr><td>5</td><td>Attendance and Withdrawal Risk Intelligence</td><td>Reduce drop-off risk</td><td>Medium</td><td>2</td></tr>
+      <tr><td>6</td><td>Course Recruitment Conversion Intelligence</td><td>Improve enquiry to enrolment conversion</td><td>Medium</td><td>2</td></tr>
+      <tr><td>7</td><td>Course Content Quality Scoring and Rewrite</td><td>Improve quality of course pages</td><td>Medium</td><td>4</td></tr>
+      <tr><td>8</td><td>SEND and High-Needs Progression Intelligence</td><td>Improve support/progression outcomes</td><td>Medium</td><td>2</td></tr>
+      <tr><td>9</td><td>Work Placement and T Level Capacity Intelligence</td><td>Match placement supply and demand</td><td>Medium</td><td>3</td></tr>
+      <tr><td>10</td><td>Funding Opportunity and Bid Intelligence</td><td>Improve bid selection and hit-rate</td><td>Low-Medium</td><td>5</td></tr>
+      <tr><td>11</td><td>Student Destination and Outcomes Intelligence</td><td>Track progression outcomes</td><td>Medium</td><td>3</td></tr>
+      <tr><td>12</td><td>Timetable and Room Utilization Intelligence</td><td>Increase estate efficiency</td><td>Medium</td><td>2</td></tr>
+      <tr><td>13</td><td>Competitor Offer Intelligence</td><td>Track regional competitor moves</td><td>Low-Medium</td><td>4</td></tr>
+      <tr><td>14</td><td>Green Skills Impact Intelligence</td><td>Evidence green skills and sustainability impact</td><td>Low-Medium</td><td>4</td></tr>
+      <tr><td>15</td><td>Reputation and Community Signal Intelligence</td><td>Early warning on sentiment issues</td><td>Low-Medium</td><td>3</td></tr>
+    </tbody>
+  </table>
+
+  <div class="break"></div>
+  <h2>4. Detailed Idea Build Blueprints (What You Would Actually Build)</h2>
+
+  <div class="idea">
+    <h3>1) Employer Acquisition and Retention Intelligence <span class="badge high">Fee: Medium-High</span></h3>
+    <p><strong>What you would build:</strong></p>
+    <ul>
+      <li><strong>Data jobs:</strong> ingest employer CRM account data, apprenticeship vacancies, account touchpoint history, and public company sector signals.</li>
+      <li><strong>Scoring model:</strong> employer health score (engagement recency, placements filled, apprenticeship outcomes, churn risk indicators).</li>
+      <li><strong>Pages/modules:</strong> Employer Explorer (consultant-table pattern), Employer Benchmark (hospital comparison pattern), At-Risk Accounts queue (review queue pattern).</li>
+      <li><strong>Action centre:</strong> auto-prioritized actions like "recover inactive employer", "upsell standards", "fix conversion bottlenecks".</li>
+      <li><strong>Copilot/reporting:</strong> NL queries for account risk and monthly employer growth board PDF.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>3/5</strong> (mixed public and internal CRM/MIS data).</p>
+    <div class="row"><div class="col"><strong>Pros</strong><ul><li>Directly linked to employer growth.</li><li>Clear commercial language.</li><li>Strong recurring usage by account teams.</li></ul></div><div class="col"><strong>Cons / Risks</strong><ul><li>Needs disciplined CRM updates.</li><li>Cross-team ownership required.</li><li>Attribution arguments possible.</li></ul></div></div>
+  </div>
+
+  <div class="idea">
+    <h3>2) Apprenticeship Pipeline Intelligence <span class="badge high">Fee: Medium-High</span></h3>
+    <p><strong>What you would build:</strong></p>
+    <ul>
+      <li><strong>Data jobs:</strong> vacancy demand feed, application pipeline stages, on-program attendance/progress, completion status by standard/employer.</li>
+      <li><strong>Scoring model:</strong> pipeline velocity score + completion risk score + employer demand match score.</li>
+      <li><strong>Pages/modules:</strong> Apprenticeship Funnel dashboard, Standards Performance explorer, Employer x Standard heatmap.</li>
+      <li><strong>Action centre:</strong> prioritized actions for stalled applicants, high-risk cohorts, and standards with weak completion trend.</li>
+      <li><strong>Exports:</strong> weekly operational list (team execution) and monthly executive summary.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>2/5</strong> (mostly internal data dependencies).</p>
+    <div class="row"><div class="col"><strong>Pros</strong><ul><li>Strong alignment to strategic priority.</li><li>High operational value.</li><li>Ties directly to outcomes and funding.</li></ul></div><div class="col"><strong>Cons / Risks</strong><ul><li>Multiple internal systems involved.</li><li>Data quality and ownership needed.</li><li>Can expose process weaknesses.</li></ul></div></div>
+  </div>
+
+  <div class="idea">
+    <h3>3) Skills Demand and Curriculum Radar <span class="badge med">Fee: Medium</span></h3>
+    <p><strong>What you would build:</strong></p>
+    <ul>
+      <li><strong>Data jobs:</strong> pull public labour-market data, local job-posting trends, employer feedback themes, and current enrolment trend inputs.</li>
+      <li><strong>Scoring model:</strong> course-market fit score, demand momentum score, and curriculum risk/opportunity ranking.</li>
+      <li><strong>Pages/modules:</strong> Curriculum Opportunity Map, Sector Demand board, Course viability list with confidence flags.</li>
+      <li><strong>Action centre:</strong> recommendations to expand, reshape, or review low-fit provision.</li>
+      <li><strong>Reports:</strong> termly curriculum planning pack and stakeholder narrative.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>4/5</strong> (public-data-heavy with light internal overlay).</p>
+    <div class="row"><div class="col"><strong>Pros</strong><ul><li>Good strategic value.</li><li>Public data supports speed.</li><li>Supports external engagement story.</li></ul></div><div class="col"><strong>Cons / Risks</strong><ul><li>Signal lag/noise in market data.</li><li>Needs careful confidence messaging.</li><li>Impact can be medium-term.</li></ul></div></div>
+  </div>
+
+  <div class="idea">
+    <h3>4) Ofsted Improvement Intelligence <span class="badge high">Fee: Medium-High</span></h3>
+    <p><strong>What you would build:</strong> quality-theme tracker where each action has owner, due date, evidence, and status; mapped to inspection themes with monthly confidence scoring and governance reporting.</p>
+    <ul>
+      <li>Use action and review queue patterns already present in <code>/actions</code> and <code>/consultants/review</code>.</li>
+      <li>Add evidence quality score and unresolved risk flags.</li>
+      <li>Generate monthly quality board PDF and action completion trend charts.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>3/5</strong> (public framework, internal evidence data).</p>
+    <p><strong>Pros:</strong> urgent and board-visible. <strong>Cons:</strong> requires strong definitions and change discipline.</p>
+  </div>
+
+  <div class="idea">
+    <h3>5) Attendance and Withdrawal Risk Intelligence <span class="badge med">Fee: Medium</span></h3>
+    <p><strong>What you would build:</strong> attendance and withdrawal risk engine with cohort/course risk ranking, intervention queue, and resolution tracking.</p>
+    <ul>
+      <li>Daily/weekly MIS ingestion job.</li>
+      <li>Risk score rules + AI notes for intervention rationale.</li>
+      <li>Tutor/team worklist export and exception alerts.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>2/5</strong> (internal-data-heavy).</p>
+    <p><strong>Pros:</strong> strong impact potential. <strong>Cons:</strong> operational adoption is critical.</p>
+  </div>
+
+  <div class="idea">
+    <h3>6) Course Recruitment Conversion Intelligence <span class="badge med">Fee: Medium</span></h3>
+    <p><strong>What you would build:</strong> enquiry-to-enrolment funnel intelligence by course/campus/channel with stage loss diagnostics and prioritized corrective actions.</p>
+    <ul>
+      <li>Ingest enquiry, application, offer, acceptance, enrolment events.</li>
+      <li>Create stage conversion score and leak detection rules.</li>
+      <li>Dashboard with conversion by channel and course-level action list.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>2/5</strong> (internal funnel and CRM data).</p>
+    <p><strong>Pros:</strong> commercially understandable. <strong>Cons:</strong> requires alignment across admissions and marketing workflows.</p>
+  </div>
+
+  <div class="break"></div>
+
+  <div class="idea">
+    <h3>7) Course Content Quality Scoring and Rewrite <span class="badge med">Fee: Medium</span></h3>
+    <p><strong>What you would build:</strong> direct extension of existing rewrite stack to course pages: scrape page copy, assess clarity/completeness, propose rewrites with evidence, and project uplift.</p>
+    <ul>
+      <li>Reuses rewrite engine components in <code>src/lib/rewrite-engine.ts</code> and evidence model in DB.</li>
+      <li>Adds course-specific scoring dimensions (entry requirements clarity, outcomes clarity, employer relevance).</li>
+      <li>Publishes content improvement queue with owner and status.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>4/5</strong> (mostly public website content).</p>
+    <p><strong>Pros:</strong> high reuse, fast delivery. <strong>Cons:</strong> needs editorial governance process.</p>
+  </div>
+
+  <div class="idea">
+    <h3>8) SEND and High-Needs Progression Intelligence <span class="badge med">Fee: Medium</span></h3>
+    <p><strong>What you would build:</strong> progression intelligence for high-needs learners: support-plan status, intervention effectiveness, and progression outcome tracking.</p>
+    <ul>
+      <li>Secure ingestion pipelines for sensitive support/learning records.</li>
+      <li>Risk and progression scoring with explainable flags.</li>
+      <li>Governance dashboard for specialist teams and leadership.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>2/5</strong> (sensitive internal data).</p>
+    <p><strong>Pros:</strong> high mission alignment. <strong>Cons:</strong> higher governance/compliance overhead.</p>
+  </div>
+
+  <div class="idea">
+    <h3>9) Work Placement and T Level Capacity Intelligence <span class="badge med">Fee: Medium</span></h3>
+    <p><strong>What you would build:</strong> placement demand/supply planner with capacity forecasting and at-risk placement alerts by sector and employer.</p>
+    <ul>
+      <li>Combine learner placement demand with employer placement capacity feeds.</li>
+      <li>Capacity fit score and forecast gap scoring.</li>
+      <li>Action centre for placement shortfall mitigation.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>3/5</strong> (mixed internal and external inputs).</p>
+    <p><strong>Pros:</strong> practical operational value. <strong>Cons:</strong> employer feed freshness can vary.</p>
+  </div>
+
+  <div class="idea">
+    <h3>10) Funding Opportunity and Bid Intelligence <span class="badge low">Fee: Low-Medium</span></h3>
+    <p><strong>What you would build:</strong> funding-call watcher with strategic-fit scoring, bid/no-bid recommendations, and evidence checklist generator.</p>
+    <ul>
+      <li>Public feed ingestion for funding calls and deadlines.</li>
+      <li>Fit score using Kirklees strategic themes and delivery track record.</li>
+      <li>Bid tracker dashboard plus deadline alerts.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>5/5</strong> (public-data-first).</p>
+    <p><strong>Pros:</strong> low data friction. <strong>Cons:</strong> usage peaks around bid cycles.</p>
+  </div>
+
+  <div class="idea">
+    <h3>11) Student Destination and Outcomes Intelligence <span class="badge med">Fee: Medium</span></h3>
+    <p><strong>What you would build:</strong> destination pipeline that links learners to progression outcomes with quality indicators by program and cohort.</p>
+    <ul>
+      <li>Ingest completion and destination evidence from internal plus external sources.</li>
+      <li>Outcome quality score and trend movement.</li>
+      <li>Board and curriculum views with confidence markers for missing evidence.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>3/5</strong> (mixed internal and external).</p>
+    <p><strong>Pros:</strong> strong narrative value. <strong>Cons:</strong> lag and completeness issues in destination data.</p>
+  </div>
+
+  <div class="idea">
+    <h3>12) Timetable and Room Utilization Intelligence <span class="badge med">Fee: Medium</span></h3>
+    <p><strong>What you would build:</strong> utilization monitor for room occupancy, scheduling clashes, underused assets, and timetable optimization opportunities.</p>
+    <ul>
+      <li>Ingest timetable, attendance, and room metadata feeds.</li>
+      <li>Utilization efficiency score and conflict severity flags.</li>
+      <li>Action queue for rescheduling and estate optimization.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>2/5</strong> (internal systems dependent).</p>
+    <p><strong>Pros:</strong> strong efficiency angle. <strong>Cons:</strong> integration and adoption effort required.</p>
+  </div>
+
+  <div class="idea">
+    <h3>13) Competitor Offer Intelligence <span class="badge low">Fee: Low-Medium</span></h3>
+    <p><strong>What you would build:</strong> regional competitor monitor for course launches, messaging shifts, and target-audience positioning changes.</p>
+    <ul>
+      <li>Public website and publication monitoring pipeline (terms-respecting).</li>
+      <li>Differentiation and overlap scoring by subject area.</li>
+      <li>Monthly competitor movement brief.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>4/5</strong> (mostly public with terms caveats).</p>
+    <p><strong>Pros:</strong> strategic positioning support. <strong>Cons:</strong> often secondary budget priority.</p>
+  </div>
+
+  <div class="idea">
+    <h3>14) Green Skills Impact Intelligence <span class="badge low">Fee: Low-Medium</span></h3>
+    <p><strong>What you would build:</strong> impact measurement dashboard tracking green curriculum activity, employer engagement, learner outcomes, and strategic evidence.</p>
+    <ul>
+      <li>Public policy/funding feed plus internal program metrics.</li>
+      <li>Green impact scorecards by curriculum area.</li>
+      <li>Exportable evidence packs for stakeholders and bids.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>4/5</strong> (public-data-friendly plus internal metrics).</p>
+    <p><strong>Pros:</strong> policy alignment. <strong>Cons:</strong> direct ROI can be less immediate.</p>
+  </div>
+
+  <div class="idea">
+    <h3>15) Reputation and Community Signal Intelligence <span class="badge low">Fee: Low-Medium</span></h3>
+    <p><strong>What you would build:</strong> monitored signal layer for public sentiment themes, issue spikes, and stakeholder concern alerts.</p>
+    <ul>
+      <li>Public signal ingestion with source quality controls.</li>
+      <li>Theme and severity classification with false-positive suppression.</li>
+      <li>Leadership briefing page and incident watchlist export.</li>
+    </ul>
+    <p><strong>Data accessibility:</strong> <strong>3/5</strong> (public signals but uneven source constraints).</p>
+    <p><strong>Pros:</strong> early warning value. <strong>Cons:</strong> noisy signals if not tightly governed.</p>
+  </div>
+
+  <div class="break"></div>
+  <h2>5. Comparative Matrix (Including Data Access)</h2>
+  <p class="small">Scale 1 to 5. Higher is better for Strategic Fit, Willingness to Pay, Data Access, and Reuse Fit. Lower is better for Complexity and Sales Friction.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:3%">#</th>
+        <th style="width:18%">Idea</th>
+        <th style="width:8%">Strategic</th>
+        <th style="width:8%">Pay</th>
+        <th style="width:8%">Data</th>
+        <th style="width:8%">Complexity</th>
+        <th style="width:8%">Sales</th>
+        <th style="width:8%">Reuse</th>
+        <th>Build Reality Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Employer</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>4</td><td>Clear value but needs strong CRM data hygiene.</td></tr>
+      <tr><td>2</td><td>Apprenticeship</td><td>5</td><td>4</td><td>2</td><td>3</td><td>3</td><td>4</td><td>High-value; internal data plumbing is the main build factor.</td></tr>
+      <tr><td>3</td><td>Skills Radar</td><td>4</td><td>3</td><td>4</td><td>3</td><td>3</td><td>4</td><td>Public data helps speed, confidence signalling is key.</td></tr>
+      <tr><td>4</td><td>Ofsted</td><td>5</td><td>4</td><td>3</td><td>3</td><td>2</td><td>4</td><td>Strong sponsor pull, must tie evidence to execution.</td></tr>
+      <tr><td>5</td><td>Attendance</td><td>5</td><td>3</td><td>2</td><td>3</td><td>3</td><td>4</td><td>Actionability is high when intervention capacity exists.</td></tr>
+      <tr><td>6</td><td>Conversion</td><td>4</td><td>3</td><td>2</td><td>2</td><td>3</td><td>5</td><td>Fast operational wins if admissions workflow aligns.</td></tr>
+      <tr><td>7</td><td>Content Rewrite</td><td>4</td><td>3</td><td>4</td><td>2</td><td>2</td><td>5</td><td>Most direct extension of existing rewrite capabilities.</td></tr>
+      <tr><td>8</td><td>SEND</td><td>5</td><td>3</td><td>2</td><td>4</td><td>3</td><td>3</td><td>High impact but governance and sensitivity load is high.</td></tr>
+      <tr><td>9</td><td>Placement</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>4</td><td>Good operational service if employer capacity data is maintained.</td></tr>
+      <tr><td>10</td><td>Bid</td><td>3</td><td>3</td><td>5</td><td>2</td><td>2</td><td>4</td><td>Best data-access profile; cyclical demand profile.</td></tr>
+      <tr><td>11</td><td>Destination</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>4</td><td>Strong board narrative, needs confidence markers for lag.</td></tr>
+      <tr><td>12</td><td>Utilization</td><td>4</td><td>3</td><td>2</td><td>3</td><td>3</td><td>4</td><td>Internal systems are dominant dependency.</td></tr>
+      <tr><td>13</td><td>Competitor</td><td>3</td><td>2</td><td>4</td><td>2</td><td>2</td><td>4</td><td>Useful strategic add-on, rarely the primary buy.</td></tr>
+      <tr><td>14</td><td>Green Skills</td><td>4</td><td>2</td><td>4</td><td>2</td><td>2</td><td>4</td><td>Policy-aligned; direct budget ROI case can be softer.</td></tr>
+      <tr><td>15</td><td>Reputation</td><td>3</td><td>2</td><td>3</td><td>3</td><td>2</td><td>3</td><td>Signal quality management drives credibility.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>6. Partner Discussion Questions</h2>
+  <ol>
+    <li>Which 3 ideas give us the best balance of contract value, delivery certainty, and data accessibility?</li>
+    <li>Which ideas can we deliver with minimal net-new engineering by reusing existing pipeline/review/report patterns?</li>
+    <li>Where do we need internal data sharing agreements before pitching?</li>
+    <li>Which ideas are best as a combined package instead of standalone services?</li>
+  </ol>
+
+  <h2>7. Source Notes</h2>
+  <ul>
+    <li>Kirklees College public pages and published statements (including accountability and financial statements).</li>
+    <li>Ofsted published inspection report for Kirklees College.</li>
+    <li>SensAI internal architecture and deep-dive artifacts in <code>_bmad-output/planning-artifacts</code>.</li>
+    <li>Current implementation structure in <code>nuffield-health/src</code>.</li>
+  </ul>
+
+  <div class="footer">
+    Internal strategy report for partner discussion. Fee ranges are indicative and should be calibrated with final scope and procurement route.
+  </div>
+</body>
+</html>

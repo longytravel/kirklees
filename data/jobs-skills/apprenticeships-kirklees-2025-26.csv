@@ -1,0 +1,289 @@
+﻿time_period,time_identifier,geographic_level,country_code,country_name,region_code,region_name,lad_code,lad_name,pcon_code,pcon_name,age_summary,apps_level,sex,starts,achievements,participation
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Total,1980,810,5730
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Total,390,180,940
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Total,850,340,2600
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Total,730,290,2210
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Female,990,450,2770
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Female,170,80,420
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Female,410,170,1110
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Female,420,190,1250
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Male,990,370,2960
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Male,230,100,520
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Male,440,170,1480
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Male,310,100,960
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Total,540,200,1100
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Total,210,100,420
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Total,300,100,650
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Total,30,10,40
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Female,180,90,360
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Female,80,40,170
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Female,90,40,180
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Female,10,low,20
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Male,360,110,750
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Male,130,60,250
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Male,210,50,470
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Male,20,low,30
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Total,580,250,2010
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Total,120,40,330
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Total,260,110,1080
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Total,190,90,610
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Female,280,120,840
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Female,50,20,150
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Female,140,50,410
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Female,90,50,280
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Male,300,120,1170
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Male,70,20,180
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Male,120,60,670
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Male,100,40,320
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Total,860,370,2620
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Total,60,50,190
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Total,290,130,870
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Total,510,190,1560
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Female,530,240,1570
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Female,40,20,100
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Female,180,80,530
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Female,320,130,950
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Male,330,130,1040
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Male,20,20,90
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Male,110,50,340
+202526,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Male,200,60,610
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Total,3020,1860,6710
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Total,620,430,1250
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Total,1320,830,3040
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Total,1080,600,2470
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Female,1620,990,3340
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Female,310,220,610
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Female,680,420,1370
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Female,630,350,1400
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Male,1400,870,3370
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Male,310,210,640
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Male,640,410,1670
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Male,450,250,1070
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Total,810,470,1470
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Total,310,190,570
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Total,450,250,840
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Total,50,30,70
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Female,330,200,560
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Female,140,80,250
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Female,170,100,280
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Female,20,20,30
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Male,480,270,910
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Male,170,100,320
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Male,280,150,560
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Male,30,20,40
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Total,790,600,2220
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Total,170,120,370
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Total,360,310,1180
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Total,250,170,700
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Female,410,300,940
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Female,100,60,180
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Female,180,160,460
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Female,130,80,320
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Male,380,310,1280
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Male,80,60,190
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Male,180,150,720
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Male,120,100,380
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Total,1420,790,3030
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Total,140,120,310
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Total,500,280,1030
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Total,780,400,1700
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Female,880,500,1850
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Female,80,80,180
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Female,330,170,630
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Female,470,260,1040
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Male,540,290,1180
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Male,60,50,130
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Male,180,110,400
+202425,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Male,310,140,660
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Total,3030,1630,6670
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Total,650,420,1340
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Total,1330,780,3100
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Total,1050,430,2280
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Female,1540,820,3260
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Female,310,180,630
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Female,630,390,1380
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Female,600,260,1280
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Male,1490,800,3410
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Male,340,240,710
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Male,700,390,1730
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Male,450,170,1000
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Total,840,430,1410
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Total,330,200,570
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Total,450,210,790
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Total,60,10,70
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Female,320,160,520
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Female,150,70,250
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Female,150,80,260
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Female,20,10,20
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Male,520,270,890
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Male,180,130,320
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Male,300,130,530
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Male,40,10,50
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Total,870,530,2340
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Total,160,110,420
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Total,430,290,1290
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Total,280,130,650
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Female,430,260,990
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Female,80,50,190
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Female,220,140,510
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Female,140,70,300
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Male,440,270,1350
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Male,90,60,240
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Male,210,140,780
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Male,140,70,360
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Total,1330,670,2920
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Total,160,100,350
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Total,440,280,1020
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Total,720,290,1560
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Female,800,410,1750
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Female,90,60,200
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Female,260,170,600
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Female,450,180,960
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Male,530,260,1170
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Male,80,50,150
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Male,180,110,420
+202324,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Male,270,100,600
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Total,2900,1230,6260
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Total,770,390,1560
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Total,1360,560,2940
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Total,780,270,1820
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Female,1500,630,3040
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Female,360,200,740
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Female,680,280,1300
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Female,470,150,1020
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Male,1400,590,3230
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Male,410,190,820
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Male,680,280,1640
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Male,310,120,800
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Total,780,360,1390
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Total,350,180,640
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Total,390,170,710
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Total,40,10,50
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Female,260,150,480
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Female,130,80,250
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Female,120,70,210
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Female,20,low,20
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Male,520,210,910
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Male,220,100,390
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Male,280,100,500
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Male,20,10,30
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Total,890,410,2220
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Total,210,120,500
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Total,460,210,1210
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Total,220,80,530
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Female,450,200,960
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Female,100,60,230
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Female,240,100,500
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Female,110,40,240
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Male,440,210,1250
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Male,110,60,270
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Male,220,110,710
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Male,110,40,290
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Total,1230,460,2660
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Total,210,90,420
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Total,500,190,1020
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Total,530,180,1240
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Female,790,290,1600
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Female,120,60,260
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Female,320,110,590
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Female,350,110,750
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Male,450,180,1060
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Male,90,30,160
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Male,180,70,430
+202122,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Male,180,70,480
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Total,2680,1220,5880
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Total,730,420,1580
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Total,1180,570,2760
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Total,760,230,1590
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Female,1400,620,2750
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Female,390,210,770
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Female,580,280,1150
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Female,430,130,860
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Male,1280,600,3120
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Male,350,200,810
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Male,610,300,1610
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Male,330,100,730
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Total,740,370,1290
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Total,350,190,650
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Total,360,180,630
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Total,30,10,40
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Female,290,150,470
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Female,160,90,270
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Female,120,70,190
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Female,10,low,20
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Male,450,220,830
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Male,190,100,380
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Male,240,110,430
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Male,20,10,30
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Total,760,380,2070
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Total,200,120,500
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Total,380,190,1130
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Total,180,70,460
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Female,380,180,830
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Female,110,60,240
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Female,190,100,410
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Female,90,30,200
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Male,370,190,1240
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Male,90,60,270
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Male,180,100,720
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Male,100,30,270
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Total,1180,470,2510
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Total,190,110,430
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Total,440,210,1010
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Total,550,160,1090
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Female,720,290,1450
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Female,130,70,270
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Female,260,120,550
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Female,340,100,650
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Male,460,190,1060
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Male,60,40,160
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Male,180,90,460
+202021,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Male,220,60,440
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Total,3140,1430,6620
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Total,770,410,1490
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Total,1400,650,3120
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Total,960,370,2050
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Female,1610,780,3250
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Female,380,220,720
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Female,720,340,1410
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Female,510,220,1140
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Total,Male,1530,650,3360
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Intermediate Apprenticeship,Male,400,190,770
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Advanced Apprenticeship,Male,690,310,1710
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Total,Higher Apprenticeship,Male,450,150,910
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Total,860,410,1440
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Total,370,180,630
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Total,440,210,770
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Total,40,20,60
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Female,330,180,510
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Female,170,90,270
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Female,150,80,240
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Female,10,10,20
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Total,Male,530,230,920
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Intermediate Apprenticeship,Male,210,90,360
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Advanced Apprenticeship,Male,290,130,530
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",Under 19,Higher Apprenticeship,Male,30,10,40
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Total,970,430,2350
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Total,220,120,470
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Total,480,210,1300
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Total,270,100,600
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Female,470,220,1020
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Female,100,60,220
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Female,250,120,540
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Female,120,50,270
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Total,Male,500,210,1320
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Intermediate Apprenticeship,Male,120,60,240
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Advanced Apprenticeship,Male,230,100,760
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",19-24,Higher Apprenticeship,Male,150,50,330
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Total,1310,590,2830
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Total,190,110,400
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Total,480,230,1050
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Total,640,260,1400
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Female,810,380,1710
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Female,110,60,230
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Female,310,140,630
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Female,380,170,860
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Total,Male,500,220,1120
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Intermediate Apprenticeship,Male,70,40,160
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Advanced Apprenticeship,Male,170,90,420
+202223,Academic year,Local authority district,E92000001,England,E12000003,Yorkshire and The Humber,E08000034,Kirklees,"","",25+,Higher Apprenticeship,Male,260,90,540

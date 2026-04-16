@@ -21,7 +21,7 @@ export function DiagonalBars({ variant = "light" }: { variant?: "light" | "mediu
   );
 }
 
-export function KirkleesNav({ activePage }: { activePage: "home" | "how-it-works" }) {
+export function KirkleesNav({ activePage }: { activePage: "home" | "how-it-works" | "competitor-tracker" }) {
   const linkClass = (page: string) =>
     `text-sm font-bold transition-colors ${
       activePage === page ? "text-kirklees-teal" : "text-kirklees-navy hover:text-kirklees-teal"
@@ -36,6 +36,7 @@ export function KirkleesNav({ activePage }: { activePage: "home" | "how-it-works
 
         <nav className="flex items-center gap-6">
           <a href="/" className={linkClass("home")}>The Session</a>
+          <a href="/competitor-tracker" className={linkClass("competitor-tracker")}>Competitor Tracker</a>
           <a href="/how-it-works" className={linkClass("how-it-works")}>How It Works</a>
           <a
             href="https://www.kirkleescollege.ac.uk"

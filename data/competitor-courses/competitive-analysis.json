@@ -1,0 +1,92 @@
+{
+  "generated": "2026-04-15",
+  "analysis": {
+    "kirklees_unique_strengths": [
+      "Only T Level provider in Kirklees (8 programmes)",
+      "Specialist centres: Engineering, Construction, Animal Care, Process Manufacturing",
+      "Dual-town presence: Huddersfield + Dewsbury campuses",
+      "Largest FE provider in Kirklees borough",
+      "1,000+ apprentices/year across 30+ occupational areas",
+      "Strong employer partnerships (Lloyds Banking Group, Jet2)"
+    ],
+    "competitive_gaps_and_threats": [
+      {
+        "area": "Academic A-Level pathway",
+        "threat": "Greenhead (Outstanding, 99% pass rate) and Huddersfield New College dominate A-Level provision. Kirklees College cannot compete on pure A-Level results.",
+        "recommendation": "Focus on vocational excellence, T Levels, and mixed programmes rather than competing head-to-head on A-Levels."
+      },
+      {
+        "area": "Mixed A-Level + BTEC",
+        "threat": "Huddersfield New College is the ONLY college in Kirklees offering mixed A-Level and BTEC at advanced level.",
+        "recommendation": "Consider whether mixed pathway offering could be expanded."
+      },
+      {
+        "area": "Apprenticeship brand",
+        "threat": "Bradford College won National Apprenticeship Provider of the Year 2026. Calderdale College has Outstanding Ofsted rating for apprenticeships.",
+        "recommendation": "Strengthen apprenticeship marketing and seek award nominations to build brand."
+      },
+      {
+        "area": "Digital/IT courses",
+        "threat": "Leeds City College and Bradford College both strong in digital/computing. Limited digital course visibility for Kirklees.",
+        "recommendation": "Ensure digital/IT/cyber courses are prominently marketed."
+      },
+      {
+        "area": "Online delivery",
+        "threat": "Barnsley College explicitly offers online courses. Most competitors don't highlight this.",
+        "recommendation": "If Kirklees offers online/blended delivery, make this more visible."
+      },
+      {
+        "area": "Ofsted rating",
+        "threat": "Two nearby competitors (Greenhead, Barnsley) hold Outstanding. Kirklees is Good.",
+        "recommendation": "Focus on areas of excellence for next inspection. Highlight specific Outstanding sub-grades if applicable."
+      }
+    ],
+    "subject_overlap_matrix": {
+      "high_overlap": [
+        "Engineering (Kirklees, Calderdale, Bradford, Wakefield, Leeds)",
+        "Construction (Kirklees, Calderdale, Bradford, Wakefield)",
+        "Health & Social Care (all competitors)",
+        "Business (all competitors)",
+        "Hair & Beauty (Kirklees, Wakefield)",
+        "Motor Vehicle (Kirklees, Calderdale, Wakefield)",
+        "Hospitality & Catering (Kirklees, Calderdale, Wakefield)"
+      ],
+      "kirklees_differentiators": [
+        "T Levels (only provider in Kirklees)",
+        "Animal Care / Land-based Studies (specialist Taylor Hill Centre)",
+        "Process Manufacturing (dedicated centre)",
+        "Plant Machinery Operations"
+      ],
+      "potential_gaps": [
+        "Dental Nursing (Bradford offers, Kirklees unclear)",
+        "Pharmacy (Bradford offers apprenticeship)",
+        "Textiles/Fashion (Bradford offers degree-level)",
+        "Performing Arts (Wakefield, Leeds strong)",
+        "Law (Leeds City College offers)",
+        "Counselling/Psychology (Calderdale offers)"
+      ]
+    },
+    "catchment_competition_levels": {
+      "huddersfield": {
+        "level": "HIGH",
+        "competitors": ["Greenhead College (Outstanding)", "Huddersfield New College"],
+        "note": "Three institutions compete directly for 16-18 students in same town"
+      },
+      "dewsbury_batley": {
+        "level": "MEDIUM",
+        "competitors": ["Batley Girls Sixth Form", "Heckmondwike Grammar", "Aspire IGEN"],
+        "note": "Springfield Sixth Form Centre gives Kirklees presence but school sixth forms compete"
+      },
+      "north_kirklees": {
+        "level": "MEDIUM",
+        "competitors": ["Bradford College", "Calderdale College"],
+        "note": "Students on boundaries may travel to Bradford or Halifax"
+      },
+      "south_east_kirklees": {
+        "level": "LOW-MEDIUM",
+        "competitors": ["Wakefield College", "Barnsley College", "Shelley College"],
+        "note": "Some leakage to Wakefield especially from Dewsbury"
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "provider": "Bradford College",
+  "source_sitemap": "https://www.bradfordcollege.ac.uk/courses-sitemap.xml",
+  "urls_found": 259,
+  "scraped_ok": 259,
+  "errors": 0,
+  "error_details": [],
+  "coverage": {
+    "title": {
+      "count": 259,
+      "pct": 100
+    },
+    "subject_area": {
+      "count": 259,
+      "pct": 100
+    },
+    "qualification": {
+      "count": 196,
+      "pct": 75.7
+    },
+    "level": {
+      "count": 259,
+      "pct": 100
+    },
+    "course_type": {
+      "count": 258,
+      "pct": 99.6
+    },
+    "duration": {
+      "count": 254,
+      "pct": 98.1
+    },
+    "start_date": {
+      "count": 259,
+      "pct": 100
+    },
+    "study_mode": {
+      "count": 259,
+      "pct": 100
+    },
+    "location": {
+      "count": 254,
+      "pct": 98.1
+    },
+    "overview": {
+      "count": 259,
+      "pct": 100
+    },
+    "what_you_will_learn": {
+      "count": 253,
+      "pct": 97.7
+    },
+    "modules": {
+      "count": 175,
+      "pct": 67.6
+    },
+    "assessment": {
+      "count": 212,
+      "pct": 81.9
+    },
+    "work_experience": {
+      "count": 126,
+      "pct": 48.6
+    },
+    "progression": {
+      "count": 216,
+      "pct": 83.4
+    },
+    "entry_requirements": {
+      "count": 245,
+      "pct": 94.6
+    },
+    "fees": {
+      "count": 0,
+      "pct": 0
+    },
+    "external_id": {
+      "count": 259,
+      "pct": 100
+    },
+    "apply_url": {
+      "count": 258,
+      "pct": 99.6
+    },
+    "offering_id": {
+      "count": 229,
+      "pct": 88.4
+    }
+  },
+  "duration_sec": 77,
+  "generated_at": "2026-04-16T09:50:31.351Z"
+}

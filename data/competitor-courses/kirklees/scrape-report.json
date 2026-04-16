@@ -1,0 +1,98 @@
+{
+  "provider": "Kirklees College",
+  "source_sitemap": "https://www.kirkleescollege.ac.uk/kc_courses-sitemap.xml",
+  "urls_found": 385,
+  "urls_by_study_area": {
+    "short-courses": 57,
+    "courses-for-adult-learners": 106,
+    "higher-skills-courses": 22,
+    "courses-for-apprenticeships": 32,
+    "courses-for-16-18": 159,
+    "courses-for-employers": 8,
+    "undefined": 1
+  },
+  "scraped_ok": 384,
+  "errors": 1,
+  "error_details": [
+    {
+      "url": "https://www.kirkleescollege.ac.uk/courses-for-apprenticeships//22-23/",
+      "error": "Error: HTTP 404"
+    }
+  ],
+  "coverage": {
+    "title": {
+      "count": 384,
+      "pct": 100
+    },
+    "study_area": {
+      "count": 384,
+      "pct": 100
+    },
+    "cohort": {
+      "count": 384,
+      "pct": 100
+    },
+    "qualification": {
+      "count": 370,
+      "pct": 96.4
+    },
+    "level": {
+      "count": 327,
+      "pct": 85.2
+    },
+    "attendance": {
+      "count": 369,
+      "pct": 96.1
+    },
+    "duration": {
+      "count": 375,
+      "pct": 97.7
+    },
+    "start_date": {
+      "count": 344,
+      "pct": 89.6
+    },
+    "location": {
+      "count": 383,
+      "pct": 99.7
+    },
+    "overview": {
+      "count": 384,
+      "pct": 100
+    },
+    "entry_requirements": {
+      "count": 257,
+      "pct": 66.9
+    },
+    "fees_funding": {
+      "count": 201,
+      "pct": 52.3
+    },
+    "progression": {
+      "count": 243,
+      "pct": 63.3
+    },
+    "career_opportunities": {
+      "count": 206,
+      "pct": 53.6
+    },
+    "assessment": {
+      "count": 253,
+      "pct": 65.9
+    },
+    "qualification_awarding_body": {
+      "count": 169,
+      "pct": 44
+    },
+    "course_code": {
+      "count": 285,
+      "pct": 74.2
+    },
+    "primary_offering_id": {
+      "count": 229,
+      "pct": 59.6
+    }
+  },
+  "duration_sec": 594,
+  "generated_at": "2026-04-16T10:18:36.915Z"
+}

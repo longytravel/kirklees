@@ -1,0 +1,1198 @@
+[
+  {
+    "timePeriod": "2002_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "48400",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "158200"
+    }
+  },
+  {
+    "timePeriod": "2002_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "z",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "z"
+    }
+  },
+  {
+    "timePeriod": "2002_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "119300",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "218900"
+    }
+  },
+  {
+    "timePeriod": "2002_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "167700",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "377200"
+    }
+  },
+  {
+    "timePeriod": "2003_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "57000",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "151700"
+    }
+  },
+  {
+    "timePeriod": "2003_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "z",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "z"
+    }
+  },
+  {
+    "timePeriod": "2003_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "136600",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "248700"
+    }
+  },
+  {
+    "timePeriod": "2003_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "193600",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "400400"
+    }
+  },
+  {
+    "timePeriod": "2004_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "53900",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "147300"
+    }
+  },
+  {
+    "timePeriod": "2004_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "z",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "z"
+    }
+  },
+  {
+    "timePeriod": "2004_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "135100",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "263900"
+    }
+  },
+  {
+    "timePeriod": "2004_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "189000",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "411200"
+    }
+  },
+  {
+    "timePeriod": "2005_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "52100",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "143600"
+    }
+  },
+  {
+    "timePeriod": "2005_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "z",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "z"
+    }
+  },
+  {
+    "timePeriod": "2005_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "122800",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "259400"
+    }
+  },
+  {
+    "timePeriod": "2005_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "175000",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "403000"
+    }
+  },
+  {
+    "timePeriod": "2006_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "56900",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "141300"
+    }
+  },
+  {
+    "timePeriod": "2006_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "100",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "100"
+    }
+  },
+  {
+    "timePeriod": "2006_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "127400",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "246600"
+    }
+  },
+  {
+    "timePeriod": "2006_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "184400",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "388000"
+    }
+  },
+  {
+    "timePeriod": "2007_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "72900",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "156400"
+    }
+  },
+  {
+    "timePeriod": "2007_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "100",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "100"
+    }
+  },
+  {
+    "timePeriod": "2007_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "151800",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "262500"
+    }
+  },
+  {
+    "timePeriod": "2007_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "224800",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "418900"
+    }
+  },
+  {
+    "timePeriod": "2008_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "81300",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "170900"
+    }
+  },
+  {
+    "timePeriod": "2008_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "200",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "300"
+    }
+  },
+  {
+    "timePeriod": "2008_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "158500",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "273600"
+    }
+  },
+  {
+    "timePeriod": "2008_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "239900",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "444800"
+    }
+  },
+  {
+    "timePeriod": "2009_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "87700",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "185500"
+    }
+  },
+  {
+    "timePeriod": "2009_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "1500",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "1700"
+    }
+  },
+  {
+    "timePeriod": "2009_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "190500",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "304000"
+    }
+  },
+  {
+    "timePeriod": "2009_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "279700",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "491300"
+    }
+  },
+  {
+    "timePeriod": "2010_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "153900",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "247200"
+    }
+  },
+  {
+    "timePeriod": "2010_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "2200",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "3500"
+    }
+  },
+  {
+    "timePeriod": "2010_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "301100",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "415200"
+    }
+  },
+  {
+    "timePeriod": "2010_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "457200",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "665900"
+    }
+  },
+  {
+    "timePeriod": "2011_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "187900",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "317000"
+    }
+  },
+  {
+    "timePeriod": "2011_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "3700",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "5700"
+    }
+  },
+  {
+    "timePeriod": "2011_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "329000",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "506200"
+    }
+  },
+  {
+    "timePeriod": "2011_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "520600",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "806500"
+    }
+  },
+  {
+    "timePeriod": "2012_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "207700",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "377000"
+    }
+  },
+  {
+    "timePeriod": "2012_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "9800",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "13000"
+    }
+  },
+  {
+    "timePeriod": "2012_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "292800",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "501700"
+    }
+  },
+  {
+    "timePeriod": "2012_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "510200",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "868700"
+    }
+  },
+  {
+    "timePeriod": "2013_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "144700",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "351900"
+    }
+  },
+  {
+    "timePeriod": "2013_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "9200",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "18100"
+    }
+  },
+  {
+    "timePeriod": "2013_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "286500",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "503500"
+    }
+  },
+  {
+    "timePeriod": "2013_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "440400",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "851500"
+    }
+  },
+  {
+    "timePeriod": "2014_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "181760",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "349100"
+    }
+  },
+  {
+    "timePeriod": "2014_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "19770",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "29670"
+    }
+  },
+  {
+    "timePeriod": "2014_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "298280",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "517410"
+    }
+  },
+  {
+    "timePeriod": "2014_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "499890",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "871770"
+    }
+  },
+  {
+    "timePeriod": "2015_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "190870",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "368620"
+    }
+  },
+  {
+    "timePeriod": "2015_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "27160",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "43820"
+    }
+  },
+  {
+    "timePeriod": "2015_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "291330",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "513590"
+    }
+  },
+  {
+    "timePeriod": "2015_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "509360",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "899390"
+    }
+  },
+  {
+    "timePeriod": "2016_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "197660",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "388150"
+    }
+  },
+  {
+    "timePeriod": "2016_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "36570",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "60830"
+    }
+  },
+  {
+    "timePeriod": "2016_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "260650",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "487160"
+    }
+  },
+  {
+    "timePeriod": "2016_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "494880",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "908660"
+    }
+  },
+  {
+    "timePeriod": "2017_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "166220",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "372430"
+    }
+  },
+  {
+    "timePeriod": "2017_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "48150",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "84240"
+    }
+  },
+  {
+    "timePeriod": "2017_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "161390",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "374350"
+    }
+  },
+  {
+    "timePeriod": "2017_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "375760",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "814790"
+    }
+  },
+  {
+    "timePeriod": "2018_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "174730",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "356150"
+    }
+  },
+  {
+    "timePeriod": "2018_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "75060",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "123950"
+    }
+  },
+  {
+    "timePeriod": "2018_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "143590",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "275810"
+    }
+  },
+  {
+    "timePeriod": "2018_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "393380",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "742390"
+    }
+  },
+  {
+    "timePeriod": "2019_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "140840",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "338680"
+    }
+  },
+  {
+    "timePeriod": "2019_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "82460",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "165510"
+    }
+  },
+  {
+    "timePeriod": "2019_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "99220",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "225320"
+    }
+  },
+  {
+    "timePeriod": "2019_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "322530",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "718950"
+    }
+  },
+  {
+    "timePeriod": "2020_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "138490",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "326380"
+    }
+  },
+  {
+    "timePeriod": "2020_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "98810",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "207860"
+    }
+  },
+  {
+    "timePeriod": "2020_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "84150",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "185420"
+    }
+  },
+  {
+    "timePeriod": "2020_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "321440",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "712990"
+    }
+  },
+  {
+    "timePeriod": "2021_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "151310",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "330410"
+    }
+  },
+  {
+    "timePeriod": "2021_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "106360",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "238820"
+    }
+  },
+  {
+    "timePeriod": "2021_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "91520",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "175420"
+    }
+  },
+  {
+    "timePeriod": "2021_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "349190",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "740350"
+    }
+  },
+  {
+    "timePeriod": "2022_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "147930",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "333390"
+    }
+  },
+  {
+    "timePeriod": "2022_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "112930",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "261310"
+    }
+  },
+  {
+    "timePeriod": "2022_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "76280",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "161780"
+    }
+  },
+  {
+    "timePeriod": "2022_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "337140",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "752150"
+    }
+  },
+  {
+    "timePeriod": "2023_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "146520",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "324710"
+    }
+  },
+  {
+    "timePeriod": "2023_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "122230",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "273710"
+    }
+  },
+  {
+    "timePeriod": "2023_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "70840",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "142650"
+    }
+  },
+  {
+    "timePeriod": "2023_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "339580",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "736530"
+    }
+  },
+  {
+    "timePeriod": "2024_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "47176949-19e0-43b2-aa26-35f39a47537e",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "147090",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "330150"
+    }
+  },
+  {
+    "timePeriod": "2024_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "72a03187-93f4-4d42-85a9-e21cb9967d83",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "140730",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "303710"
+    }
+  },
+  {
+    "timePeriod": "2024_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "6356ffdb-1938-4451-bc8b-d2d3aa327d3a",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "65680",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "132930"
+    }
+  },
+  {
+    "timePeriod": "2024_AY",
+    "geographicLevel": "country",
+    "filters": [
+      "7318d555-a386-4777-a750-2295d975c764",
+      "d90819b1-6a9a-4644-b51e-5e98ada5136b",
+      "d5bda5bf-5098-43b0-a292-ecea436b1554"
+    ],
+    "measures": {
+      "7f2628eb-4dc8-4162-afca-08de529ad81d": "353500",
+      "09df5f58-1833-448a-afcb-08de529ad81d": "761480"
+    }
+  }
+]

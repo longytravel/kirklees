@@ -30,12 +30,13 @@ const demos = [
     title: "Competitor Course Tracker",
     hook: "What are other colleges doing — and where's our white space?",
     description:
-      "Compare Kirklees College against 8 regional competitors. See their course offerings, Ofsted ratings, marketing positioning, and identify 6 curriculum gaps no one else is filling — like Dental Nursing, Pharmacy, and Performing Arts.",
+      "Compare Kirklees College against regional rivals, course by course. Live-scraped catalogues, normalised for like-for-like comparison, with curriculum gaps surfaced automatically. Bradford loaded now — Kirklees baseline and five more colleges follow.",
     stats: [
-      { value: "8", label: "competitors profiled" },
-      { value: "6", label: "gaps identified" },
-      { value: "2", label: "Outstanding rivals" },
+      { value: "259", label: "Bradford courses" },
+      { value: "25", label: "subject areas" },
+      { value: "Live", label: "data pipeline" },
     ],
+    href: "/competitor-tracker",
   },
   {
     number: 4,
@@ -251,11 +252,23 @@ export default function Home() {
           <div className="grid gap-5">
             {demos.map((demo) => {
               const accent = demo.number % 2 === 0 ? "kirklees-purple" : "kirklees-teal";
+              const isLive = "href" in demo && demo.href;
+              const Wrapper = isLive
+                ? ({ children }: { children: React.ReactNode }) => (
+                    <a
+                      href={(demo as { href: string }).href}
+                      className="group bg-white rounded-xl border border-kirklees-grey-300 overflow-hidden hover:border-kirklees-teal hover:shadow-lg transition-all block"
+                    >
+                      {children}
+                    </a>
+                  )
+                : ({ children }: { children: React.ReactNode }) => (
+                    <div className="group bg-white rounded-xl border border-kirklees-grey-300 overflow-hidden hover:border-kirklees-teal hover:shadow-lg transition-all">
+                      {children}
+                    </div>
+                  );
               return (
-                <div
-                  key={demo.number}
-                  className="group bg-white rounded-xl border border-kirklees-grey-300 overflow-hidden hover:border-kirklees-teal hover:shadow-lg transition-all"
-                >
+                <Wrapper key={demo.number}>
                   <div className="flex flex-col md:flex-row">
                     <div className={`md:w-1.5 w-full h-1 md:h-auto flex-shrink-0 bg-${accent}`} />
 
@@ -271,6 +284,12 @@ export default function Home() {
                             <h3 className="text-lg font-black text-kirklees-navy group-hover:text-kirklees-teal transition-colors">
                               {demo.title}
                             </h3>
+                            {isLive && (
+                              <span className="inline-flex items-center gap-1.5 bg-kirklees-green/15 text-kirklees-green text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full">
+                                <span className="w-1.5 h-1.5 rounded-full bg-kirklees-green animate-pulse" />
+                                Live
+                              </span>
+                            )}
                           </div>
                           <p className="text-kirklees-purple font-semibold text-sm mb-2">
                             {demo.hook}
@@ -278,6 +297,11 @@ export default function Home() {
                           <p className="text-kirklees-grey-500 text-sm leading-relaxed max-w-2xl">
                             {demo.description}
                           </p>
+                          {isLive && (
+                            <p className="mt-3 text-kirklees-teal text-sm font-bold group-hover:translate-x-1 transition-transform">
+                              Open the prototype →
+                            </p>
+                          )}
                         </div>
 
                         <div className="hidden md:flex gap-6 flex-shrink-0">
@@ -304,7 +328,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </Wrapper>
               );
             })}
 
